@@ -4,6 +4,7 @@ from file_management import write_to_file as wf
 import shutil
 import subprocess
 import re
+import json
 
 full_inventory_list = []
 
@@ -33,22 +34,32 @@ def clean_list(a_list):
     return list(a_string)
 
 
-def make_dict(a_list, inventory_category):
+def make_dict(a_list, category_name):
 
     a_dict = {}
-    a_dict.setdefault('inventory_category',
-                        [
-                          {'item', 'value'},
-                          {'item', 'value'},
-                          {'item', 'value'},
-                          {'item', 'value'}
-                        ]
-                      )
+    i = 1
 
-    for i in range(0, len(a_list), 2):
-        a_dict.setdefault(inventory_category, [{a_list[i], a_list[i+1]}])
+    if isinstance(a_list, dict):
+        a_dict[category_name] = a_list
+        return a_dict
+    else:
+        for item in a_list:
+            a_dict[(category_name + str(i))] = item
+            i += 1
+        return a_dict
 
-    return a_dict
+
+def serialize_json(list_object):
+    return json.loads(list_object)
+
+
+def deserialize_json(dictionary_object):
+    return json.dumps(dictionary_object, indent=4)
+
+
+def do_json(inventory_string, inventory_cat):
+    return make_dict(serialize_json(inventory_string), inventory_cat)
+
 
 
 def hardware_inventory():
