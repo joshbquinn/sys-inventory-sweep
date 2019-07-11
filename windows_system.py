@@ -13,7 +13,7 @@ def wmi_lookup(search_title, cmd, arguments):
                                    universal_newlines=True)
 
         outs, errs = process.communicate()
-        success = search_title, outs + '\n'
+        success = {search_title, outs}
 
     except SystemError:
         print(errs)
@@ -32,6 +32,15 @@ def clean_list(a_list):
 def make_dict(a_list):
 
     a_dict = {}
+    i = 0
+    a_dict.setdefault(f'inventory_category{i}',
+                      [
+                          {'item', 'value'},
+                          {'item', 'value'},
+                          {'item', 'value'},
+                          {'item', 'value'}
+                      ]
+                      )
 
     for i in range(0, len(a_list), 2):
         a_dict.setdefault(a_list[i], a_list[i+1])
