@@ -3,9 +3,11 @@ import directory_management as dm
 from file_management import write_to_file as wf
 import shutil
 import re
+import json
+import pprint
 
 
-def wmi_lookup(search_title, cmd, arguments):
+def windows_cli(cmd, arguments):
     try:
         process = subprocess.Popen(cmd + arguments,
                                    stdout=subprocess.PIPE,
@@ -13,7 +15,7 @@ def wmi_lookup(search_title, cmd, arguments):
                                    universal_newlines=True)
 
         outs, errs = process.communicate()
-        success = {search_title, outs}
+        success = outs
 
     except SystemError:
         print(errs)
@@ -22,44 +24,58 @@ def wmi_lookup(search_title, cmd, arguments):
     return success
 
 
-def clean_list(a_list):
-    delimiters = "\n", ":"
+def clean_list(a_string):
+    delimiters = ":"
     regex_pattern = '|'.join(map(re.escape, delimiters))
-    a_string = re.split(regex_pattern, str(a_list))
-    return list(a_string)
+    a_string = re.split(regex_pattern, str(a_string))
+    print(str(a_string))
+    return str(a_string)
 
 
-def make_dict(a_list):
+def make_dict(a_list, category_name):
 
     a_dict = {}
-    i = 0
-    a_dict.setdefault(f'inventory_category{i}',
-                      [
-                          {'item', 'value'},
-                          {'item', 'value'},
-                          {'item', 'value'},
-                          {'item', 'value'}
-                      ]
-                      )
+    i = 1
 
-    for i in range(0, len(a_list), 2):
-        a_dict.setdefault(a_list[i], a_list[i+1])
-
-    return a_dict
+    if isinstance(a_list, dict):
+        a_dict[category_name] = a_list
+        return a_dict
+    else:
+        for item in a_list:
+            a_dict[(category_name + str(i))] = item
+            i += 1
+        return a_dict
 
 
-def windows_inventory_list():
+def serialize_json(list_object):
+    return json.loads(list_object)
 
-    inventory_list = []
-    cmd = 'powershell.exe Get-WmiObject -class '
 
-    inventory_list.append(wmi_lookup('Open Ports', 'powershell.exe get-nettcpconnection',
+def deserialize_json(dictionary_object):
+    return json.dumps(dictionary_object, indent=4)
+
+
+def do_json(inventory_string, inventory_cat):
+    return make_dict(serialize_json(inventory_string), inventory_cat)
+
+
+def ports():
+    ports = windows_cli('powershell.exe get-nettcpconnection',
                                      ' | select local*,remote*,state '
-                                     '| ConvertTo-json'))
+                                     '| ConvertTo-json')
+    return do_json(ports, 'Open Port ')
 
-    inventory_list.append(wmi_lookup('General System Info', 'powershell.exe systeminfo', ' | ConvertTo-json'))
 
-    inventory_list.append(wmi_lookup('Processor Details', cmd, 'Win32_processor | '
+def general_sysinfo():
+    general_sysinfo = windows_cli('powershell.exe systeminfo', ' | ConvertTo-JSON')
+
+    print(general_sysinfo)
+
+    return do_json(general_sysinfo, 'Sys')
+
+
+def processor_details(cmd):
+    processor_details = windows_cli(cmd, 'Win32_processor | '
                                                                'select-object '
                                                                'Name, '
                                                                'DeviceID, '
@@ -71,33 +87,46 @@ def windows_inventory_list():
                                                                'MaxClockSpeed,'
                                                                'CurrentClockSpeed,'
                                                                'Addresswidth |'
-                                                               'convertTo-Json'))
+                                                               'convertTo-Json')
+    return do_json(processor_details, 'Processor ')
 
-    inventory_list.append(wmi_lookup('Physical Memory', cmd, ' Win32_PhysicalMemory | select-object '
+
+
+def physical_memory(cmd):
+    physical_memory = windows_cli(cmd, ' Win32_PhysicalMemory | select-object '
                                                              'Name, '
                                                              'ConfiguredClockSpeed,'
                                                              ' Capacity, '
                                                              'TotalWidth, '
                                                              'SerialNumber |'
-                                                             'convertTo-Json'))
+                                                             'convertTo-Json')
+    return do_json(physical_memory, 'Physical Memory Details ')
 
-    inventory_list.append(wmi_lookup('HDD Details', cmd, 'Win32_LogicalDisk | '
+
+def hdd_details(cmd):
+    hdd_details = windows_cli(cmd, 'Win32_LogicalDisk | '
                                                          'select-object '
                                                          'Name,'
                                                          'Description, '
                                                          'Size,'
                                                          'FreeSpace,'
                                                          'DriveType | '
-                                                         'convertTo-Json'))
+                                                         'convertTo-Json')
+    return do_json(hdd_details, 'HDD ')
 
-    inventory_list.append(wmi_lookup('Sound Card Details', cmd, 'win32_SoundDevice | '
+
+def sound_card_details(cmd):
+    sound_card_details = windows_cli(cmd, 'win32_SoundDevice | '
                                                                 'select-object '
                                                                 'ProductName, '
                                                                 'Name,'
                                                                 'Status | '
-                                                                'convertTo-Json'))
+                                                                'convertTo-Json')
+    return do_json(sound_card_details, 'Sound Card ' )
 
-    inventory_list.append(wmi_lookup('Network Adapter Details', cmd, 'Win32_NetworkAdapter | select-object '
+
+def network_adapter_details(cmd):
+    network_adapter_details = windows_cli( cmd, 'Win32_NetworkAdapter | select-object '
                                                                      'MACAddress,'
                                                                      'ProductName,'
                                                                      'ServiceName,'
@@ -131,9 +160,12 @@ def windows_inventory_list():
                                                                      'PermanentAddress,'
                                                                      'PhysicalAdapter,'
                                                                      'PowerManagementCapabilities'
-                                                                     ' | convertTo-Json'))
+                                                                     ' | convertTo-Json')
+    return do_json(network_adapter_details, 'Network Adapter ')
 
-    inventory_list.append(wmi_lookup('Installed Software', cmd, 'Win32_Product | Select-Object '
+
+def installed_software(cmd):
+    installed_software = windows_cli(cmd, 'Win32_Product | Select-Object '
                                                                 'Name, '
                                                                 'PackageCode,'
                                                                 'IdentifyingNumber, '
@@ -143,47 +175,86 @@ def windows_inventory_list():
                                                                 'InstallSource,'
                                                                 'InstallDate,'
                                                                 'InstallDate2 '
-                                                                ' | convertTo-Json'))
+                                                                ' | convertTo-Json')
+    return do_json(installed_software, 'Software Package ')
 
-    inventory_list.append(wmi_lookup('OS Version', cmd, 'win32_operatingsystem | Select-Object '
+
+def os_version(cmd):
+    os = windows_cli(cmd, 'win32_operatingsystem | Select-Object '
                                                         'Name, '
                                                         'OSArchitecture, '
                                                         'BuildNumber,'
                                                         'Version, '
                                                         'ServicePackMajorVersion, '
                                                         'ServicePackMinorVersion |'
-                                                        ' convertTo-Json'))
+                                                        ' convertTo-Json')
+    return do_json(os, 'OS Version')
 
-    inventory_list.append(wmi_lookup('Driver Details', cmd, 'Win32_PnPSignedDriver | select-object '
+
+def driver_details(cmd):
+    driver_details = windows_cli(cmd, 'Win32_PnPSignedDriver | select-object '
                                                             'devicename, '
                                                             'driverversion | '
-                                                            'convertTo-Json'))
+                                                            'convertTo-Json')
+    return do_json(driver_details, 'Driver ')
 
-    inventory_list.append(wmi_lookup('Running Processes', cmd, 'win32_process | Select-Object '
+
+def running_processes(cmd):
+    running_processes = windows_cli(cmd, 'win32_process | Select-Object '
                                                                'ProcessName, '
                                                                'ProcessId, '
                                                                'PageFaults '
-                                                               ' | convertTo-json'))
+                                                               ' | convertTo-json')
+    return do_json(running_processes, 'Running Process ')
 
 
-
-    inventory_list.append(wmi_lookup('Start Up Programs', cmd, 'Win32_StartupCommand |'
+def startup_programs(cmd):
+    startup_programs= windows_cli(cmd, 'Win32_StartupCommand |'
                                                                'select-object  '
                                                                'Description, '
                                                                'Location, '
                                                                'User | '
-                                                               'convertTo-Json'))
+                                                               'convertTo-Json')
+    return do_json(startup_programs, 'Start Up Program ')
 
-    inventory_list.append(wmi_lookup('Environment Variables', cmd, 'Win32_Environment | '
+
+def env_vars(cmd):
+    env_vars = windows_cli(cmd, 'Win32_Environment | '
                                                                    'select-object '
                                                                    'Name, '
                                                                    'VariableValue | '
-                                                                   'convertTo-Json'))
+                                                                   'convertTo-Json')
+    return do_json(env_vars, 'Environmental Variable ')
 
-    return inventory_list
+
+def windows_inventory_list():
+    psgwmi = 'powershell.exe Get-WmiObject -class '
+    json_list = []
+    json_dict = {}
+
+    json_list.append(ports())
+    # json_list.append(general_sysinfo())
+    json_list.append(processor_details(psgwmi))
+    json_list.append(physical_memory(psgwmi))
+    json_list.append(hdd_details(psgwmi))
+    json_list.append(sound_card_details(psgwmi))
+    json_list.append(network_adapter_details(psgwmi))
+    json_list.append(installed_software(psgwmi))
+    json_list.append(os_version(psgwmi))
+    json_list.append(driver_details(psgwmi))
+    json_list.append(running_processes(psgwmi))
+    json_list.append(startup_programs(psgwmi))
+    json_list.append(env_vars(psgwmi))
+
+    for item in json_list:
+        print(deserialize_json(item))
+        print(json_dict.update(item))
+
+    write_json_file("windows_scrape.json", json_dict)
+    write_file(json_list)
 
 
-def store_inventory(inventory_list):
+def write_file(json_list):
 
     dir_name = 'Windows_System_Inventory'
     file_name = 'Windows_Inventory_Sweep'
@@ -194,14 +265,20 @@ def store_inventory(inventory_list):
     dm.create_directory(directory)
     dm.create_directory(main_dir_name)
 
-    wf(file_name, inventory_list)
+    wf(file_name, json_list)
 
     shutil.move(file_name, directory)
     shutil.move(directory, main_dir_name)
 
 
+def write_json_file(filename, json_dict):
+
+    with open(filename, 'w') as f:
+        json.dump(json_dict, f)
+
+
 def main():
-    store_inventory(windows_inventory_list())
+    windows_inventory_list()
 
 
 if __name__ == '__main__':

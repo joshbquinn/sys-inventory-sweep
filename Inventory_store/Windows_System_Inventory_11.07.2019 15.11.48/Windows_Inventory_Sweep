@@ -1,0 +1,4257 @@
+Windows System Inventory List: 11.07.2019 15hr.11m.48s
+
+{
+    "Open Port 1": {
+        "LocalAddress": "::",
+        "LocalPort": 59205,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 2": {
+        "LocalAddress": "::",
+        "LocalPort": 57889,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 3": {
+        "LocalAddress": "::1",
+        "LocalPort": 50723,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 4": {
+        "LocalAddress": "::",
+        "LocalPort": 49670,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 5": {
+        "LocalAddress": "::",
+        "LocalPort": 49669,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 6": {
+        "LocalAddress": "::",
+        "LocalPort": 49668,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 7": {
+        "LocalAddress": "::",
+        "LocalPort": 49667,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 8": {
+        "LocalAddress": "::",
+        "LocalPort": 49666,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 9": {
+        "LocalAddress": "::",
+        "LocalPort": 49665,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 10": {
+        "LocalAddress": "::",
+        "LocalPort": 49664,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 11": {
+        "LocalAddress": "::",
+        "LocalPort": 33060,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 12": {
+        "LocalAddress": "::",
+        "LocalPort": 16992,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 13": {
+        "LocalAddress": "::",
+        "LocalPort": 7680,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 14": {
+        "LocalAddress": "::",
+        "LocalPort": 5700,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 15": {
+        "LocalAddress": "::",
+        "LocalPort": 3306,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 16": {
+        "LocalAddress": "::",
+        "LocalPort": 2179,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 17": {
+        "LocalAddress": "::",
+        "LocalPort": 623,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 18": {
+        "LocalAddress": "::",
+        "LocalPort": 445,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 19": {
+        "LocalAddress": "::",
+        "LocalPort": 135,
+        "RemoteAddress": "::",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 20": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 59206,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 21": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 59084,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 22": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 58802,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 23": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57979,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 24": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57978,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 25": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57882,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 26": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57881,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 27": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57880,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 28": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57879,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 29": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57769,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 30": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57748,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 31": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57734,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 32": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57733,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 33": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57729,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 34": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56921,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 35": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56919,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 36": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56675,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 37": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56660,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 38": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56659,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 39": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56658,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 40": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56657,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 41": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56656,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 42": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56655,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 43": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56654,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 44": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56652,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 45": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56651,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 46": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56650,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 47": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56648,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 48": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56647,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 49": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56646,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 50": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56618,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 51": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 50709,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 52": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49679,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 53": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49672,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 100
+    },
+    "Open Port 54": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 63342,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 55": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 59206,
+        "RemoteAddress": "104.31.85.72",
+        "RemotePort": 80,
+        "State": 5
+    },
+    "Open Port 56": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 59205,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57890,
+        "State": 5
+    },
+    "Open Port 57": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 59204,
+        "RemoteAddress": "192.168.50.2",
+        "RemotePort": 49155,
+        "State": 11
+    },
+    "Open Port 58": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 59203,
+        "RemoteAddress": "192.168.50.2",
+        "RemotePort": 135,
+        "State": 11
+    },
+    "Open Port 59": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 59202,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57890,
+        "State": 11
+    },
+    "Open Port 60": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 59201,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57890,
+        "State": 11
+    },
+    "Open Port 61": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 59200,
+        "RemoteAddress": "104.31.85.72",
+        "RemotePort": 80,
+        "State": 11
+    },
+    "Open Port 62": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 59199,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57890,
+        "State": 11
+    },
+    "Open Port 63": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 59198,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57890,
+        "State": 11
+    },
+    "Open Port 64": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 59197,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57890,
+        "State": 11
+    },
+    "Open Port 65": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 59196,
+        "RemoteAddress": "23.43.23.194",
+        "RemotePort": 80,
+        "State": 11
+    },
+    "Open Port 66": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 59194,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57890,
+        "State": 11
+    },
+    "Open Port 67": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 59084,
+        "RemoteAddress": "104.208.16.9",
+        "RemotePort": 5671,
+        "State": 5
+    },
+    "Open Port 68": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 58802,
+        "RemoteAddress": "52.31.57.249",
+        "RemotePort": 443,
+        "State": 5
+    },
+    "Open Port 69": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 57979,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57897,
+        "State": 5
+    },
+    "Open Port 70": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 57978,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57977,
+        "State": 5
+    },
+    "Open Port 71": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 57977,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57978,
+        "State": 5
+    },
+    "Open Port 72": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57973,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 73": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 57897,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 74": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 57897,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57979,
+        "State": 5
+    },
+    "Open Port 75": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 57890,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 59205,
+        "State": 5
+    },
+    "Open Port 76": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 57890,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 77": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 57811,
+        "RemoteAddress": "192.168.50.1",
+        "RemotePort": 445,
+        "State": 5
+    },
+    "Open Port 78": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 57769,
+        "RemoteAddress": "54.72.80.221",
+        "RemotePort": 443,
+        "State": 5
+    },
+    "Open Port 79": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 57748,
+        "RemoteAddress": "209.85.202.188",
+        "RemotePort": 5228,
+        "State": 5
+    },
+    "Open Port 80": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 57734,
+        "RemoteAddress": "40.67.254.36",
+        "RemotePort": 443,
+        "State": 5
+    },
+    "Open Port 81": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 57733,
+        "RemoteAddress": "54.77.108.71",
+        "RemotePort": 443,
+        "State": 5
+    },
+    "Open Port 82": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 57729,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57728,
+        "State": 5
+    },
+    "Open Port 83": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 57728,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 57729,
+        "State": 5
+    },
+    "Open Port 84": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 56923,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 85": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 56921,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 56920,
+        "State": 5
+    },
+    "Open Port 86": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 56920,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 56921,
+        "State": 5
+    },
+    "Open Port 87": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 56919,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 56918,
+        "State": 5
+    },
+    "Open Port 88": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 56918,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 56919,
+        "State": 5
+    },
+    "Open Port 89": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 56909,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 90": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 56866,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 91": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 56861,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 92": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 50724,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 93": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 50710,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 94": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 50709,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 50708,
+        "State": 5
+    },
+    "Open Port 95": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 50708,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 50709,
+        "State": 5
+    },
+    "Open Port 96": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 50708,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 97": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 49672,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 49671,
+        "State": 5
+    },
+    "Open Port 98": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 49671,
+        "RemoteAddress": "127.0.0.1",
+        "RemotePort": 49672,
+        "State": 5
+    },
+    "Open Port 99": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49670,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 100": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49669,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 101": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49668,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 102": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49667,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 103": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49666,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 104": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49665,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 105": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 49664,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 106": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 16992,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 107": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 15478,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 108": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 13229,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 109": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 9527,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 110": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 9012,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 111": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 8884,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 112": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 6942,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 113": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 6800,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 114": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 6783,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 115": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 5900,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 116": {
+        "LocalAddress": "127.0.0.1",
+        "LocalPort": 5800,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 117": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 5040,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 118": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 2179,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 119": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 623,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 120": {
+        "LocalAddress": "192.168.50.196",
+        "LocalPort": 139,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 121": {
+        "LocalAddress": "172.17.188.1",
+        "LocalPort": 139,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 122": {
+        "LocalAddress": "10.0.75.1",
+        "LocalPort": 139,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    },
+    "Open Port 123": {
+        "LocalAddress": "0.0.0.0",
+        "LocalPort": 135,
+        "RemoteAddress": "0.0.0.0",
+        "RemotePort": 0,
+        "State": 2
+    }
+}{
+    "Processor ": {
+        "Name": "Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz",
+        "DeviceID": "CPU0",
+        "NumberOfCores": 4,
+        "NumberOfEnabledCore": 4,
+        "NumberOfLogicalProcessors": 8,
+        "L2CacheSize": 1024,
+        "L3CacheSize": 6144,
+        "MaxClockSpeed": 1896,
+        "CurrentClockSpeed": 1696,
+        "Addresswidth": 64
+    }
+}{
+    "Physical Memory Details ": {
+        "Name": "Physical Memory",
+        "ConfiguredClockSpeed": 2400,
+        "Capacity": 8589934592,
+        "TotalWidth": 64,
+        "SerialNumber": "1204DF35"
+    }
+}{
+    "HDD 1": {
+        "Name": "C:",
+        "Description": "Local Fixed Disk",
+        "Size": 254172721152,
+        "FreeSpace": 126237663232,
+        "DriveType": 3
+    },
+    "HDD 2": {
+        "Name": "G:",
+        "Description": "Network Connection",
+        "Size": 322119397376,
+        "FreeSpace": 44408635392,
+        "DriveType": 4
+    }
+}{
+    "Sound Card 1": {
+        "ProductName": "Intel(R) Display Audio",
+        "Name": "Intel(R) Display Audio",
+        "Status": "OK"
+    },
+    "Sound Card 2": {
+        "ProductName": "Realtek Audio",
+        "Name": "Realtek Audio",
+        "Status": "OK"
+    }
+}{
+    "Network Adapter 1": {
+        "MACAddress": null,
+        "ProductName": "Microsoft Kernel Debug Network Adapter",
+        "ServiceName": "kdnic",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": null,
+        "AdapterTypeId": null,
+        "AutoSense": null,
+        "Caption": "[00000000] Microsoft Kernel Debug Network Adapter",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Microsoft Kernel Debug Network Adapter",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 0,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 21,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 2": {
+        "MACAddress": "C8:F7:50:7A:BD:93",
+        "ProductName": "Intel(R) Ethernet Connection (4) I219-LM",
+        "ServiceName": "e1dexpress",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000001] Intel(R) Ethernet Connection (4) I219-LM",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Intel(R) Ethernet Connection (4) I219-LM",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": "{96FF8F52-9E25-4697-86F3-9CA4E6A1B67B}",
+        "Index": 1,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 18,
+        "LastErrorCode": null,
+        "Manufacturer": "Intel",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": "Ethernet",
+        "NetConnectionStatus": 7,
+        "NetEnabled": false,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": true,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 3": {
+        "MACAddress": "38:00:25:B1:CA:C9",
+        "ProductName": "Intel(R) Dual Band Wireless-AC 8265",
+        "ServiceName": "Netwtw06",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000002] Intel(R) Dual Band Wireless-AC 8265",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Intel(R) Dual Band Wireless-AC 8265",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": "{74E8F5B8-90BD-4973-B68E-1F17E02F011D}",
+        "Index": 2,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 14,
+        "LastErrorCode": null,
+        "Manufacturer": "Intel Corporation",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": "Wi-Fi",
+        "NetConnectionStatus": 2,
+        "NetEnabled": true,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": true,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 4": {
+        "MACAddress": "38:00:25:B1:CA:CD",
+        "ProductName": "Bluetooth Device (Personal Area Network)",
+        "ServiceName": "BthPan",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000003] Bluetooth Device (Personal Area Network)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Bluetooth Device (Personal Area Network)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": "{F4E27078-88A0-40D0-9635-32E5574A3C7F}",
+        "Index": 3,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 24,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": "Bluetooth Network Connection",
+        "NetConnectionStatus": 7,
+        "NetEnabled": false,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": true,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 5": {
+        "MACAddress": "38:00:25:B1:CA:CA",
+        "ProductName": "Microsoft Wi-Fi Direct Virtual Adapter",
+        "ServiceName": "vwifimp",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000004] Microsoft Wi-Fi Direct Virtual Adapter",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Microsoft Wi-Fi Direct Virtual Adapter",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 4,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 3,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 6": {
+        "MACAddress": null,
+        "ProductName": "WAN Miniport (SSTP)",
+        "ServiceName": "RasSstp",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": null,
+        "AdapterTypeId": null,
+        "AutoSense": null,
+        "Caption": "[00000005] WAN Miniport (SSTP)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "WAN Miniport (SSTP)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 5,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 12,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 7": {
+        "MACAddress": null,
+        "ProductName": "WAN Miniport (IKEv2)",
+        "ServiceName": "RasAgileVpn",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": null,
+        "AdapterTypeId": null,
+        "AutoSense": null,
+        "Caption": "[00000006] WAN Miniport (IKEv2)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "WAN Miniport (IKEv2)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 6,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 5,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 8": {
+        "MACAddress": null,
+        "ProductName": "WAN Miniport (L2TP)",
+        "ServiceName": "Rasl2tp",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": null,
+        "AdapterTypeId": null,
+        "AutoSense": null,
+        "Caption": "[00000007] WAN Miniport (L2TP)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "WAN Miniport (L2TP)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 7,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 8,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 9": {
+        "MACAddress": null,
+        "ProductName": "WAN Miniport (PPTP)",
+        "ServiceName": "PptpMiniport",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": null,
+        "AdapterTypeId": null,
+        "AutoSense": null,
+        "Caption": "[00000008] WAN Miniport (PPTP)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "WAN Miniport (PPTP)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 8,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 10,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 10": {
+        "MACAddress": null,
+        "ProductName": "WAN Miniport (PPPOE)",
+        "ServiceName": "RasPppoe",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": null,
+        "AdapterTypeId": null,
+        "AutoSense": null,
+        "Caption": "[00000009] WAN Miniport (PPPOE)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "WAN Miniport (PPPOE)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 9,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 13,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 11": {
+        "MACAddress": "B8:5A:20:52:41:53",
+        "ProductName": "WAN Miniport (IP)",
+        "ServiceName": "NdisWan",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000010] WAN Miniport (IP)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "WAN Miniport (IP)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 10,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 15,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 12": {
+        "MACAddress": "BE:0C:20:52:41:53",
+        "ProductName": "WAN Miniport (IPv6)",
+        "ServiceName": "NdisWan",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000011] WAN Miniport (IPv6)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "WAN Miniport (IPv6)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 11,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 9,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 13": {
+        "MACAddress": "C2:88:20:52:41:53",
+        "ProductName": "WAN Miniport (Network Monitor)",
+        "ServiceName": "NdisWan",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000012] WAN Miniport (Network Monitor)",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "WAN Miniport (Network Monitor)",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 12,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 11,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 14": {
+        "MACAddress": "3A:00:25:B1:CA:C9",
+        "ProductName": "Microsoft Wi-Fi Direct Virtual Adapter",
+        "ServiceName": "vwifimp",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000013] Microsoft Wi-Fi Direct Virtual Adapter",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Microsoft Wi-Fi Direct Virtual Adapter",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 13,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 23,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 15": {
+        "MACAddress": null,
+        "ProductName": "Hyper-V Virtual Switch Extension Adapter",
+        "ServiceName": "VMSMP",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000014] Hyper-V Virtual Switch Extension Adapter",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Hyper-V Virtual Switch Extension Adapter",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 14,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 19,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 16": {
+        "MACAddress": "00:15:5D:86:7B:71",
+        "ProductName": "Hyper-V Virtual Ethernet Adapter",
+        "ServiceName": "VMSNPXYMP",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000015] Hyper-V Virtual Ethernet Adapter",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Hyper-V Virtual Ethernet Adapter",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": "{20432461-1550-4F82-AC74-D77C1E29E1E6}",
+        "Index": 15,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 34,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": "vEthernet (Default Switch)",
+        "NetConnectionStatus": 2,
+        "NetEnabled": true,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": true,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 17": {
+        "MACAddress": null,
+        "ProductName": "Hyper-V Virtual Switch Extension Adapter",
+        "ServiceName": "VMSMP",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000016] Hyper-V Virtual Switch Extension Adapter",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Hyper-V Virtual Switch Extension Adapter",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": null,
+        "Index": 16,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 6,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": null,
+        "NetConnectionStatus": null,
+        "NetEnabled": null,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": false,
+        "PowerManagementCapabilities": null
+    },
+    "Network Adapter 18": {
+        "MACAddress": "00:15:5D:32:C4:02",
+        "ProductName": "Hyper-V Virtual Ethernet Adapter",
+        "ServiceName": "VMSNPXYMP",
+        "TimeOfLastReset": "20190710153530.500000+060",
+        "AdapterType": "Ethernet 802.3",
+        "AdapterTypeId": 0,
+        "AutoSense": null,
+        "Caption": "[00000017] Hyper-V Virtual Ethernet Adapter",
+        "ConfigManagerErrorCode": 0,
+        "ConfigManagerUserConfig": false,
+        "CreationClassName": "Win32_NetworkAdapter",
+        "Description": "Hyper-V Virtual Ethernet Adapter",
+        "ErrorCleared": null,
+        "ErrorDescription": null,
+        "GUID": "{1665254F-9EF9-4165-BA0F-7AC1D3629327}",
+        "Index": 17,
+        "InstallDate": null,
+        "Installed": true,
+        "InterfaceIndex": 4,
+        "LastErrorCode": null,
+        "Manufacturer": "Microsoft",
+        "MaxNumberControlled": 0,
+        "MaxSpeed": null,
+        "NetConnectionID": "vEthernet (DockerNAT)",
+        "NetConnectionStatus": 2,
+        "NetEnabled": true,
+        "NetworkAddresses": null,
+        "PermanentAddress": null,
+        "PhysicalAdapter": true,
+        "PowerManagementCapabilities": null
+    }
+}{
+    "Software Package 1": {
+        "Name": "Skype Meetings App",
+        "PackageCode": "{3890F257-F238-4D58-AFAC-317BE7192CD5}",
+        "IdentifyingNumber": "{E57E9520-DB76-4FB0-BC3D-A00F7D54D4F3}",
+        "PackageCache": "C:\\Windows\\Installer\\ae91c73.msi",
+        "Vendor": "Microsoft Corporation",
+        "Version": "16.2.0.496",
+        "InstallSource": "C:\\Users\\jquinn\\Documents\\",
+        "InstallDate": "20190621",
+        "InstallDate2": null
+    },
+    "Software Package 2": {
+        "Name": "Python 3.7.3 Documentation (64-bit)",
+        "PackageCode": "{A99C3E90-EEFC-488F-B175-97CB93CA299E}",
+        "IdentifyingNumber": "{191BD530-3F3D-43AE-A903-0F96D4FC8B25}",
+        "PackageCache": "C:\\Windows\\Installer\\754a5fc.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{191BD530-3F3D-43AE-A903-0F96D4FC8B25}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 3": {
+        "Name": "Python 3.7.3 Test Suite (64-bit)",
+        "PackageCode": "{A9DF3562-16DE-4B54-A8B9-C0053AC9BDA5}",
+        "IdentifyingNumber": "{19E966E1-0536-4D97-8B2C-34B6D0AC6B00}",
+        "PackageCache": "C:\\Windows\\Installer\\754a5f8.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{19E966E1-0536-4D97-8B2C-34B6D0AC6B00}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 4": {
+        "Name": "Python 3.7.3 Core Interpreter (64-bit)",
+        "PackageCode": "{958272FF-57F2-4F8C-A46D-447033D4ACDF}",
+        "IdentifyingNumber": "{C0018D52-93E9-4331-A17F-C040CE3A5B0F}",
+        "PackageCache": "C:\\Windows\\Installer\\754a5e8.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{C0018D52-93E9-4331-A17F-C040CE3A5B0F}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 5": {
+        "Name": "Python 3.7.3 Utility Scripts (64-bit)",
+        "PackageCode": "{FE67F9A3-668F-4A17-8053-265C86A3225B}",
+        "IdentifyingNumber": "{CA54F025-DD88-408B-85F4-682C2B3A4E76}",
+        "PackageCache": "C:\\Windows\\Installer\\754a600.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{CA54F025-DD88-408B-85F4-682C2B3A4E76}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 6": {
+        "Name": "Python 3.7.3 Development Libraries (64-bit)",
+        "PackageCode": "{69E32413-B81B-4972-BCED-E8614FE7E800}",
+        "IdentifyingNumber": "{1B267487-4679-4044-A552-84DD4038CA43}",
+        "PackageCache": "C:\\Windows\\Installer\\754a5ec.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{1B267487-4679-4044-A552-84DD4038CA43}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 7": {
+        "Name": "WordNet 2.1",
+        "PackageCode": "{ED51C848-00AA-4D27-B5E8-0FFD593BE3FE}",
+        "IdentifyingNumber": "{58582B88-0260-4C80-9A89-8CA0923AFD26}",
+        "PackageCache": "C:\\Windows\\Installer\\5863f3f.msi",
+        "Vendor": "Princeton University Cognitive Science Laboratory",
+        "Version": "2.1",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Temp\\WZSE0.TMP\\",
+        "InstallDate": "20190620",
+        "InstallDate2": null
+    },
+    "Software Package 8": {
+        "Name": "Python 3.7.3 Standard Library (64-bit)",
+        "PackageCode": "{9B7EC67B-20AD-4B3E-AF4C-B9233889FC76}",
+        "IdentifyingNumber": "{CAD7D30A-2F6F-4565-A83D-92EABF40C587}",
+        "PackageCache": "C:\\Windows\\Installer\\754a5f4.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{CAD7D30A-2F6F-4565-A83D-92EABF40C587}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 9": {
+        "Name": "Python 3.7.3 Executables (64-bit)",
+        "PackageCode": "{C3D61B98-F35D-4FF2-8C43-776F6D44273B}",
+        "IdentifyingNumber": "{0BCF826B-3863-44FA-8562-F51BBF326AC1}",
+        "PackageCache": "C:\\Windows\\Installer\\754a5f0.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{0BCF826B-3863-44FA-8562-F51BBF326AC1}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 10": {
+        "Name": "Python 3.7.3 pip Bootstrap (64-bit)",
+        "PackageCode": "{84FC8FA7-6651-43DA-BA75-85FCAC0771BC}",
+        "IdentifyingNumber": "{71ACF08D-4328-4A9E-9146-96765CB5EAD2}",
+        "PackageCache": "C:\\Windows\\Installer\\754a60c.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{71ACF08D-4328-4A9E-9146-96765CB5EAD2}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 11": {
+        "Name": "Python 3.7.3 Tcl/Tk Support (64-bit)",
+        "PackageCode": "{4D8C8480-9C2D-4DD4-ABD1-75E9D3CD381E}",
+        "IdentifyingNumber": "{DA3783AD-20F9-4119-BE30-9C3ACF888C3B}",
+        "PackageCache": "C:\\Windows\\Installer\\754a604.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.3150.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Package Cache\\{DA3783AD-20F9-4119-BE30-9C3ACF888C3B}v3.7.3150.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 12": {
+        "Name": "Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.11.25325",
+        "PackageCode": "{45D8F277-0E58-4B32-8FFE-1A138C7BF888}",
+        "IdentifyingNumber": "{B0037450-526D-3448-A370-CACBD87769A0}",
+        "PackageCache": "C:\\Windows\\Installer\\72c4.msi",
+        "Vendor": "Microsoft Corporation",
+        "Version": "14.11.25325",
+        "InstallSource": "C:\\ProgramData\\Package Cache\\{B0037450-526D-3448-A370-CACBD87769A0}v14.11.25325\\packages\\vcRuntimeMinimum_amd64\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 13": {
+        "Name": "Intel(R) Wireless Bluetooth(R)",
+        "PackageCode": "{B09CE0BB-2C1B-4E2E-8279-31714EE4F300}",
+        "IdentifyingNumber": "{00001060-0200-1033-84C8-B8D95FA3C8C3}",
+        "PackageCache": "C:\\Windows\\Installer\\72c1.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "20.60.1",
+        "InstallSource": "C:\\Windows\\Installer\\_{00001060-0200-1033-84C8-B8D95FA3C8C3}\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 14": {
+        "Name": "Microsoft Visual C++ 2017 x64 Additional Runtime - 14.11.25325",
+        "PackageCode": "{A0D9EC49-6313-4469-A234-4BCE81FAD4BA}",
+        "IdentifyingNumber": "{B13B3E11-1555-353F-A63A-8933EE104FBD}",
+        "PackageCache": "C:\\Windows\\Installer\\72c7.msi",
+        "Vendor": "Microsoft Corporation",
+        "Version": "14.11.25325",
+        "InstallSource": "C:\\ProgramData\\Package Cache\\{B13B3E11-1555-353F-A63A-8933EE104FBD}v14.11.25325\\packages\\vcRuntimeAdditional_amd64\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 15": {
+        "Name": "Intelr PROSet/Wireless WiFi Software",
+        "PackageCode": "{8C501B79-6B9B-42AB-ACC8-BE21502C7D1E}",
+        "IdentifyingNumber": "{60841871-21AB-4E7D-8AE6-D6154CDC5C2A}",
+        "PackageCache": "C:\\Windows\\Installer\\72cd.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "20.100.0.2492",
+        "InstallSource": "C:\\ProgramData\\Package Cache\\{D5FCB020-82E8-2E49-49A0-A9AE4A496DE1}v20.100.0\\data\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 16": {
+        "Name": "Dell Command | Update for Windows 10",
+        "PackageCode": "{D4373260-1185-49AC-993B-A31209FBD6CC}",
+        "IdentifyingNumber": "{5669AB71-1302-4412-8DA1-CB69CD7B7324}",
+        "PackageCache": "C:\\Windows\\Installer\\4904.msi",
+        "Vendor": "Dell, Inc.",
+        "Version": "3.0.1",
+        "InstallSource": "C:\\Windows\\{D4373260-1185-49AC-993B-A31209FBD6CC}\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 17": {
+        "Name": "Dell SupportAssist",
+        "PackageCode": "{C4644865-A359-4055-BCD2-C2C889D31BAD}",
+        "IdentifyingNumber": "{806422F1-FC4E-4D7C-8855-05748AEFC031}",
+        "PackageCache": "C:\\Windows\\Installer\\14107733.msi",
+        "Vendor": "Dell Inc.",
+        "Version": "3.2.2.119",
+        "InstallSource": "C:\\Windows\\TEMP\\SupportAssistAgent\\LauncherAutoUpdate\\",
+        "InstallDate": "20190604",
+        "InstallDate2": null
+    },
+    "Software Package 18": {
+        "Name": "Microsoft VC++ redistributables repacked.",
+        "PackageCode": "{6763DA56-BA50-4344-8DD5-A8A5CABE7C58}",
+        "IdentifyingNumber": "{064A5FA2-8C87-4522-AD36-1EF114CCF58E}",
+        "PackageCache": "C:\\Windows\\Installer\\2f76.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "12.0.0.0",
+        "InstallSource": "C:\\Users\\administrator\\AppData\\Local\\Temp\\IIFBAE2.tmp\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 19": {
+        "Name": "Maxx Audio Installer (x64)",
+        "PackageCode": "{F67DE0B5-DCB0-405B-9D2C-9DEDFACD1E0D}",
+        "IdentifyingNumber": "{307032B2-6AF2-46D7-B933-62438DEB2B9A}",
+        "PackageCache": "C:\\WINDOWS\\Installer\\e01e.msi",
+        "Vendor": "Waves Audio Ltd.",
+        "Version": "2.7.9669.1",
+        "InstallSource": "C:\\Windows\\System32\\DriverStore\\FileRepository\\hdxadcmax8s.inf_amd64_8380972740b345c0\\",
+        "InstallDate": "20190701",
+        "InstallDate2": null
+    },
+    "Software Package 20": {
+        "Name": "Realtek Audio COM Components",
+        "PackageCode": "{DEF425DC-8488-4A42-A31B-B9A206E2CC49}",
+        "IdentifyingNumber": "{2355B503-9B11-4449-861D-1C1748B26320}",
+        "PackageCache": "C:\\Windows\\Installer\\2f64.msi",
+        "Vendor": "Realtek Semiconductor Corp.",
+        "Version": "1.0.2",
+        "InstallSource": "C:\\Program Files\\Realtek\\Audio\\HDA\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 21": {
+        "Name": "Intel(R) Management Engine Components",
+        "PackageCode": "{894E8C06-2C7D-46C5-ACE2-D5065568BEDE}",
+        "IdentifyingNumber": "{79B6A013-9158-4948-9646-B6263A3AA3C9}",
+        "PackageCache": "C:\\Windows\\Installer\\2f79.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "1.0.0.0",
+        "InstallSource": "C:\\Users\\administrator\\AppData\\Local\\Temp\\IIFBAE2.tmp\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 22": {
+        "Name": "Dell ControlVault Host Components Installer 64 bit",
+        "PackageCode": "{D673A2DE-6EF3-4628-91D1-2365AFD6F3AA}",
+        "IdentifyingNumber": "{D978DB43-A838-46F9-B3AD-A17120C4BF2B}",
+        "PackageCache": "C:\\WINDOWS\\Installer\\eb5f5.msi",
+        "Vendor": "Broadcom Limited",
+        "Version": "4.10.12.13",
+        "InstallSource": "C:\\Windows\\SysWOW64\\config\\systemprofile\\AppData\\Local\\Downloaded Installations\\{D673A2DE-6EF3-4628-91D1-2365AFD6F3AA}\\",
+        "InstallDate": "20190701",
+        "InstallDate2": null
+    },
+    "Software Package 23": {
+        "Name": "Splashtop Streamer",
+        "PackageCode": "{1FFB34B4-02B4-4EEE-ACA4-24941A8EDEE5}",
+        "IdentifyingNumber": "{B7C5EA94-B96A-41F5-BE95-25D78B486678}",
+        "PackageCache": "C:\\Windows\\Installer\\254ff3.msi",
+        "Vendor": "Splashtop Inc.",
+        "Version": "3.3.0.0",
+        "InstallSource": "C:\\Windows\\TEMP\\unpack\\",
+        "InstallDate": "20190531",
+        "InstallDate2": null
+    },
+    "Software Package 24": {
+        "Name": "Python Launcher",
+        "PackageCode": "{A743BC49-A2A2-45CE-9222-0BC4F13BC5CA}",
+        "IdentifyingNumber": "{A28C27E4-A725-482A-9C65-61EDC0E4D583}",
+        "PackageCache": "C:\\Windows\\Installer\\754a608.msi",
+        "Vendor": "Python Software Foundation",
+        "Version": "3.7.6657.0",
+        "InstallSource": "C:\\ProgramData\\Package Cache\\{A28C27E4-A725-482A-9C65-61EDC0E4D583}v3.7.6657.0\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 25": {
+        "Name": "Java 8 Update 211 (64-bit)",
+        "PackageCode": "{4B0AF0B2-027D-4A99-B077-247B0AD7B082}",
+        "IdentifyingNumber": "{26A24AE4-039D-4CA4-87B4-2F64180211F0}",
+        "PackageCache": "C:\\Windows\\Installer\\6201a4e.msi",
+        "Vendor": "Oracle Corporation",
+        "Version": "8.0.2110.12",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\LocalLow\\Oracle\\Java\\jre1.8.0_211_x64\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 26": {
+        "Name": "Java SE Development Kit 8 Update 211 (64-bit)",
+        "PackageCode": "{03A7120F-897B-4E34-9E12-FEA1866611A3}",
+        "IdentifyingNumber": "{64A3A4F4-B792-11D6-A78A-00B0D0180211}",
+        "PackageCache": "C:\\Windows\\Installer\\6201a4a.msi",
+        "Vendor": "Oracle Corporation",
+        "Version": "8.0.2110.12",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\LocalLow\\Oracle\\Java\\jdk1.8.0_211_x64\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 27": {
+        "Name": "MySQL Server 8.0",
+        "PackageCode": "{CD8B49EC-4504-4930-8079-41F5472542A1}",
+        "IdentifyingNumber": "{87210B05-B03F-4F6D-A217-D20F19746EAC}",
+        "PackageCache": "C:\\WINDOWS\\Installer\\1a9da54f.msi",
+        "Vendor": "Oracle Corporation",
+        "Version": "8.0.16",
+        "InstallSource": "C:\\ProgramData\\MySQL\\MySQL Installer for Windows\\Product Cache\\",
+        "InstallDate": "20190709",
+        "InstallDate2": null
+    },
+    "Software Package 28": {
+        "Name": "Intel(R) Trusted Connect Service Client x86",
+        "PackageCode": "{610DD2CA-CB2C-442F-925A-3D8746DA4E4C}",
+        "IdentifyingNumber": "{C9552825-7BF2-4344-BA91-D3CD46F4C441}",
+        "PackageCache": "C:\\Windows\\Installer\\2f7f.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "1.50.369.0",
+        "InstallSource": "C:\\ProgramData\\Package Cache\\{C9552825-7BF2-4344-BA91-D3CD46F4C441}v1.50.369.0\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 29": {
+        "Name": "Intel(R) Trusted Connect Service Client x64",
+        "PackageCode": "{5475ED24-BD7C-4BDA-99E0-57BB043B0F81}",
+        "IdentifyingNumber": "{C9552825-7BF2-4344-BA91-D3CD46F4C442}",
+        "PackageCache": "C:\\Windows\\Installer\\2f7c.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "1.50.369.0",
+        "InstallSource": "C:\\ProgramData\\Package Cache\\{C9552825-7BF2-4344-BA91-D3CD46F4C442}v1.50.369.0\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 30": {
+        "Name": "MySQL Workbench 8.0 CE",
+        "PackageCode": "{EB4A5E3D-D10B-4D5B-8C50-7B3EFFFBC999}",
+        "IdentifyingNumber": "{C806C745-44EB-4934-8531-7A38D4C75E62}",
+        "PackageCache": "C:\\WINDOWS\\Installer\\1a4e5989.msi",
+        "Vendor": "Oracle Corporation",
+        "Version": "8.0.16",
+        "InstallSource": "C:\\Users\\jquinn\\Downloads\\",
+        "InstallDate": "20190709",
+        "InstallDate2": null
+    },
+    "Software Package 31": {
+        "Name": "Node.js",
+        "PackageCode": "{746C6318-479E-4B92-9854-1F8467F1B867}",
+        "IdentifyingNumber": "{E3C2DC65-9DCA-4422-BDDE-0489B89A16D2}",
+        "PackageCache": "C:\\Windows\\Installer\\5606d7c.msi",
+        "Vendor": "Node.js Foundation",
+        "Version": "10.16.0",
+        "InstallSource": "C:\\Users\\jquinn\\Downloads\\",
+        "InstallDate": "20190611",
+        "InstallDate2": null
+    },
+    "Software Package 32": {
+        "Name": "Intel(R) PRO/Wireless Driver",
+        "PackageCode": "{3A292FE6-383E-4E74-9F61-8C0D1F3694C1}",
+        "IdentifyingNumber": "{8F19AC77-AECA-4B36-9777-FA338673E8CF}",
+        "PackageCache": "C:\\Windows\\Installer\\72ca.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "20.100.0000.0143",
+        "InstallSource": "C:\\ProgramData\\Package Cache\\{5368D82D-CAA5-48CC-9017-5BAAAB87591B}v20.100.0\\data\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 33": {
+        "Name": "Intel(R) Chipset Device Software",
+        "PackageCode": "{789F5E97-6E07-489D-939B-F7F6723A37D5}",
+        "IdentifyingNumber": "{94E05108-3E4E-4F2E-AC5F-33A1B22B779C}",
+        "PackageCache": "C:\\Windows\\Installer\\2f61.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "10.1.1.44",
+        "InstallSource": "C:\\ProgramData\\Package Cache\\{94E05108-3E4E-4F2E-AC5F-33A1B22B779C}v10.1.1.44\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 34": {
+        "Name": "Intel(R) Management Engine Components",
+        "PackageCode": "{A5FFEAFD-5D9D-4EEB-80C8-2D46E25CF193}",
+        "IdentifyingNumber": "{47B8C308-33F3-4054-A2F2-1F225F01FC28}",
+        "PackageCache": "C:\\Windows\\Installer\\2f70.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "1.0.0.0",
+        "InstallSource": "C:\\Users\\administrator\\AppData\\Local\\Temp\\IIFBAE2.tmp\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 35": {
+        "Name": "Dell Power Manager Service",
+        "PackageCode": "{909EBB6A-9223-4D7C-926E-E23CE5163DFC}",
+        "IdentifyingNumber": "{18469ED8-8C36-4CF7-BD43-0FC9B1931AF8}",
+        "PackageCache": "C:\\Windows\\Installer\\4901.msi",
+        "Vendor": "Dell Inc.",
+        "Version": "3.2.0",
+        "InstallSource": "C:\\Windows\\{909EBB6A-9223-4D7C-926E-E23CE5163DFC}\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 36": {
+        "Name": "Asmedia USB Host Controller Driver",
+        "PackageCode": "{ED03A539-623D-4D68-AA92-A1423481FE63}",
+        "IdentifyingNumber": "{E4FB0B39-C991-4EE7-95DD-1A1A7857D33D}",
+        "PackageCache": "C:\\WINDOWS\\Installer\\eb622.msi",
+        "Vendor": "Asmedia Technology",
+        "Version": "1.16.56.1",
+        "InstallSource": "C:\\WINDOWS\\TEMP\\{5582246B-BB2C-46E2-B5EB-8EC4E6AD26F2}\\",
+        "InstallDate": "20190701",
+        "InstallDate2": null
+    },
+    "Software Package 37": {
+        "Name": "Microsoft VC++ redistributables repacked.",
+        "PackageCode": "{01088E5C-11DA-42A3-999A-EA477C3E7D62}",
+        "IdentifyingNumber": "{40595B99-B75F-42A3-8B87-117879C66906}",
+        "PackageCache": "C:\\Windows\\Installer\\2f73.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "12.0.0.0",
+        "InstallSource": "C:\\Users\\administrator\\AppData\\Local\\Temp\\IIFBAE2.tmp\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 38": {
+        "Name": "Google Update Helper",
+        "PackageCode": "{4CBC2B9A-4C9A-4DAB-B93C-63129CF23F8E}",
+        "IdentifyingNumber": "{60EC980A-BDA2-4CB6-A427-B07A5498B4CA}",
+        "PackageCache": "C:\\Windows\\Installer\\14107737.msi",
+        "Vendor": "Google LLC",
+        "Version": "1.3.34.11",
+        "InstallSource": "C:\\Program Files (x86)\\Google\\Update\\1.3.34.11\\",
+        "InstallDate": "20190604",
+        "InstallDate2": null
+    },
+    "Software Package 39": {
+        "Name": "Dell Digital Delivery Services",
+        "PackageCode": "{BBE86267-50D3-4EB2-A939-2A6FA4D63AFD}",
+        "IdentifyingNumber": "{4E63542A-F61E-4A6C-9732-13F3425C1758}",
+        "PackageCache": "c:\\Windows\\Installer\\72d0.msi",
+        "Vendor": "Dell Inc.",
+        "Version": "4.0.34.0",
+        "InstallSource": null,
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 40": {
+        "Name": "Intel(R) Management Engine Components",
+        "PackageCode": "{53A8246D-4955-48F6-9804-27FC40343B3C}",
+        "IdentifyingNumber": "{6B33FF8B-36E9-493E-80BC-588ABF4A244C}",
+        "PackageCache": "C:\\Windows\\Installer\\2f6d.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "1.0.0.0",
+        "InstallSource": "C:\\Users\\administrator\\AppData\\Local\\Temp\\IIFBAE2.tmp\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 41": {
+        "Name": "Intelr OptaneT Pinning Explorer Extensions",
+        "PackageCode": "{7ABE6058-2E73-4B70-A2F3-4D96D0EB5077}",
+        "IdentifyingNumber": "{ACA5CFAC-9E99-4764-A7AD-AF5CF3FA15BF}",
+        "PackageCache": "C:\\Windows\\Installer\\2b78.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "17.0.2.1076",
+        "InstallSource": "C:\\Windows\\System32\\DriverStore\\FileRepository\\iastorsw.inf_amd64_20d6dbdb0d47f3ff\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 42": {
+        "Name": "MySQL Installer for Windows - Community",
+        "PackageCode": "{131330FE-E7F2-428E-BB2D-D5D8E33EE10E}",
+        "IdentifyingNumber": "{0D4C6A5D-CA41-470D-A34B-355C9BD7433B}",
+        "PackageCache": "C:\\WINDOWS\\Installer\\1a9da54b.msi",
+        "Vendor": "Oracle Corporation",
+        "Version": "1.4.30.0",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\Local\\Temp\\",
+        "InstallDate": "20190709",
+        "InstallDate2": null
+    },
+    "Software Package 43": {
+        "Name": "Intel(R) Management Engine Driver",
+        "PackageCode": "{04D54F50-0EA5-4466-B8A9-9D967DE06918}",
+        "IdentifyingNumber": "{E7FB297D-DEEF-4EF4-9966-A5CC814ED6FD}",
+        "PackageCache": "C:\\Windows\\Installer\\2f6a.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "1.0.0.0",
+        "InstallSource": "C:\\Users\\administrator\\AppData\\Local\\Temp\\IIFBAE2.tmp\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 44": {
+        "Name": "Java Auto Updater",
+        "PackageCode": "{9B0FE7F9-7882-40A1-864A-56B4DA2ED26C}",
+        "IdentifyingNumber": "{4A03706F-666A-4037-7777-5F2748764D10}",
+        "PackageCache": "C:\\Windows\\Installer\\6201a52.msi",
+        "Vendor": "Oracle Corporation",
+        "Version": "2.8.211.12",
+        "InstallSource": "C:\\Users\\jquinn\\AppData\\LocalLow\\Oracle\\Java\\jre1.8.0_211_x64\\",
+        "InstallDate": "20190607",
+        "InstallDate2": null
+    },
+    "Software Package 45": {
+        "Name": "Intel(R) Rapid Storage Technology",
+        "PackageCode": "{BBDC46AA-7186-44A0-9E39-822119F8F0B6}",
+        "IdentifyingNumber": "{0421117F-9659-4C9F-84AC-88FE070C18C7}",
+        "PackageCache": "C:\\Windows\\Installer\\2f40.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "17.0.2.1076",
+        "InstallSource": "C:\\Users\\administrator\\AppData\\Local\\Temp\\IIF2D1C.tmp\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    },
+    "Software Package 46": {
+        "Name": "ThunderboltT Software",
+        "PackageCode": "{A2A47718-BE26-46B8-88BE-9758880C4174}",
+        "IdentifyingNumber": "{30F0067F-DD79-431B-BA5F-6CB4897785A5}",
+        "PackageCache": "C:\\Windows\\Installer\\2f82.msi",
+        "Vendor": "Intel Corporation",
+        "Version": "17.4.79.510",
+        "InstallSource": "C:\\ProgramData\\dell\\drivers\\974de814-1327-4faf-9298-cdc034547f7a\\",
+        "InstallDate": "20190518",
+        "InstallDate2": null
+    }
+}{
+    "OS Version": {
+        "Name": "Microsoft Windows 10 Pro|C:\\WINDOWS|\\Device\\Harddisk0\\Partition3",
+        "OSArchitecture": "64-bit",
+        "BuildNumber": "18362",
+        "Version": "10.0.18362",
+        "ServicePackMajorVersion": 0,
+        "ServicePackMinorVersion": 0
+    }
+}{
+    "Driver 1": {
+        "devicename": "Local Print Queue",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 2": {
+        "devicename": "Local Print Queue",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 3": {
+        "devicename": "Local Print Queue",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 4": {
+        "devicename": "Local Print Queue",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 5": {
+        "devicename": "Local Print Queue",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 6": {
+        "devicename": "Local Print Queue",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 7": {
+        "devicename": "Hyper-V Virtual Ethernet Adapter",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 8": {
+        "devicename": "Hyper-V Virtual Switch Extension Adapter",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 9": {
+        "devicename": "WAN Miniport (Network Monitor)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 10": {
+        "devicename": "WAN Miniport (IPv6)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 11": {
+        "devicename": "WAN Miniport (IP)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 12": {
+        "devicename": "WAN Miniport (PPPOE)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 13": {
+        "devicename": "WAN Miniport (PPTP)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 14": {
+        "devicename": "WAN Miniport (L2TP)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 15": {
+        "devicename": "WAN Miniport (IKEv2)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 16": {
+        "devicename": "WAN Miniport (SSTP)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 17": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 18": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 19": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 20": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 21": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 22": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 23": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 24": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 25": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 26": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 27": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 28": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 29": {
+        "devicename": "Generic software device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 30": {
+        "devicename": "Remote Desktop Device Redirector Bus",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 31": {
+        "devicename": "Dell Data Vault Control Device",
+        "driverversion": "16.22.7.657"
+    },
+    "Driver 32": {
+        "devicename": "Plug and Play Software Device Enumerator",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 33": {
+        "devicename": "Microsoft System Management BIOS Driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 34": {
+        "devicename": "NDIS Virtual Network Adapter Enumerator",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 35": {
+        "devicename": "Hyper-V Virtual Ethernet Adapter",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 36": {
+        "devicename": "Microsoft RemoteFX Synth3D VSP Driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 37": {
+        "devicename": "Microsoft Hyper-V Virtual Disk Server",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 38": {
+        "devicename": "Microsoft Basic Render Driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 39": {
+        "devicename": "Microsoft Hyper-V PCI Server",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 40": {
+        "devicename": "System Firmware",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 41": {
+        "devicename": "Microsoft UEFI-Compliant System",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 42": {
+        "devicename": "ACPI Fixed Feature Button",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 43": {
+        "devicename": "Intel(R) Dynamic Platform and Thermal Framework Manager",
+        "driverversion": "8.3.10207.5567"
+    },
+    "Driver 44": {
+        "devicename": "UCM-UCSI ACPI Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 45": {
+        "devicename": "Motherboard resources",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 46": {
+        "devicename": "ACPI Thermal Zone",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 47": {
+        "devicename": "HID-compliant system controller",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 48": {
+        "devicename": "HID-compliant consumer control device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 49": {
+        "devicename": "HID Keyboard Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 50": {
+        "devicename": "Converted Portable Device Control device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 51": {
+        "devicename": "Portable Device Control device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 52": {
+        "devicename": "HID-compliant wireless radio controls",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 53": {
+        "devicename": "Intel(R) HID Event Filter",
+        "driverversion": "2.2.1.372"
+    },
+    "Driver 54": {
+        "devicename": "Microsoft ACPI-Compliant Control Method Battery",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 55": {
+        "devicename": "Microsoft AC Adapter",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 56": {
+        "devicename": "ACPI Sleep Button",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 57": {
+        "devicename": "ACPI Power Button",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 58": {
+        "devicename": "ACPI Lid",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 59": {
+        "devicename": "Microsoft Windows Management Interface for ACPI",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 60": {
+        "devicename": "Microsoft Windows Management Interface for ACPI",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 61": {
+        "devicename": "Microsoft Windows Management Interface for ACPI",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 62": {
+        "devicename": "Trusted Platform Module 2.0",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 63": {
+        "devicename": "Intel(R) Power Engine Plug-in",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 64": {
+        "devicename": "Microsoft Windows Management Interface for ACPI",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 65": {
+        "devicename": "Intel Processor",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 66": {
+        "devicename": "Intel Processor",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 67": {
+        "devicename": "Intel Processor",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 68": {
+        "devicename": "Intel Processor",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 69": {
+        "devicename": "Intel Processor",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 70": {
+        "devicename": "Intel Processor",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 71": {
+        "devicename": "Intel Processor",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 72": {
+        "devicename": "Intel Processor",
+        "driverversion": "10.0.18362.113"
+    },
+    "Driver 73": {
+        "devicename": "Intel(R) Dynamic Platform and Thermal Framework Generic Participant",
+        "driverversion": "8.3.10207.5567"
+    },
+    "Driver 74": {
+        "devicename": "Intel(R) Serial IO I2C Host Controller - 9D64",
+        "driverversion": "30.100.1816.3"
+    },
+    "Driver 75": {
+        "devicename": "Motherboard resources",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 76": {
+        "devicename": "Motherboard resources",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 77": {
+        "devicename": "Motherboard resources",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 78": {
+        "devicename": "Motherboard resources",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 79": {
+        "devicename": "Intel(R) Ethernet Connection (4) I219-LM",
+        "driverversion": "12.17.8.7"
+    },
+    "Driver 80": {
+        "devicename": "Mobile 6th/7th Generation Intel(R) Processor Family I/O SMBUS - 9D23",
+        "driverversion": "10.1.1.44"
+    },
+    "Driver 81": {
+        "devicename": "Detection Verification",
+        "driverversion": "1.0.140.0"
+    },
+    "Driver 82": {
+        "devicename": "Intel(R) Smart Sound Technology (Intel(R) SST) OED",
+        "driverversion": "9.21.0.3755"
+    },
+    "Driver 83": {
+        "devicename": "Audio Endpoint",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 84": {
+        "devicename": "Intel(R) Display Audio",
+        "driverversion": "10.26.0.4"
+    },
+    "Driver 85": {
+        "devicename": "Audio Endpoint",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 86": {
+        "devicename": "Audio Endpoint",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 87": {
+        "devicename": "Realtek Audio",
+        "driverversion": "6.0.1.8569"
+    },
+    "Driver 88": {
+        "devicename": "Intel(R) Smart Sound Technology (Intel(R) SST) Audio Controller",
+        "driverversion": "9.21.0.3755"
+    },
+    "Driver 89": {
+        "devicename": "Mobile 6th/7th Generation Intel(R) Processor Family I/O PMC - 9D21",
+        "driverversion": "10.1.1.44"
+    },
+    "Driver 90": {
+        "devicename": "Standard PS/2 Keyboard",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 91": {
+        "devicename": "Intel(R) Dynamic Platform and Thermal Framework Generic Participant",
+        "driverversion": "8.3.10207.5567"
+    },
+    "Driver 92": {
+        "devicename": "Intel(R) Dynamic Platform and Thermal Framework Generic Participant",
+        "driverversion": "8.3.10207.5567"
+    },
+    "Driver 93": {
+        "devicename": "Microsoft ACPI-Compliant Embedded Controller",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 94": {
+        "devicename": "Motherboard resources",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 95": {
+        "devicename": "System timer",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 96": {
+        "devicename": "System CMOS/real time clock",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 97": {
+        "devicename": "Motherboard resources",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 98": {
+        "devicename": "Programmable interrupt controller",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 99": {
+        "devicename": "High precision event timer",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 100": {
+        "devicename": "Legacy device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 101": {
+        "devicename": "Mobile 7th Generation Intel(R) Processor Family I/O LPC Controller (U with iHDCP2.2 Premium) - 9D4E",
+        "driverversion": "10.1.1.44"
+    },
+    "Driver 102": {
+        "devicename": "Mobile 6th/7th Generation Intel(R) Processor Family I/O PCI Express Root Port #5 - 9D14",
+        "driverversion": "10.1.1.44"
+    },
+    "Driver 103": {
+        "devicename": "Microsoft Wi-Fi Direct Virtual Adapter",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 104": {
+        "devicename": "Microsoft Wi-Fi Direct Virtual Adapter",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 105": {
+        "devicename": "Intel(R) Dual Band Wireless-AC 8265",
+        "driverversion": "20.70.4.2"
+    },
+    "Driver 106": {
+        "devicename": "Mobile 6th/7th Generation Intel(R) Processor Family I/O PCI Express Root Port #3 - 9D12",
+        "driverversion": "10.1.1.44"
+    },
+    "Driver 107": {
+        "devicename": "Realtek PCIE CardReader",
+        "driverversion": "10.0.15063.21300"
+    },
+    "Driver 108": {
+        "devicename": "Mobile 6th/7th Generation Intel(R) Processor Family I/O PCI Express Root Port #1 - 9D10",
+        "driverversion": "10.1.1.44"
+    },
+    "Driver 109": {
+        "devicename": "Intel(R) Pinning Shell Extensions",
+        "driverversion": "17.0.2.1076"
+    },
+    "Driver 110": {
+        "devicename": "Disk drive",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 111": {
+        "devicename": "Intel(R) Chipset SATA/PCIe RST Premium Controller",
+        "driverversion": "17.0.2.1076"
+    },
+    "Driver 112": {
+        "devicename": "Intel(R) Active Management Technology - SOL",
+        "driverversion": "1744.12.0.1071"
+    },
+    "Driver 113": {
+        "devicename": "Intel(R) Management Engine Interface ",
+        "driverversion": "1815.12.0.2021"
+    },
+    "Driver 114": {
+        "devicename": "Intel(R) Serial IO I2C Host Controller - 9D63",
+        "driverversion": "30.100.1816.3"
+    },
+    "Driver 115": {
+        "devicename": "Intel(R) Serial IO I2C Host Controller - 9D62",
+        "driverversion": "30.100.1816.3"
+    },
+    "Driver 116": {
+        "devicename": "Microsoft Input Configuration Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 117": {
+        "devicename": "HID-compliant vendor-defined device",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 118": {
+        "devicename": "HID Keyboard Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 119": {
+        "devicename": "HID-compliant mouse",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 120": {
+        "devicename": "Alps Virtual HID Device",
+        "driverversion": "10.0.0.123"
+    },
+    "Driver 121": {
+        "devicename": "Dell Touchpad",
+        "driverversion": "10.3201.101.212"
+    },
+    "Driver 122": {
+        "devicename": "HID-compliant touch pad",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 123": {
+        "devicename": "HID-compliant mouse",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 124": {
+        "devicename": "I2C HID Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 125": {
+        "devicename": "Intel(R) Serial IO I2C Host Controller - 9D61",
+        "driverversion": "30.100.1816.3"
+    },
+    "Driver 126": {
+        "devicename": "Intel(R) Serial IO I2C Host Controller - 9D60",
+        "driverversion": "30.100.1816.3"
+    },
+    "Driver 127": {
+        "devicename": "Mobile 6th/7th Generation Intel(R) Processor Family I/O Thermal subsystem - 9D31",
+        "driverversion": "10.1.1.44"
+    },
+    "Driver 128": {
+        "devicename": "HID-compliant mouse",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 129": {
+        "devicename": "USB Input Device",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 130": {
+        "devicename": "HID-compliant vendor-defined device",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 131": {
+        "devicename": "HID-compliant consumer control device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 132": {
+        "devicename": "HID-compliant system controller",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 133": {
+        "devicename": "HID-compliant consumer control device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 134": {
+        "devicename": "USB Input Device",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 135": {
+        "devicename": "HID Keyboard Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 136": {
+        "devicename": "USB Input Device",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 137": {
+        "devicename": "USB Composite Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 138": {
+        "devicename": "NFC Proximity Provider",
+        "driverversion": "4.9.13.37"
+    },
+    "Driver 139": {
+        "devicename": "NFC USB Bus Driver",
+        "driverversion": "4.9.13.37"
+    },
+    "Driver 140": {
+        "devicename": "Smart card filter driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 141": {
+        "devicename": "Microsoft Usbccid Smartcard Reader (WUDF)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 142": {
+        "devicename": "Smart card filter driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 143": {
+        "devicename": "Microsoft Usbccid Smartcard Reader (WUDF)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 144": {
+        "devicename": "Control Vault w/ Fingerprint Touch Sensor",
+        "driverversion": "4.10.9.2"
+    },
+    "Driver 145": {
+        "devicename": "Dell ControlVault w/ Fingerprint Touch Sensor",
+        "driverversion": "4.10.11.9"
+    },
+    "Driver 146": {
+        "devicename": "USB Composite Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 147": {
+        "devicename": "Bluetooth Device (Personal Area Network)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 148": {
+        "devicename": "Bluetooth Device",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 149": {
+        "devicename": "Microsoft Bluetooth Hands-Free Audio device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 150": {
+        "devicename": "Microsoft Bluetooth Hands-Free Profile AudioGateway role",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 151": {
+        "devicename": "Microsoft Bluetooth Avrcp Transport Driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 152": {
+        "devicename": "Microsoft Bluetooth Avrcp Transport Driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 153": {
+        "devicename": "Microsoft Bluetooth A2dp Source",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 154": {
+        "devicename": "Microsoft Bluetooth Enumerator",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 155": {
+        "devicename": "Bluetooth Device (RFCOMM Protocol TDI)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 156": {
+        "devicename": "Microsoft Bluetooth LE Enumerator",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 157": {
+        "devicename": "Intel(R) Wireless Bluetooth(R)",
+        "driverversion": "20.60.1.1"
+    },
+    "Driver 158": {
+        "devicename": "Realtek DMFT - IR",
+        "driverversion": "10.0.17763.20082"
+    },
+    "Driver 159": {
+        "devicename": "Realtek DMFT - RGB",
+        "driverversion": "10.0.17763.20082"
+    },
+    "Driver 160": {
+        "devicename": "USB Composite Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 161": {
+        "devicename": "USB Root Hub (USB 3.0)",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 162": {
+        "devicename": "USB xHCI Compliant Host Controller",
+        "driverversion": "10.0.18362.207"
+    },
+    "Driver 163": {
+        "devicename": "Intel(R) Dynamic Platform and Thermal Framework Processor Participant",
+        "driverversion": "8.3.10207.5567"
+    },
+    "Driver 164": {
+        "devicename": "Generic PnP Monitor",
+        "driverversion": "10.0.18362.207"
+    },
+    "Driver 165": {
+        "devicename": "Generic PnP Monitor",
+        "driverversion": "10.0.18362.207"
+    },
+    "Driver 166": {
+        "devicename": "Intel(R) UHD Graphics 620",
+        "driverversion": "25.20.100.6472"
+    },
+    "Driver 167": {
+        "devicename": "Intel(R) Xeon(R) E3 - 1200 v6/7th Gen Intel(R) Core(TM) Host Bridge/DRAM Registers - 5914",
+        "driverversion": "10.1.1.44"
+    },
+    "Driver 168": {
+        "devicename": "PCI Express Root Complex",
+        "driverversion": "10.0.18362.207"
+    },
+    "Driver 169": {
+        "devicename": "Microsoft ACPI-Compliant System",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 170": {
+        "devicename": "ACPI x64-based PC",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 171": {
+        "devicename": "Charge Arbitration Driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 172": {
+        "devicename": "UMBus Root Bus Enumerator",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 173": {
+        "devicename": "Windows Hello Face Software Device",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 174": {
+        "devicename": "Microsoft Kernel Debug Network Adapter",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 175": {
+        "devicename": "Microsoft Storage Spaces Controller",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 176": {
+        "devicename": "Microsoft VHD Loopback Controller",
+        "driverversion": "10.0.18362.175"
+    },
+    "Driver 177": {
+        "devicename": "Microsoft Virtual Drive Enumerator",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 178": {
+        "devicename": "Composite Bus Enumerator",
+        "driverversion": "10.0.18362.53"
+    },
+    "Driver 179": {
+        "devicename": "Microsoft Hyper-V Virtualization Infrastructure Driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 180": {
+        "devicename": "Hyper-V Virtual Switch Extension Adapter",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 181": {
+        "devicename": "Microsoft Basic Display Driver",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 182": {
+        "devicename": "Microsoft Hyper-V Virtual Machine Bus Provider",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 183": {
+        "devicename": "Volume",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 184": {
+        "devicename": "Generic volume shadow copy",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 185": {
+        "devicename": "Generic volume shadow copy",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 186": {
+        "devicename": "Generic volume shadow copy",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 187": {
+        "devicename": "Volume",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 188": {
+        "devicename": "Volume",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 189": {
+        "devicename": "Volume",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 190": {
+        "devicename": "Volume Manager",
+        "driverversion": "10.0.18362.1"
+    },
+    "Driver 191": {
+        "devicename": null,
+        "driverversion": null
+    },
+    "Driver 192": {
+        "devicename": null,
+        "driverversion": "2:10.0,2:6.3,2:6.2,2:6.1,2:6.0,2:5.2,2:5.1"
+    },
+    "Driver 193": {
+        "devicename": null,
+        "driverversion": "2:10.0,2:6.3,2:6.2,2:6.1,2:6.0,2:5.2,2:5.1"
+    },
+    "Driver 194": {
+        "devicename": null,
+        "driverversion": "2:10.0,2:6.3,2:6.2,2:6.1,2:6.0,2:5.2,2:5.1"
+    },
+    "Driver 195": {
+        "devicename": null,
+        "driverversion": "2:10.0,2:6.3,2:6.2,2:6.1,2:6.0,2:5.2,2:5.1"
+    }
+}{
+    "Running Process 1": {
+        "ProcessName": "System Idle Process",
+        "ProcessId": 0,
+        "PageFaults": 9
+    },
+    "Running Process 2": {
+        "ProcessName": "System",
+        "ProcessId": 4,
+        "PageFaults": 23716
+    },
+    "Running Process 3": {
+        "ProcessName": "Secure System",
+        "ProcessId": 72,
+        "PageFaults": 50
+    },
+    "Running Process 4": {
+        "ProcessName": "Registry",
+        "ProcessId": 128,
+        "PageFaults": 125993
+    },
+    "Running Process 5": {
+        "ProcessName": "smss.exe",
+        "ProcessId": 764,
+        "PageFaults": 1567
+    },
+    "Running Process 6": {
+        "ProcessName": "csrss.exe",
+        "ProcessId": 852,
+        "PageFaults": 17498
+    },
+    "Running Process 7": {
+        "ProcessName": "wininit.exe",
+        "ProcessId": 944,
+        "PageFaults": 3616
+    },
+    "Running Process 8": {
+        "ProcessName": "services.exe",
+        "ProcessId": 1020,
+        "PageFaults": 400457
+    },
+    "Running Process 9": {
+        "ProcessName": "LsaIso.exe",
+        "ProcessId": 92,
+        "PageFaults": 1149
+    },
+    "Running Process 10": {
+        "ProcessName": "lsass.exe",
+        "ProcessId": 428,
+        "PageFaults": 123894
+    },
+    "Running Process 11": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1184,
+        "PageFaults": 16345
+    },
+    "Running Process 12": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1208,
+        "PageFaults": 259825
+    },
+    "Running Process 13": {
+        "ProcessName": "WUDFHost.exe",
+        "ProcessId": 1232,
+        "PageFaults": 8604
+    },
+    "Running Process 14": {
+        "ProcessName": "fontdrvhost.exe",
+        "ProcessId": 1272,
+        "PageFaults": 1678
+    },
+    "Running Process 15": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1360,
+        "PageFaults": 213541
+    },
+    "Running Process 16": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1416,
+        "PageFaults": 27340
+    },
+    "Running Process 17": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1584,
+        "PageFaults": 29793
+    },
+    "Running Process 18": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1612,
+        "PageFaults": 159310
+    },
+    "Running Process 19": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1620,
+        "PageFaults": 17275
+    },
+    "Running Process 20": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1652,
+        "PageFaults": 32227
+    },
+    "Running Process 21": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1668,
+        "PageFaults": 18786
+    },
+    "Running Process 22": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1676,
+        "PageFaults": 31324
+    },
+    "Running Process 23": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1820,
+        "PageFaults": 46180
+    },
+    "Running Process 24": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1860,
+        "PageFaults": 31039
+    },
+    "Running Process 25": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1904,
+        "PageFaults": 99432
+    },
+    "Running Process 26": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2020,
+        "PageFaults": 213231
+    },
+    "Running Process 27": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2028,
+        "PageFaults": 45684
+    },
+    "Running Process 28": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2040,
+        "PageFaults": 67892
+    },
+    "Running Process 29": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 812,
+        "PageFaults": 23865
+    },
+    "Running Process 30": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1228,
+        "PageFaults": 19981
+    },
+    "Running Process 31": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 1460,
+        "PageFaults": 25878
+    },
+    "Running Process 32": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2216,
+        "PageFaults": 23932
+    },
+    "Running Process 33": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2228,
+        "PageFaults": 25020
+    },
+    "Running Process 34": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2332,
+        "PageFaults": 854800
+    },
+    "Running Process 35": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2344,
+        "PageFaults": 27836
+    },
+    "Running Process 36": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2392,
+        "PageFaults": 19888
+    },
+    "Running Process 37": {
+        "ProcessName": "igfxCUIService.exe",
+        "ProcessId": 2564,
+        "PageFaults": 14107
+    },
+    "Running Process 38": {
+        "ProcessName": "UshUpgradeService.exe",
+        "ProcessId": 2628,
+        "PageFaults": 36224
+    },
+    "Running Process 39": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2652,
+        "PageFaults": 48159
+    },
+    "Running Process 40": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2716,
+        "PageFaults": 148492
+    },
+    "Running Process 41": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2780,
+        "PageFaults": 50322
+    },
+    "Running Process 42": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2824,
+        "PageFaults": 60589
+    },
+    "Running Process 43": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2832,
+        "PageFaults": 19964
+    },
+    "Running Process 44": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2844,
+        "PageFaults": 29017
+    },
+    "Running Process 45": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2872,
+        "PageFaults": 22370
+    },
+    "Running Process 46": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2880,
+        "PageFaults": 238669
+    },
+    "Running Process 47": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2976,
+        "PageFaults": 181200
+    },
+    "Running Process 48": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3012,
+        "PageFaults": 26437
+    },
+    "Running Process 49": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3020,
+        "PageFaults": 23012
+    },
+    "Running Process 50": {
+        "ProcessName": "Memory Compression",
+        "ProcessId": 3044,
+        "PageFaults": 13884661
+    },
+    "Running Process 51": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3164,
+        "PageFaults": 63358
+    },
+    "Running Process 52": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3192,
+        "PageFaults": 1332230
+    },
+    "Running Process 53": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3252,
+        "PageFaults": 72726
+    },
+    "Running Process 54": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3404,
+        "PageFaults": 59845
+    },
+    "Running Process 55": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3500,
+        "PageFaults": 76647
+    },
+    "Running Process 56": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3568,
+        "PageFaults": 69022
+    },
+    "Running Process 57": {
+        "ProcessName": "RtkAudioService64.exe",
+        "ProcessId": 3752,
+        "PageFaults": 15269
+    },
+    "Running Process 58": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3876,
+        "PageFaults": 27550
+    },
+    "Running Process 59": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 3884,
+        "PageFaults": 32220
+    },
+    "Running Process 60": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4052,
+        "PageFaults": 64338
+    },
+    "Running Process 61": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 756,
+        "PageFaults": 34015
+    },
+    "Running Process 62": {
+        "ProcessName": "wlanext.exe",
+        "ProcessId": 3644,
+        "PageFaults": 31539
+    },
+    "Running Process 63": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 4076,
+        "PageFaults": 3326
+    },
+    "Running Process 64": {
+        "ProcessName": "spoolsv.exe",
+        "ProcessId": 3520,
+        "PageFaults": 64904
+    },
+    "Running Process 65": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4128,
+        "PageFaults": 24916
+    },
+    "Running Process 66": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4136,
+        "PageFaults": 25381
+    },
+    "Running Process 67": {
+        "ProcessName": "HostControlService.exe",
+        "ProcessId": 4288,
+        "PageFaults": 11927
+    },
+    "Running Process 68": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4296,
+        "PageFaults": 76428
+    },
+    "Running Process 69": {
+        "ProcessName": "HostStorageService.exe",
+        "ProcessId": 4304,
+        "PageFaults": 12370
+    },
+    "Running Process 70": {
+        "ProcessName": "WUDFHost.exe",
+        "ProcessId": 4384,
+        "PageFaults": 20425
+    },
+    "Running Process 71": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4464,
+        "PageFaults": 37627
+    },
+    "Running Process 72": {
+        "ProcessName": "CagService.exe",
+        "ProcessId": 4636,
+        "PageFaults": 479442
+    },
+    "Running Process 73": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4644,
+        "PageFaults": 146325
+    },
+    "Running Process 74": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4652,
+        "PageFaults": 767109
+    },
+    "Running Process 75": {
+        "ProcessName": "IntelCpHDCPSvc.exe",
+        "ProcessId": 4668,
+        "PageFaults": 12197
+    },
+    "Running Process 76": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4676,
+        "PageFaults": 50166
+    },
+    "Running Process 77": {
+        "ProcessName": "HidMonitorSvc.exe",
+        "ProcessId": 4684,
+        "PageFaults": 12112
+    },
+    "Running Process 78": {
+        "ProcessName": "com.docker.service",
+        "ProcessId": 4696,
+        "PageFaults": 122670
+    },
+    "Running Process 79": {
+        "ProcessName": "esif_uf.exe",
+        "ProcessId": 4704,
+        "PageFaults": 13064
+    },
+    "Running Process 80": {
+        "ProcessName": "EvtEng.exe",
+        "ProcessId": 4784,
+        "PageFaults": 84551
+    },
+    "Running Process 81": {
+        "ProcessName": "mysqld.exe",
+        "ProcessId": 5008,
+        "PageFaults": 12717
+    },
+    "Running Process 82": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5024,
+        "PageFaults": 20227
+    },
+    "Running Process 83": {
+        "ProcessName": "RegSrvc.exe",
+        "ProcessId": 5036,
+        "PageFaults": 13258
+    },
+    "Running Process 84": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5044,
+        "PageFaults": 32260
+    },
+    "Running Process 85": {
+        "ProcessName": "RstMwService.exe",
+        "ProcessId": 5056,
+        "PageFaults": 11579
+    },
+    "Running Process 86": {
+        "ProcessName": "SRService.exe",
+        "ProcessId": 5100,
+        "PageFaults": 15872403
+    },
+    "Running Process 87": {
+        "ProcessName": "SSUService.exe",
+        "ProcessId": 5108,
+        "PageFaults": 16883
+    },
+    "Running Process 88": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 4124,
+        "PageFaults": 13429
+    },
+    "Running Process 89": {
+        "ProcessName": "vmms.exe",
+        "ProcessId": 4392,
+        "PageFaults": 215886
+    },
+    "Running Process 90": {
+        "ProcessName": "winvnc.exe",
+        "ProcessId": 4428,
+        "PageFaults": 12808
+    },
+    "Running Process 91": {
+        "ProcessName": "MsMpEng.exe",
+        "ProcessId": 4532,
+        "PageFaults": 3477891
+    },
+    "Running Process 92": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5184,
+        "PageFaults": 65161
+    },
+    "Running Process 93": {
+        "ProcessName": "WavesSysSvc64.exe",
+        "ProcessId": 5212,
+        "PageFaults": 27432
+    },
+    "Running Process 94": {
+        "ProcessName": "ZeroConfigService.exe",
+        "ProcessId": 5232,
+        "PageFaults": 71985
+    },
+    "Running Process 95": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5404,
+        "PageFaults": 25508
+    },
+    "Running Process 96": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5472,
+        "PageFaults": 18662
+    },
+    "Running Process 97": {
+        "ProcessName": "mysqld.exe",
+        "ProcessId": 5588,
+        "PageFaults": 178248
+    },
+    "Running Process 98": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 5636,
+        "PageFaults": 4068
+    },
+    "Running Process 99": {
+        "ProcessName": "WUDFHost.exe",
+        "ProcessId": 5720,
+        "PageFaults": 2663
+    },
+    "Running Process 100": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 5816,
+        "PageFaults": 7931
+    },
+    "Running Process 101": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5932,
+        "PageFaults": 39118
+    },
+    "Running Process 102": {
+        "ProcessName": "WmiPrvSE.exe",
+        "ProcessId": 5940,
+        "PageFaults": 6152900
+    },
+    "Running Process 103": {
+        "ProcessName": "SRManager.exe",
+        "ProcessId": 6076,
+        "PageFaults": 1419590
+    },
+    "Running Process 104": {
+        "ProcessName": "IntelCpHeciSvc.exe",
+        "ProcessId": 6252,
+        "PageFaults": 12067
+    },
+    "Running Process 105": {
+        "ProcessName": "unsecapp.exe",
+        "ProcessId": 6476,
+        "PageFaults": 39967
+    },
+    "Running Process 106": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 6576,
+        "PageFaults": 33531
+    },
+    "Running Process 107": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 6600,
+        "PageFaults": 42204
+    },
+    "Running Process 108": {
+        "ProcessName": "vmcompute.exe",
+        "ProcessId": 6860,
+        "PageFaults": 22586
+    },
+    "Running Process 109": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5004,
+        "PageFaults": 43075
+    },
+    "Running Process 110": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2792,
+        "PageFaults": 20031
+    },
+    "Running Process 111": {
+        "ProcessName": "WmiPrvSE.exe",
+        "ProcessId": 7520,
+        "PageFaults": 1167150
+    },
+    "Running Process 112": {
+        "ProcessName": "SearchIndexer.exe",
+        "ProcessId": 7676,
+        "PageFaults": 470425
+    },
+    "Running Process 113": {
+        "ProcessName": "NisSrv.exe",
+        "ProcessId": 8068,
+        "PageFaults": 101501
+    },
+    "Running Process 114": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 8140,
+        "PageFaults": 27982
+    },
+    "Running Process 115": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 8436,
+        "PageFaults": 103793
+    },
+    "Running Process 116": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 8692,
+        "PageFaults": 37239
+    },
+    "Running Process 117": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 8800,
+        "PageFaults": 84542
+    },
+    "Running Process 118": {
+        "ProcessName": "AEMAgent.exe",
+        "ProcessId": 8412,
+        "PageFaults": 1946
+    },
+    "Running Process 119": {
+        "ProcessName": "AEMAgent.exe",
+        "ProcessId": 8500,
+        "PageFaults": 588925
+    },
+    "Running Process 120": {
+        "ProcessName": "aria2c.exe",
+        "ProcessId": 4856,
+        "PageFaults": 4908
+    },
+    "Running Process 121": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 9124,
+        "PageFaults": 92829
+    },
+    "Running Process 122": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 9352,
+        "PageFaults": 21349
+    },
+    "Running Process 123": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 9584,
+        "PageFaults": 108981
+    },
+    "Running Process 124": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 10152,
+        "PageFaults": 54155
+    },
+    "Running Process 125": {
+        "ProcessName": "GoogleCrashHandler.exe",
+        "ProcessId": 7652,
+        "PageFaults": 7193
+    },
+    "Running Process 126": {
+        "ProcessName": "GoogleCrashHandler64.exe",
+        "ProcessId": 7712,
+        "PageFaults": 3295
+    },
+    "Running Process 127": {
+        "ProcessName": "SecurityHealthService.exe",
+        "ProcessId": 12500,
+        "PageFaults": 30379
+    },
+    "Running Process 128": {
+        "ProcessName": "WmiPrvSE.exe",
+        "ProcessId": 1292,
+        "PageFaults": 290522
+    },
+    "Running Process 129": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 11908,
+        "PageFaults": 62759
+    },
+    "Running Process 130": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 11508,
+        "PageFaults": 45205
+    },
+    "Running Process 131": {
+        "ProcessName": "DDVRulesProcessor.exe",
+        "ProcessId": 2648,
+        "PageFaults": 54838
+    },
+    "Running Process 132": {
+        "ProcessName": "Dell.D3.WinSvc.exe",
+        "ProcessId": 5676,
+        "PageFaults": 1589352
+    },
+    "Running Process 133": {
+        "ProcessName": "DSAPI.exe",
+        "ProcessId": 5428,
+        "PageFaults": 192416
+    },
+    "Running Process 134": {
+        "ProcessName": "pcdrwi.exe",
+        "ProcessId": 14076,
+        "PageFaults": 362504
+    },
+    "Running Process 135": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 5528,
+        "PageFaults": 4642
+    },
+    "Running Process 136": {
+        "ProcessName": "ServiceShell.exe",
+        "ProcessId": 13876,
+        "PageFaults": 150648
+    },
+    "Running Process 137": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 13908,
+        "PageFaults": 66284
+    },
+    "Running Process 138": {
+        "ProcessName": "dllhost.exe",
+        "ProcessId": 13396,
+        "PageFaults": 22512
+    },
+    "Running Process 139": {
+        "ProcessName": "msdtc.exe",
+        "ProcessId": 8520,
+        "PageFaults": 15267
+    },
+    "Running Process 140": {
+        "ProcessName": "IAStorDataMgrSvc.exe",
+        "ProcessId": 10720,
+        "PageFaults": 154039
+    },
+    "Running Process 141": {
+        "ProcessName": "jhi_service.exe",
+        "ProcessId": 12776,
+        "PageFaults": 11410
+    },
+    "Running Process 142": {
+        "ProcessName": "LMS.exe",
+        "ProcessId": 5260,
+        "PageFaults": 106545
+    },
+    "Running Process 143": {
+        "ProcessName": "SgrmBroker.exe",
+        "ProcessId": 7824,
+        "PageFaults": 54753
+    },
+    "Running Process 144": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 13648,
+        "PageFaults": 164266
+    },
+    "Running Process 145": {
+        "ProcessName": "SupportAssistAgent.exe",
+        "ProcessId": 8492,
+        "PageFaults": 664000
+    },
+    "Running Process 146": {
+        "ProcessName": "DDVDataCollector.exe",
+        "ProcessId": 8828,
+        "PageFaults": 90734
+    },
+    "Running Process 147": {
+        "ProcessName": "DDVCollectorSvcApi.exe",
+        "ProcessId": 9212,
+        "PageFaults": 12170
+    },
+    "Running Process 148": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 6620,
+        "PageFaults": 40128
+    },
+    "Running Process 149": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 8172,
+        "PageFaults": 74058
+    },
+    "Running Process 150": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 8168,
+        "PageFaults": 25823
+    },
+    "Running Process 151": {
+        "ProcessName": "dasHost.exe",
+        "ProcessId": 13088,
+        "PageFaults": 1314
+    },
+    "Running Process 152": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 9764,
+        "PageFaults": 65833
+    },
+    "Running Process 153": {
+        "ProcessName": "csrss.exe",
+        "ProcessId": 8284,
+        "PageFaults": 397437
+    },
+    "Running Process 154": {
+        "ProcessName": "winlogon.exe",
+        "ProcessId": 4352,
+        "PageFaults": 48150
+    },
+    "Running Process 155": {
+        "ProcessName": "fontdrvhost.exe",
+        "ProcessId": 1748,
+        "PageFaults": 11736
+    },
+    "Running Process 156": {
+        "ProcessName": "dwm.exe",
+        "ProcessId": 13428,
+        "PageFaults": 967228
+    },
+    "Running Process 157": {
+        "ProcessName": "winvnc.exe",
+        "ProcessId": 13684,
+        "PageFaults": 6269714
+    },
+    "Running Process 158": {
+        "ProcessName": "RAVBg64.exe",
+        "ProcessId": 5084,
+        "PageFaults": 16019
+    },
+    "Running Process 159": {
+        "ProcessName": "RAVBg64.exe",
+        "ProcessId": 9332,
+        "PageFaults": 16715
+    },
+    "Running Process 160": {
+        "ProcessName": "unsecapp.exe",
+        "ProcessId": 10100,
+        "PageFaults": 30518
+    },
+    "Running Process 161": {
+        "ProcessName": "dptf_helper.exe",
+        "ProcessId": 12620,
+        "PageFaults": 2936
+    },
+    "Running Process 162": {
+        "ProcessName": "sihost.exe",
+        "ProcessId": 9524,
+        "PageFaults": 131730
+    },
+    "Running Process 163": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5344,
+        "PageFaults": 160854
+    },
+    "Running Process 164": {
+        "ProcessName": "Apoint.exe",
+        "ProcessId": 1320,
+        "PageFaults": 6757
+    },
+    "Running Process 165": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 6004,
+        "PageFaults": 18934
+    },
+    "Running Process 166": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 12692,
+        "PageFaults": 149564
+    },
+    "Running Process 167": {
+        "ProcessName": "SRFeature.exe",
+        "ProcessId": 14192,
+        "PageFaults": 6091
+    },
+    "Running Process 168": {
+        "ProcessName": "taskhostw.exe",
+        "ProcessId": 8264,
+        "PageFaults": 52451
+    },
+    "Running Process 169": {
+        "ProcessName": "igfxEM.exe",
+        "ProcessId": 8608,
+        "PageFaults": 63661
+    },
+    "Running Process 170": {
+        "ProcessName": "explorer.exe",
+        "ProcessId": 6632,
+        "PageFaults": 1188367
+    },
+    "Running Process 171": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 2996,
+        "PageFaults": 122616
+    },
+    "Running Process 172": {
+        "ProcessName": "ApMsgFwd.exe",
+        "ProcessId": 13508,
+        "PageFaults": 2589
+    },
+    "Running Process 173": {
+        "ProcessName": "ApRemote.exe",
+        "ProcessId": 9540,
+        "PageFaults": 1157
+    },
+    "Running Process 174": {
+        "ProcessName": "hidfind.exe",
+        "ProcessId": 10264,
+        "PageFaults": 3367
+    },
+    "Running Process 175": {
+        "ProcessName": "ApntEx.exe",
+        "ProcessId": 2816,
+        "PageFaults": 3665
+    },
+    "Running Process 176": {
+        "ProcessName": "SRServer.exe",
+        "ProcessId": 5444,
+        "PageFaults": 7404
+    },
+    "Running Process 177": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 4940,
+        "PageFaults": 4483
+    },
+    "Running Process 178": {
+        "ProcessName": "StartMenuExperienceHost.exe",
+        "ProcessId": 6028,
+        "PageFaults": 283644
+    },
+    "Running Process 179": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 11412,
+        "PageFaults": 93806
+    },
+    "Running Process 180": {
+        "ProcessName": "SearchUI.exe",
+        "ProcessId": 13124,
+        "PageFaults": 481529
+    },
+    "Running Process 181": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 7844,
+        "PageFaults": 117864
+    },
+    "Running Process 182": {
+        "ProcessName": "SkypeBackgroundHost.exe",
+        "ProcessId": 3224,
+        "PageFaults": 5009
+    },
+    "Running Process 183": {
+        "ProcessName": "YourPhone.exe",
+        "ProcessId": 12228,
+        "PageFaults": 33434
+    },
+    "Running Process 184": {
+        "ProcessName": "ctfmon.exe",
+        "ProcessId": 6516,
+        "PageFaults": 80992
+    },
+    "Running Process 185": {
+        "ProcessName": "SkypeApp.exe",
+        "ProcessId": 11372,
+        "PageFaults": 23108
+    },
+    "Running Process 186": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 11380,
+        "PageFaults": 52903
+    },
+    "Running Process 187": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 9644,
+        "PageFaults": 38191
+    },
+    "Running Process 188": {
+        "ProcessName": "backgroundTaskHost.exe",
+        "ProcessId": 13220,
+        "PageFaults": 62395
+    },
+    "Running Process 189": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 13256,
+        "PageFaults": 23574
+    },
+    "Running Process 190": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 988,
+        "PageFaults": 30055
+    },
+    "Running Process 191": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 11008,
+        "PageFaults": 37614
+    },
+    "Running Process 192": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 8668,
+        "PageFaults": 35250
+    },
+    "Running Process 193": {
+        "ProcessName": "SupportAssistAppWire.exe",
+        "ProcessId": 13332,
+        "PageFaults": 44459
+    },
+    "Running Process 194": {
+        "ProcessName": "SecurityHealthSystray.exe",
+        "ProcessId": 3620,
+        "PageFaults": 3564
+    },
+    "Running Process 195": {
+        "ProcessName": "RtkNGUI64.exe",
+        "ProcessId": 13340,
+        "PageFaults": 18739
+    },
+    "Running Process 196": {
+        "ProcessName": "RAVBg64.exe",
+        "ProcessId": 13724,
+        "PageFaults": 16855
+    },
+    "Running Process 197": {
+        "ProcessName": "WavesSvc64.exe",
+        "ProcessId": 5968,
+        "PageFaults": 51404
+    },
+    "Running Process 198": {
+        "ProcessName": "OneDrive.exe",
+        "ProcessId": 2384,
+        "PageFaults": 115960
+    },
+    "Running Process 199": {
+        "ProcessName": "Gui.exe",
+        "ProcessId": 12260,
+        "PageFaults": 92030
+    },
+    "Running Process 200": {
+        "ProcessName": "ApplicationFrameHost.exe",
+        "ProcessId": 3428,
+        "PageFaults": 30692
+    },
+    "Running Process 201": {
+        "ProcessName": "HxOutlook.exe",
+        "ProcessId": 5548,
+        "PageFaults": 35359
+    },
+    "Running Process 202": {
+        "ProcessName": "HxTsr.exe",
+        "ProcessId": 10860,
+        "PageFaults": 78520
+    },
+    "Running Process 203": {
+        "ProcessName": "jusched.exe",
+        "ProcessId": 13488,
+        "PageFaults": 2201
+    },
+    "Running Process 204": {
+        "ProcessName": "SystemSettings.exe",
+        "ProcessId": 1028,
+        "PageFaults": 36589
+    },
+    "Running Process 205": {
+        "ProcessName": "ShellExperienceHost.exe",
+        "ProcessId": 2768,
+        "PageFaults": 134019
+    },
+    "Running Process 206": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 8076,
+        "PageFaults": 43822
+    },
+    "Running Process 207": {
+        "ProcessName": "WinStore.App.exe",
+        "ProcessId": 10468,
+        "PageFaults": 44011
+    },
+    "Running Process 208": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 3872,
+        "PageFaults": 45827
+    },
+    "Running Process 209": {
+        "ProcessName": "IAStorIcon.exe",
+        "ProcessId": 9568,
+        "PageFaults": 24394
+    },
+    "Running Process 210": {
+        "ProcessName": "SystemSettingsBroker.exe",
+        "ProcessId": 14828,
+        "PageFaults": 72677
+    },
+    "Running Process 211": {
+        "ProcessName": "SupportAssistAppWire.exe",
+        "ProcessId": 4664,
+        "PageFaults": 44634
+    },
+    "Running Process 212": {
+        "ProcessName": "PrivacyIconClient.exe",
+        "ProcessId": 11216,
+        "PageFaults": 919529
+    },
+    "Running Process 213": {
+        "ProcessName": "dllhost.exe",
+        "ProcessId": 9896,
+        "PageFaults": 23210
+    },
+    "Running Process 214": {
+        "ProcessName": "WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe",
+        "ProcessId": 14972,
+        "PageFaults": 112903
+    },
+    "Running Process 215": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 14332,
+        "PageFaults": 3942
+    },
+    "Running Process 216": {
+        "ProcessName": "ssh-agent.exe",
+        "ProcessId": 9264,
+        "PageFaults": 1462
+    },
+    "Running Process 217": {
+        "ProcessName": "ssh-agent.exe",
+        "ProcessId": 6852,
+        "PageFaults": 1460
+    },
+    "Running Process 218": {
+        "ProcessName": "ssh-agent.exe",
+        "ProcessId": 6348,
+        "PageFaults": 1364
+    },
+    "Running Process 219": {
+        "ProcessName": "idea64.exe",
+        "ProcessId": 9832,
+        "PageFaults": 10451860
+    },
+    "Running Process 220": {
+        "ProcessName": "fsnotifier64.exe",
+        "ProcessId": 3800,
+        "PageFaults": 880
+    },
+    "Running Process 221": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 10048,
+        "PageFaults": 2928
+    },
+    "Running Process 222": {
+        "ProcessName": "winpty-agent.exe",
+        "ProcessId": 14148,
+        "PageFaults": 2265
+    },
+    "Running Process 223": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 2268,
+        "PageFaults": 9099
+    },
+    "Running Process 224": {
+        "ProcessName": "powershell.exe",
+        "ProcessId": 14692,
+        "PageFaults": 38421
+    },
+    "Running Process 225": {
+        "ProcessName": "vmwp.exe",
+        "ProcessId": 4528,
+        "PageFaults": 58607
+    },
+    "Running Process 226": {
+        "ProcessName": "vmmem",
+        "ProcessId": 10748,
+        "PageFaults": 5
+    },
+    "Running Process 227": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 7272,
+        "PageFaults": 3566970
+    },
+    "Running Process 228": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 12212,
+        "PageFaults": 14287
+    },
+    "Running Process 229": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 15112,
+        "PageFaults": 3793
+    },
+    "Running Process 230": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 1340,
+        "PageFaults": 4342455
+    },
+    "Running Process 231": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 2748,
+        "PageFaults": 313794
+    },
+    "Running Process 232": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 15148,
+        "PageFaults": 1503905
+    },
+    "Running Process 233": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 7876,
+        "PageFaults": 4649059
+    },
+    "Running Process 234": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 13100,
+        "PageFaults": 36208
+    },
+    "Running Process 235": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 14180,
+        "PageFaults": 419022
+    },
+    "Running Process 236": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 9240,
+        "PageFaults": 43546
+    },
+    "Running Process 237": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 2676,
+        "PageFaults": 142241
+    },
+    "Running Process 238": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 1428,
+        "PageFaults": 55335
+    },
+    "Running Process 239": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 13264,
+        "PageFaults": 238250
+    },
+    "Running Process 240": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 4972,
+        "PageFaults": 577358
+    },
+    "Running Process 241": {
+        "ProcessName": "SupportAssistAppWire.exe",
+        "ProcessId": 13700,
+        "PageFaults": 41973
+    },
+    "Running Process 242": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 6804,
+        "PageFaults": 140489
+    },
+    "Running Process 243": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 15008,
+        "PageFaults": 42116
+    },
+    "Running Process 244": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 14720,
+        "PageFaults": 56874
+    },
+    "Running Process 245": {
+        "ProcessName": "LockApp.exe",
+        "ProcessId": 12612,
+        "PageFaults": 19218
+    },
+    "Running Process 246": {
+        "ProcessName": "RuntimeBroker.exe",
+        "ProcessId": 4736,
+        "PageFaults": 68466
+    },
+    "Running Process 247": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 15000,
+        "PageFaults": 20666
+    },
+    "Running Process 248": {
+        "ProcessName": "SettingSyncHost.exe",
+        "ProcessId": 4716,
+        "PageFaults": 22172
+    },
+    "Running Process 249": {
+        "ProcessName": "SRAgent.exe",
+        "ProcessId": 268,
+        "PageFaults": 6227
+    },
+    "Running Process 250": {
+        "ProcessName": "java.exe",
+        "ProcessId": 16156,
+        "PageFaults": 140024
+    },
+    "Running Process 251": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 14324,
+        "PageFaults": 3802
+    },
+    "Running Process 252": {
+        "ProcessName": "java.exe",
+        "ProcessId": 7364,
+        "PageFaults": 55990
+    },
+    "Running Process 253": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 10612,
+        "PageFaults": 2908
+    },
+    "Running Process 254": {
+        "ProcessName": "notepad++.exe",
+        "ProcessId": 3524,
+        "PageFaults": 13985
+    },
+    "Running Process 255": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 14532,
+        "PageFaults": 95685
+    },
+    "Running Process 256": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 12232,
+        "PageFaults": 166513
+    },
+    "Running Process 257": {
+        "ProcessName": "svchost.exe",
+        "ProcessId": 5156,
+        "PageFaults": 6674
+    },
+    "Running Process 258": {
+        "ProcessName": "SearchProtocolHost.exe",
+        "ProcessId": 4412,
+        "PageFaults": 38935
+    },
+    "Running Process 259": {
+        "ProcessName": "chrome.exe",
+        "ProcessId": 3908,
+        "PageFaults": 47724
+    },
+    "Running Process 260": {
+        "ProcessName": "SearchFilterHost.exe",
+        "ProcessId": 14068,
+        "PageFaults": 1847
+    },
+    "Running Process 261": {
+        "ProcessName": "TrustedInstaller.exe",
+        "ProcessId": 9720,
+        "PageFaults": 1906
+    },
+    "Running Process 262": {
+        "ProcessName": "TiWorker.exe",
+        "ProcessId": 14108,
+        "PageFaults": 3495
+    },
+    "Running Process 263": {
+        "ProcessName": "msiexec.exe",
+        "ProcessId": 14876,
+        "PageFaults": 2943
+    },
+    "Running Process 264": {
+        "ProcessName": "python.exe",
+        "ProcessId": 13356,
+        "PageFaults": 3317
+    },
+    "Running Process 265": {
+        "ProcessName": "conhost.exe",
+        "ProcessId": 11684,
+        "PageFaults": 2855
+    },
+    "Running Process 266": {
+        "ProcessName": "powershell.exe",
+        "ProcessId": 2536,
+        "PageFaults": 18077
+    }
+}{
+    "Start Up Program 1": {
+        "Description": "OneDrive",
+        "Location": "HKU\\S-1-5-21-4265665752-186288691-2126294735-3162\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "User": "SIDERO\\jquinn"
+    },
+    "Start Up Program 2": {
+        "Description": "SecurityHealth",
+        "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "User": "Public"
+    },
+    "Start Up Program 3": {
+        "Description": "IAStorIcon",
+        "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "User": "Public"
+    },
+    "Start Up Program 4": {
+        "Description": "RTHDVCPL",
+        "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "User": "Public"
+    },
+    "Start Up Program 5": {
+        "Description": "RtHDVBg_PushButton",
+        "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "User": "Public"
+    },
+    "Start Up Program 6": {
+        "Description": "WavesSvc",
+        "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+        "User": "Public"
+    }
+}{
+    "Environmental Variable 1": {
+        "Name": "ComSpec",
+        "VariableValue": "%SystemRoot%\\system32\\cmd.exe"
+    },
+    "Environmental Variable 2": {
+        "Name": "DriverData",
+        "VariableValue": "C:\\Windows\\System32\\Drivers\\DriverData"
+    },
+    "Environmental Variable 3": {
+        "Name": "OS",
+        "VariableValue": "Windows_NT"
+    },
+    "Environmental Variable 4": {
+        "Name": "PATHEXT",
+        "VariableValue": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+    },
+    "Environmental Variable 5": {
+        "Name": "PROCESSOR_ARCHITECTURE",
+        "VariableValue": "AMD64"
+    },
+    "Environmental Variable 6": {
+        "Name": "PSModulePath",
+        "VariableValue": "%ProgramFiles%\\WindowsPowerShell\\Modules;%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\Modules"
+    },
+    "Environmental Variable 7": {
+        "Name": "TEMP",
+        "VariableValue": "%SystemRoot%\\TEMP"
+    },
+    "Environmental Variable 8": {
+        "Name": "TMP",
+        "VariableValue": "%SystemRoot%\\TEMP"
+    },
+    "Environmental Variable 9": {
+        "Name": "USERNAME",
+        "VariableValue": "SYSTEM"
+    },
+    "Environmental Variable 10": {
+        "Name": "windir",
+        "VariableValue": "%SystemRoot%"
+    },
+    "Environmental Variable 11": {
+        "Name": "JAVA_HOME",
+        "VariableValue": "C:\\Program Files\\Java\\jdk1.8.0_211"
+    },
+    "Environmental Variable 12": {
+        "Name": "M2_HOME",
+        "VariableValue": "C:\\Program Files\\Maven\\apache-maven-3.3.9"
+    },
+    "Environmental Variable 13": {
+        "Name": "Path",
+        "VariableValue": "C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;%SYSTEMROOT%\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;%JAVA_HOME%\\bin;%M2_HOME%\\bin;%PHANTOMJS_HOME%\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\"
+    },
+    "Environmental Variable 14": {
+        "Name": "PHANTOMJS_HOME",
+        "VariableValue": "C:\\Program Files\\phantomjs-2.1.1"
+    },
+    "Environmental Variable 15": {
+        "Name": "ChocolateyInstall",
+        "VariableValue": "C:\\ProgramData\\chocolatey"
+    },
+    "Environmental Variable 16": {
+        "Name": "NUMBER_OF_PROCESSORS",
+        "VariableValue": "8"
+    },
+    "Environmental Variable 17": {
+        "Name": "PROCESSOR_LEVEL",
+        "VariableValue": "6"
+    },
+    "Environmental Variable 18": {
+        "Name": "PROCESSOR_IDENTIFIER",
+        "VariableValue": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"
+    },
+    "Environmental Variable 19": {
+        "Name": "PROCESSOR_REVISION",
+        "VariableValue": "8e0a"
+    },
+    "Environmental Variable 20": {
+        "Name": "Path",
+        "VariableValue": "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;"
+    },
+    "Environmental Variable 21": {
+        "Name": "TEMP",
+        "VariableValue": "%USERPROFILE%\\AppData\\Local\\Temp"
+    },
+    "Environmental Variable 22": {
+        "Name": "TMP",
+        "VariableValue": "%USERPROFILE%\\AppData\\Local\\Temp"
+    },
+    "Environmental Variable 23": {
+        "Name": "TEMP",
+        "VariableValue": "%USERPROFILE%\\AppData\\Local\\Temp"
+    },
+    "Environmental Variable 24": {
+        "Name": "TMP",
+        "VariableValue": "%USERPROFILE%\\AppData\\Local\\Temp"
+    },
+    "Environmental Variable 25": {
+        "Name": "OneDrive",
+        "VariableValue": "C:\\Users\\jquinn\\OneDrive"
+    },
+    "Environmental Variable 26": {
+        "Name": "Path",
+        "VariableValue": "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\jquinn\\AppData\\Roaming\\npm;"
+    },
+    "Environmental Variable 27": {
+        "Name": "ChocolateyLastPathUpdate",
+        "VariableValue": "132047328408902239"
+    }
+}

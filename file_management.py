@@ -1,11 +1,14 @@
 from datetime import datetime
 import platform
+import json
 
 if platform.system() == 'Windows':
     os_in_use = 'Windows'
 elif platform.system() == 'Linux':
     os_in_use = 'Linux'
 
+def djs(dictionary_object):
+    return json.dumps(dictionary_object, indent=4)
 
 def write_to_file(file_name, items):
     """Write items from a list to a specified file if the items do not already exist in the file.
@@ -25,8 +28,7 @@ def write_to_file(file_name, items):
 
     f.write(f'{os_in_use} System Inventory List: ' + date + '\n\n')
 
-    for inventory_tuple in items:
-        for item in inventory_tuple:
-            f.write(item)
+    for item in items:
+        f.write(djs(item))
     f.close()
 
