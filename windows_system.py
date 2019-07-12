@@ -1,6 +1,7 @@
+import datetime
 import subprocess
 import directory_management as dm
-from file_management import write_to_file as wf
+from file_management import *
 import shutil
 import re
 import json
@@ -230,7 +231,9 @@ def env_vars(cmd):
 def windows_inventory_list():
     psgwmi = 'powershell.exe Get-WmiObject -class '
     json_list = []
+    json_dict = {}
 
+    json_list.append(time_stamp())
     json_list.append(dict({'Ports': ports()}))
     # json_list.append(general_sysinfo())
     json_list.append(dict({'Processor Details': processor_details(psgwmi)}))
@@ -246,16 +249,16 @@ def windows_inventory_list():
     json_list.append(dict({'Environmental Variables': env_vars(psgwmi)}))
 
     for item in json_list:
-        print(deserialize_json(item))
-
-    write_json_file("windows_scrape.json", json_dict)
-    write_file(json_list)
+        json_dict.update(item)
 
 
-def write_file(json_list):
+    write_file(json_dict)
+
+
+def write_file(json_dict):
 
     dir_name = 'Windows_System_Inventory'
-    file_name = 'Windows_Inventory_Sweep'
+    file_name = 'Windows_Inventory_Sweep.json'
     main_dir_name = 'Inventory_store'
 
     # Create unique directory name and create directory.
@@ -263,16 +266,10 @@ def write_file(json_list):
     dm.create_directory(directory)
     dm.create_directory(main_dir_name)
 
-    wf(file_name, json_list)
+    write_json_file(file_name, json_dict)
 
     shutil.move(file_name, directory)
     shutil.move(directory, main_dir_name)
-
-
-def write_json_file(filename, json_dict):
-
-    with open(filename, 'w') as f:
-        json.dump(json_dict, f)
 
 
 def main():
