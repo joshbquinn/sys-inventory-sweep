@@ -142,7 +142,7 @@ def collect_inventory():
     inventory_dict.update(mounted_drives())
     inventory_dict.update(environment_vars())
 
-    return inventory_dict
+    return inventory_dict.setdefault("Windows Sweep")
 
 
 def main():

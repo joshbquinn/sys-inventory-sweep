@@ -1,10 +1,12 @@
 from datetime import datetime
 import json
 
+
 def time_stamp():
     now = datetime.now()
     date = now.strftime("%d.%m.%Y %Hhr.%Mm.%Ss")
     return dict({'Date': date})
+
 
 def write_json_file(filename, json_dict):
     """Write items from a list to a specified file if the items do not already exist in the file.

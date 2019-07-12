@@ -6,7 +6,7 @@ import shutil
 import re
 import json
 import pprint
-
+from dict_factory import *
 
 def windows_cli(cmd, arguments):
     try:
@@ -69,10 +69,7 @@ def ports():
 
 def general_sysinfo():
     general_sysinfo = windows_cli('powershell.exe systeminfo', ' | ConvertTo-JSON')
-
-    print(general_sysinfo)
-
-    return do_json(general_sysinfo, 'Sys')
+    return multiple_column_dict('System Info', clean_list(general_sysinfo))
 
 
 def processor_details(cmd):
@@ -230,29 +227,24 @@ def env_vars(cmd):
 
 def windows_inventory_list():
     psgwmi = 'powershell.exe Get-WmiObject -class '
-    json_list = []
-    json_dict = {}
+    inventory_dict = {}
 
-    json_list.append(time_stamp())
-    json_list.append(dict({'Ports': ports()}))
-    # json_list.append(general_sysinfo())
-    json_list.append(dict({'Processor Details': processor_details(psgwmi)}))
-    json_list.append(dict({'Physical Mem': physical_memory(psgwmi)}))
-    json_list.append(dict({'HDD': hdd_details(psgwmi)}))
-    json_list.append(dict({'Sound Card': sound_card_details(psgwmi)}))
-    json_list.append(dict({'Network Adapters': network_adapter_details(psgwmi)}))
-    json_list.append(dict({'Installed Software': installed_software(psgwmi)}))
-    json_list.append(dict({'OS': os_version(psgwmi)}))
-    json_list.append(dict({'Drivers': driver_details(psgwmi)}))
-    json_list.append(dict({'Running Processes': running_processes(psgwmi)}))
-    json_list.append(dict({'Startup Programs': startup_programs(psgwmi)}))
-    json_list.append(dict({'Environmental Variables': env_vars(psgwmi)}))
+    inventory_dict.update(time_stamp())
+    inventory_dict.update(dict({'Ports': ports()}))
+    inventory_dict.update(dict({'Sys':general_sysinfo()}))
+    inventory_dict.update(dict({'Processor Details': processor_details(psgwmi)}))
+    inventory_dict.update(dict({'Physical Mem': physical_memory(psgwmi)}))
+    inventory_dict.update(dict({'HDD': hdd_details(psgwmi)}))
+    inventory_dict.update(dict({'Sound Card': sound_card_details(psgwmi)}))
+    inventory_dict.update(dict({'Network Adapters': network_adapter_details(psgwmi)}))
+    inventory_dict.update(dict({'Installed Software': installed_software(psgwmi)}))
+    inventory_dict.update(dict({'OS': os_version(psgwmi)}))
+    inventory_dict.update(dict({'Drivers': driver_details(psgwmi)}))
+    inventory_dict.update(dict({'Running Processes': running_processes(psgwmi)}))
+    inventory_dict.update(dict({'Startup Programs': startup_programs(psgwmi)}))
+    inventory_dict.update(dict({'Environmental Variables': env_vars(psgwmi)}))
 
-    for item in json_list:
-        json_dict.update(item)
-
-
-    write_file(json_dict)
+    write_file(inventory_dict)
 
 
 def write_file(json_dict):
