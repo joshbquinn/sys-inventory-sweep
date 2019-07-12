@@ -1,15 +1,20 @@
 from collections import namedtuple
 from directory_management import *
-from file_management import write_to_file as wf
+from file_management import *
 import shutil
 import subprocess
 import re
-import json
+import os
+from dict_factory import *
+from json_management import *
+from datetime import datetime
 
-full_inventory_list = []
+
+inv = []
 
 
-def linux_command(search_title, cmd):
+
+def bash(cmd):
     try:
         process = subprocess.Popen(cmd,
                                    stdout=subprocess.PIPE,
@@ -18,110 +23,66 @@ def linux_command(search_title, cmd):
                                    universal_newlines=True)
 
         outs, errs = process.communicate()
-        success = search_title + '\n', outs, '\n\n'
 
     except SystemError:
         print(errs)
         raise SystemError
 
-    return list(success)
+    return outs
 
 
-def clean_list(a_list):
-    delimiters = "\n", ":"
-    regex_pattern = '|'.join(map(re.escape, delimiters))
-    a_string = re.split(regex_pattern, str(a_list))
-    return list(a_string)
+def test():
+    lscpu = bash('lscpu')
+    clean = clean_list(lscpu)
+    print(deserialize_json(two_column_dict(clean, 'CPU')))
 
-
-def make_dict(a_list, category_name):
-
-    a_dict = {}
-    i = 1
-
-    if isinstance(a_list, dict):
-        a_dict[category_name] = a_list
-        return a_dict
-    else:
-        for item in a_list:
-            a_dict[(category_name + str(i))] = item
-            i += 1
-        return a_dict
-
-
-def serialize_json(list_object):
-    return json.loads(list_object)
-
-
-def deserialize_json(dictionary_object):
-    return json.dumps(dictionary_object, indent=4)
-
-
-def do_json(inventory_string, inventory_cat):
-    return make_dict(serialize_json(inventory_string), inventory_cat)
-
+    lsblk = bash('lsblk')
+    d = multiple_column_dict(lsblk, 'Block Devices {}')
+    print(deserialize_json(d))
 
 
 def hardware_inventory():
     # Shows information like number of CPUs, cores, threads and more - -J for json output
-    full_inventory_list.append(
-        linux_command('Number of CPUs, cores, threads and more: \n', 'lscpu'))
+    inv.append(two_column_dict('CPU', clean_list(bash('lscpu'))))
 
-    # List a general hardward data -json option for json output
-    full_inventory_list.append(
-        linux_command('General hardware data: \n', 'lshw'))
-
-    # Buffer size
-    full_inventory_list.append(
-        linux_command('Buffer Size: \n', 'cat /proc/meminfo | grep Buffers'))
-
-    # All mem info
-    full_inventory_list.append(
-        linux_command('Memory Information: \n', 'cat /proc/meminfo'))
+    inv.append(two_column_dict('Memory', clean_list(bash('cat /proc/meminfo'))))
 
     # Produces information about all block devices, such as hard disks, DVD readers and more
-    full_inventory_list.append(
-        linux_command('Block Devices: \n', 'lsblk'))
+    inv.append(dict({'Block Devices': multiple_column_dict('Block Device {}', bash('lsblk'))}))
 
     # Provides information on all SCSI devices or hosts attached to your box, such as hard
     # disk drives or optical drives.
-    full_inventory_list.append(
-        linux_command('SCSI devices/ hosts attached to machine: \n ',
-                      'lsblk --scsi'))
+    inv.append(dict({'SCSI Devices': multiple_column_dict('SCSI Device {}', (bash('lsblk --scsi')))}))
 
     # Displays information about PCI buses in your box and devices connected to them,
     # such as graphics cards, network adapters and more.
-    full_inventory_list.append(
-        linux_command('PCI buses:'
-                          'such as graphics cards, network adapters etc: \n', 'lspci'))
+    inv.append(dict({'PCI Buses': multiple_column_dict('PCI Bus {}', (bash('lspci')))}))
+
 
     # USB busses and current connections information
-    full_inventory_list.append(
-        linux_command('USB buses: \n', 'lsusb'))
-
     # Display only real disk partitions
-    full_inventory_list.append(
-        linux_command('Real disk partitions: \n',
-                      'df -h --output=source,fstype,size,used,avail,pcent,target -x tmpfs -x devtmpfs'))
+    inv.append(dict({'Real Disk Partitions': multiple_column_dict('Real Disk Partition {}',
+                               bash('df -h --output=source,fstype,size,used,avail,pcent,target -x tmpfs -x devtmpfs'))}))
 
-    # Show hardware interrupts
-    full_inventory_list.append(
-        linux_command('Show hardware interrupts: \n', 'cat /proc/interrupts'))
+    # TODO
+    #inv.append(bash('lshw'))
+    # TODO
+    #inv.append(bash('Show hardware interrupts: \n', 'cat /proc/interrupts'))
 
 
 def network_info():
 
-    full_inventory_list.append(
-        linux_command('Network devices with statistics: \n', 'cat /proc/net/dev'))
+    # Network devices with statistics
+    inv.append(
+        bash('cat /proc/net/dev'))
 
-    full_inventory_list.append(
-        linux_command('The Layer2 multicast groups which a device is listening '
-                      'to (interface index, label, number of references, '
-                      'number of bound addresses). \n', ' cat /proc/net/dev_mcast'))
+    # Interface index, label, number of references, number of bound addresses
+    inv.append(
+        bash(' cat /proc/net/dev_mcast'))
 
     netdevs = netdev()
     for dev in netdevs.keys():
-        full_inventory_list.append('RX and TX bytes for each of the network devices: \n'
+        inv.append('RX and TX bytes for each of the network devices: \n'
             '{0}: {1} MiB {2} MiB'.format(dev, netdevs[dev].rx, netdevs[dev].tx) + '\n \n')
 
 
@@ -144,56 +105,43 @@ def netdev():
 
 def software_inventory():
     # Modules
-    full_inventory_list.append(
-        linux_command('List of modules: \n', 'lsmod'))
+    inv.append(dict({'Modules': multiple_column_dict('Module {}', bash('lsmod'))}))
 
     # List of installed packages
-    full_inventory_list.append(
-        linux_command('List of installed packages: \n', 'dpkg --get-selections'))
+    inv.append(dict({'Packages': multiple_column_dict('Installed Package {}', (bash('dpkg --get-selections')))}))
 
 
 def os_version():
-    full_inventory_list.append(
-        linux_command('OS Version: \n', 'cat /proc/version'))
+    inv.append(dict({'OS Version': bash('cat /proc/version')}))
+
 
 
 def process_list():
 
     # Number of running services
-    pids = []
-
-    for subdir in os.listdir('/proc'):
-        if subdir.isdigit():
-            pids.append(subdir)
-
-    full_inventory_list.append(
-        'Total number of running processes: {0}'.format(len(pids)) + '\n \n')
-
-    full_inventory_list.append(
-        linux_command('All Processes', 'ps -A'))
+    inv.append(dict({'Processes': multiple_column_dict('Process {}', bash('ps -A'))}))
 
 
 def hostname():
-    full_inventory_list.append(
-        linux_command('Hostname: \n', 'uname -n'))
+
+    inv.append(dict({'Hostname': bash('uname -n')}))
 
 
 def mounted_drives():
     # Mounted drives and filesystems
-    full_inventory_list.append(
-        linux_command('Mounted drives and filesystems: \n', 'df -h --output=source,target'))
+    inv.append(dict({'Mounted drives and filesystems':
+                         multiple_column_dict('Filesytem {}',
+                                              bash('df -h --output=source,target'))}))
 
 
 def environment_vars():
-    # List environment varuables
-    full_inventory_list.append(
-        linux_command('List environment varuables: \n', 'env'))
-
+    # List Environment Variables
+    inv.append(dict({'Environment Variables': multiple_column_dict('Environment Variable {}', bash('env'))}))
 
 def collect_inventory():
     hostname()
     hardware_inventory()
-    network_info()
+    #network_info()
     software_inventory()
     os_version()
     process_list()
@@ -201,30 +149,34 @@ def collect_inventory():
     environment_vars()
 
 
-def write_inventory_to_file(inventory_list):
-    file_name = 'Linux Inventory Sweep'
-    wf(file_name, inventory_list)
-
-
 def main():
     dir_name = 'Linux System Inventory'
     main_dir_name = 'Inventory_store'
-    file_name = 'Linux Inventory Sweep'
+    file_name = 'Linux_Inventory_Sweep.json'
+
+    now = datetime.now()
+    date = now.strftime("%d.%m.%Y %Hhr.%Mm.%Ss")
+    date_dict = dict({'Date': date})
+
+
 
     # Create unique directory name and create directory.
     directory = unique_directory(dir_name)
     create_directory(directory)
     create_directory(main_dir_name)
 
-    # Add all inventories to a list
+    # Add all inventories to a global list
     collect_inventory()
-    wf(file_name, full_inventory_list)
+    write_json_file(file_name, date_dict)
+    write_json_file(file_name, inv)
+    # write_to_file(file_name, inv)
 
-    # Move file to directory
+     # Move file to directory
     shutil.move(file_name, directory)
     # Move directory to directory
     shutil.move(directory, main_dir_name)
 
+    # test()
 
 if __name__ == '__main__':
     main()

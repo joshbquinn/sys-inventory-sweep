@@ -230,25 +230,23 @@ def env_vars(cmd):
 def windows_inventory_list():
     psgwmi = 'powershell.exe Get-WmiObject -class '
     json_list = []
-    json_dict = {}
 
-    json_list.append(ports())
+    json_list.append(dict({'Ports': ports()}))
     # json_list.append(general_sysinfo())
-    json_list.append(processor_details(psgwmi))
-    json_list.append(physical_memory(psgwmi))
-    json_list.append(hdd_details(psgwmi))
-    json_list.append(sound_card_details(psgwmi))
-    json_list.append(network_adapter_details(psgwmi))
-    json_list.append(installed_software(psgwmi))
-    json_list.append(os_version(psgwmi))
-    json_list.append(driver_details(psgwmi))
-    json_list.append(running_processes(psgwmi))
-    json_list.append(startup_programs(psgwmi))
-    json_list.append(env_vars(psgwmi))
+    json_list.append(dict({'Processor Details': processor_details(psgwmi)}))
+    json_list.append(dict({'Physical Mem': physical_memory(psgwmi)}))
+    json_list.append(dict({'HDD': hdd_details(psgwmi)}))
+    json_list.append(dict({'Sound Card': sound_card_details(psgwmi)}))
+    json_list.append(dict({'Network Adapters': network_adapter_details(psgwmi)}))
+    json_list.append(dict({'Installed Software': installed_software(psgwmi)}))
+    json_list.append(dict({'OS': os_version(psgwmi)}))
+    json_list.append(dict({'Drivers': driver_details(psgwmi)}))
+    json_list.append(dict({'Running Processes': running_processes(psgwmi)}))
+    json_list.append(dict({'Startup Programs': startup_programs(psgwmi)}))
+    json_list.append(dict({'Environmental Variables': env_vars(psgwmi)}))
 
     for item in json_list:
         print(deserialize_json(item))
-        print(json_dict.update(item))
 
     write_json_file("windows_scrape.json", json_dict)
     write_file(json_list)

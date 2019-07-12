@@ -1,14 +1,23 @@
-from datetime import datetime
 import platform
 import json
+
+
 
 if platform.system() == 'Windows':
     os_in_use = 'Windows'
 elif platform.system() == 'Linux':
     os_in_use = 'Linux'
 
+
 def djs(dictionary_object):
     return json.dumps(dictionary_object, indent=4)
+
+
+def write_json_file(filename, json_list):
+
+    with open(filename, 'a+') as f:
+        json.dump(json_list, f)
+
 
 def write_to_file(file_name, items):
     """Write items from a list to a specified file if the items do not already exist in the file.
@@ -23,12 +32,9 @@ def write_to_file(file_name, items):
 
     f = open(file_name, 'a+', encoding='utf-8')
 
-    now = datetime.now()
-    date = now.strftime("%d.%m.%Y %Hhr.%Mm.%Ss")
-
     f.write(f'{os_in_use} System Inventory List: ' + date + '\n\n')
 
     for item in items:
-        f.write(djs(item))
+        f.write(item)
     f.close()
 
