@@ -8,7 +8,7 @@ node{
         }
 
         stage('Run'){
-            bat 'python /src/system_inventory.py'
+            bat 'python src\system_inventory.py'
         }
 
         stage('Archive'){
