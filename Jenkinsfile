@@ -1,14 +1,21 @@
 node{
-
-    notify('CI')
+       
+    os = checkOs() 
+    
     try {
-
+    
         stage('Checkout'){
             checkout scm
         }
 
-        stage('Run'){
+        stage('Run Script'){
+            if (os == "Windows"){
             bat 'python src/system_inventory.py'
+            }
+            else{
+            sh 'python3 src/system_inventory.py' 
+            } 
+               
         }
 
         stage('Archive'){
@@ -29,4 +36,20 @@ def notify(status){
             body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
         <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>""",
     )
+}
+
+def checkOs(){
+    if (isUnix()) {
+        def uname = sh script: 'uname', returnStdout: true
+        if (uname.startsWith("Darwin")) {
+            return "Macos"
+        }
+          
+        else {
+            return "Linux"
+        }
+    }
+    else {
+        return "Windows"
+    }
 }
