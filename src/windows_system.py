@@ -204,7 +204,7 @@ def windows_inventory_list():
 
     inventory_dict.update({"Date Time": time_stamp()})
     inventory_dict.update(dict({'Ports': ports()}))
-    inventory_dict.update(dict({'Sys': general_sysinfo()}))
+    # inventory_dict.update(dict({'Sys': general_sysinfo()}))
     inventory_dict.update(dict({'Processor Details': processor_details(psgwmi)}))
     inventory_dict.update(dict({'Physical Mem': physical_memory(psgwmi)}))
     inventory_dict.update(dict({'HDD': hdd_details(psgwmi)}))
