@@ -1,3 +1,4 @@
+from builtins import isinstance
 import re
 from itertools import zip_longest
 
@@ -33,16 +34,26 @@ def multiple_column_dict(category_name, a_string):
     return result
 
 
-def clean_list(a_list):
+def clean_string(a_string):
     delimiters = "\n", ":"
     regex_pattern = '|'.join(map(re.escape, delimiters))
-    a_string = re.split(regex_pattern, str(a_list))
+    a_string = re.split(regex_pattern, str(a_string))
     return list(a_string)
 
 
+def make_dict(a_list, category_name):
 
+    a_dict = {}
+    i = 1
 
-
+    if isinstance(a_list, dict):
+        a_dict[category_name] = a_list
+        return a_dict
+    else:
+        for item in a_list:
+            a_dict[(category_name + str(i))] = item
+            i += 1
+        return a_dict
 
 
 
