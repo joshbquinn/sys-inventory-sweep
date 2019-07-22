@@ -1,4 +1,4 @@
-node windows {
+node {
 
     os = checkOs()
 
