@@ -1,19 +1,30 @@
 node{
        
     os = checkOs() 
-    
+       
     try {
     
         stage('Checkout'){
+               echo "-=- Cloning sourcecode from Git -=-"
             checkout scm
         }
-
-        stage('Run Script'){
-            if (os == "Windows"){
-            bat 'python src/system_inventory.py'
+           
+        stage('Environment preparation') {
+            steps {
+                echo "-=- preparing project environment -=-"
+                // Python dependencies
+                echo "Set up virutal env and pip install nose and other app dependencies"
             }
-            else{
-            sh 'python3 src/system_inventory.py' 
+           
+              
+        stage('Run Script'){
+               echo "-=- Running Script -=-"
+            if (os == "Windows"){         
+                     bat 'python src/system_inventory.py'
+            }
+               
+            else {
+                     sh 'python src/system_inventory.py' 
             } 
                
         }
