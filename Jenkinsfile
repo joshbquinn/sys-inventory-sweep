@@ -1,5 +1,6 @@
-node {
+node 'windows' {
 
+    os = checkOs()
 
     try {
 
