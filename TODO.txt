@@ -17,3 +17,7 @@ dictionary_3 = {}
 
 dict_list = []
 
+
+windows path information NB Security hotfix
+
+check for each flavour of linux directory files

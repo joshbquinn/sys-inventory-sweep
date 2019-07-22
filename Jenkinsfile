@@ -8,11 +8,11 @@ node{
         }
 
         stage('Run'){
-            bat 'py system_inventory.py'
+            bat 'py test_system_inventory.py'
         }
 
         stage('Archive'){
-            archiveArtifacts 'Inventory_store'
+            archiveArtifacts 'Inventory_store/*/*.json'
         }
 
     } catch(err){

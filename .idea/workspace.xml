@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664bae7a-1b0e-4982-ac7f-3493af27cf3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/system_inventory_sweep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/system_inventory_sweep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 16.52.44/Linux_Inventory_Sweep.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 17.15.50/Linux_Inventory_Sweep.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 17.25.13/Linux_Inventory_Sweep.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.15.58/Windows_Inventory_Sweep.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/windows_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/windows_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.53.54/Windows_Inventory_Sweep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 18.00.11/Windows_Inventory_Sweep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 18.01.18/Windows_Inventory_Sweep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 18.02.43/Windows_Inventory_Sweep.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_info_collector/dict_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_info_collector/directory_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_info_collector/file_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_info_collector/linux_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system_inventory.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_info_collector/system_inventory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/system_info_collector/windows_system.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,121 +42,106 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/windows_system.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                    <element signature="e#614#791#0" />
-                    <element signature="e#1865#2853#0" />
-                    <element signature="e#2940#3542#0" />
-                    <element signature="e#2975#3477#0" />
-                    <element signature="e#3571#4158#0" />
-                    <element signature="e#3602#4117#0" />
-                    <element signature="e#4194#4700#0" />
-                    <element signature="e#4232#4644#0" />
-                    <element signature="e#4741#7828#0" />
-                    <element signature="e#4785#7763#0" />
-                    <element signature="e#7864#8790#0" />
-                    <element signature="e#7902#8729#0" />
-                    <element signature="e#8840#9401#0" />
-                    <element signature="e#9505#9776#0" />
-                    <element signature="e#9895#10243#0" />
-                    <element signature="e#10371#10784#0" />
-                    <element signature="e#10869#11306#0" />
-                    <element signature="e#10897#11249#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 18.00.11/Windows_Inventory_Sweep.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret column="663" selection-end-column="100624" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.53.54/Windows_Inventory_Sweep.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-column="103745" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/linux_system.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-                  <folding>
-                    <element signature="e#0#34#0" expanded="true" />
-                    <element signature="e#2305#2746#0" />
-                    <element signature="e#2767#3262#0" />
-                    <element signature="e#3085#3411#0" />
-                    <element signature="e#3561#3620#0" />
-                    <element signature="e#3649#3759#0" />
-                    <element signature="e#3788#3831#0" />
-                    <element signature="e#3865#4101#0" />
-                    <element signature="e#3918#4099#0" />
-                    <element signature="e#4132#4258#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/file_management.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                  <folding>
-                    <element signature="e#0#29#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dict_factory.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="310">
-                  <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/dict_factory.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system_info_collector/windows_system.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="230" column="11" lean-forward="true" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="11" />
+              <folding>
+                <element signature="e#293#685#0" />
+                <element signature="e#306#594#0" />
+                <element signature="e#628#665#0" />
+                <element signature="e#1341#2419#0" />
+                <element signature="e#1378#2366#0" />
+                <element signature="e#8352#8913#0" />
+                <element signature="e#12440#12464#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system_info_collector/linux_system.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="113" column="76" selection-start-line="113" selection-start-column="71" selection-end-line="113" selection-end-column="76" />
+              <folding>
+                <element signature="e#304#705#0" />
+                <element signature="e#317#617#0" />
+                <element signature="e#651#688#0" />
+                <element signature="e#1225#1311#0" />
+                <element signature="e#1467#1548#0" />
+                <element signature="e#1710#1758#0" />
+                <element signature="e#2028#2034#0" />
+                <element signature="e#4331#4812#0" />
+                <element signature="e#4831#5421#0" />
+                <element signature="e#5231#5262#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_16.07.2019 10.02.23/Windows_Inventory_Sweep.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="100231" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system_info_collector/file_management.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TODO.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system_info_collector/system_inventory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system_info_collector/dict_factory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -176,17 +168,32 @@
         <option value="$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 09.27.22/Windows_Inventory_Sweep" />
         <option value="$PROJECT_DIR$/Inventory_store/test.py" />
         <option value="$PROJECT_DIR$/windows_scrape.json" />
-        <option value="$PROJECT_DIR$/linux_system.py" />
         <option value="$PROJECT_DIR$/file_management.py" />
+        <option value="$PROJECT_DIR$/linux_system.py" />
         <option value="$PROJECT_DIR$/windows_system.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/test/dict_factory.py" />
+        <option value="$PROJECT_DIR$/system_info_collector/time_stamper.py" />
+        <option value="$PROJECT_DIR$/system_info_collector/directory_management.py" />
+        <option value="$PROJECT_DIR$/system_info_collector/dict_factory.py" />
+        <option value="$PROJECT_DIR$/system_info_collector/linux_system.py" />
+        <option value="$PROJECT_DIR$/test/test_dict_factory.py" />
+        <option value="$PROJECT_DIR$/test/test_file_management.py" />
+        <option value="$PROJECT_DIR$/test/test_directory_management.py" />
+        <option value="$PROJECT_DIR$/test/test_time_stamper.py" />
+        <option value="$PROJECT_DIR$/test/test_linux_system.py" />
+        <option value="$PROJECT_DIR$/test/test_windows_system.py" />
+        <option value="$PROJECT_DIR$/system_info_collector/windows_system.py" />
+        <option value="$PROJECT_DIR$/system_info_collector/file_management.py" />
+        <option value="$PROJECT_DIR$/TODO.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2307" />
+    <option name="y" value="98" />
     <option name="width" value="976" />
-    <option name="height" value="1056" />
+    <option name="height" value="491" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -197,6 +204,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,26 +221,33 @@
               <item name="system_inventory_sweep" type="b2602c69:ProjectViewProjectNode" />
               <item name="system_inventory_sweep" type="462c0819:PsiDirectoryNode" />
               <item name="Inventory_store" type="462c0819:PsiDirectoryNode" />
-              <item name="Windows_System_Inventory_12.07.2019 17.53.54" type="462c0819:PsiDirectoryNode" />
+              <item name="Windows_System_Inventory_16.07.2019 10.02.23" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="system_inventory_sweep" type="b2602c69:ProjectViewProjectNode" />
               <item name="system_inventory_sweep" type="462c0819:PsiDirectoryNode" />
-              <item name="Inventory_store" type="462c0819:PsiDirectoryNode" />
-              <item name="Windows_System_Inventory_12.07.2019 18.00.11" type="462c0819:PsiDirectoryNode" />
+              <item name="system_info_collector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="system_inventory_sweep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="system_inventory_sweep" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="system_inventory_sweep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/code-projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Exercise1/Word Scraper - Java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -240,6 +255,15 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jquinn\IdeaProjects\Exercise2\Inventory_Sweeper - Python\system_inventory_sweep\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jquinn\IdeaProjects\Exercise2\Inventory_Sweeper - Python\system_inventory_sweep" />
+      <recent name="C:\Users\jquinn\IdeaProjects\Exercise2\Inventory_Sweeper - Python\system_inventory_sweep\system_info_collector" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,32 +277,105 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="windows_system" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs">
+    <configuration name="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="system_inventory_sweep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/windows_system.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_linux_system.LinuxSystemTests.test_bash_returns_correct_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_runs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_linux_system.LinuxSystemTests.test_bash_runs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_linux_system.LinuxSystemTests.test_netdev_runs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_time_stamper.TestTimeStamper.test_time_stamp_returns_correct_time" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_time_stamper.TestTimeStamper.test_time_stamp_returns_correct_time&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\jquinn\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.windows_system" />
+        <item itemvalue="Python tests.Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs" />
+        <item itemvalue="Python tests.Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" />
+        <item itemvalue="Python tests.Unittests for test_linux_system.LinuxSystemTests.test_bash_runs" />
+        <item itemvalue="Python tests.Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" />
+        <item itemvalue="Python tests.Unittests for test_time_stamper.TestTimeStamper.test_time_stamp_returns_correct_time" />
       </list>
     </recent_temporary>
   </component>
@@ -301,12 +398,48 @@
       <workItem from="1562831733782" duration="821000" />
       <workItem from="1562832643754" duration="19566000" />
       <workItem from="1562854456198" duration="628000" />
-      <workItem from="1562947278853" duration="3496000" />
+      <workItem from="1562947278853" duration="3859000" />
+      <workItem from="1563178744312" duration="58000" />
+      <workItem from="1563267399581" duration="1637000" />
+      <workItem from="1563269770145" duration="13145000" />
+      <workItem from="1563284884432" duration="6707000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_dict_factory_DictFactoryTests_test_make_a_dict_returns_a_dict - 2019.07.16 at 15h 24m 14s.xml">
+      <configuration name="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_dict_factory_DictFactoryTests_test_make_a_dict_returns_a_dict - 2019.07.16 at 15h 24m 28s.xml">
+      <configuration name="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_dict_factory_DictFactoryTests_test_make_a_dict_returns_a_dict - 2019.07.16 at 15h 25m 00s.xml">
+      <configuration name="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_runs - 2019.07.16 at 15h 41m 30s.xml">
+      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_runs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 33m 44s.xml">
+      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 34m 35s.xml">
+      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 36m 12s.xml">
+      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 36m 56s.xml">
+      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 37m 26s.xml">
+      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_netdev_runs - 2019.07.16 at 16h 37m 52s.xml">
+      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45126000" />
+    <option name="totallyTimeSpent" value="67036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,7 +452,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -327,17 +459,17 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17217484" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.3856988" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3261105" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32824427" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.43661973" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.36403033" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.2892741" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.4496208" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32936078" />
@@ -360,20 +492,20 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.34061834" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.3856988" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32824427" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.29252437" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" visible="true" weight="0.4496208" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="SciView" order="2" />
@@ -384,6 +516,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="JSON Viewer" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,9 +526,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/windows_system.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/system_info_collector/windows_system.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/system_info_collector/windows_system.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/system_info_collector/linux_system.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/system_info_collector/linux_system.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -408,7 +556,25 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/system_inventory_sweep$windows_system.coverage" NAME="windows_system Coverage Results" MODIFIED="1562950947675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_file_management_TestFileManagement.coverage" NAME="Unittests for test_file_management.TestFileManagement Coverage Results" MODIFIED="1563284761469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_file_management_TestFileManagement_test_file_created_is_json.coverage" NAME="Unittests for test_file_management.TestFileManagement.test_file_created_is_json Coverage Results" MODIFIED="1563285522872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$windows_system.coverage" NAME="windows_system Coverage Results" MODIFIED="1563267730355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_dict_factory_DictFactoryTests_test_two_column_dict_runs.coverage" NAME="Unittests for dict_factory.DictFactoryTests.test_two_column_dict_runs Coverage Results" MODIFIED="1563271760523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_in_test_dict_factory_py.coverage" NAME="Unittests in test_dict_factory.py Coverage Results" MODIFIED="1563273265826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_linux_system_LinuxSystemTests_test_netdev_runs.coverage" NAME="Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs Coverage Results" MODIFIED="1563291472726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_time_stamper_TestTimeStamper_test_time_stamp_returns_correct_time.coverage" NAME="Unittests for test_time_stamper.TestTimeStamper.test_time_stamp_returns_correct_time Coverage Results" MODIFIED="1563286129502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_directory_management_DirectoryManagementTest_test_create_directory.coverage" NAME="Unittests for test_directory_management.DirectoryManagementTest.test_create_directory Coverage Results" MODIFIED="1563281833721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_file_management_TestFileManagement_test_write_json_file_creates_json_file.coverage" NAME="Unittests for test_file_management.TestFileManagement.test_write_json_file_creates_json_file Coverage Results" MODIFIED="1563284573352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_make_a_dict_returns_a_dict.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict Coverage Results" MODIFIED="1563287100115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_directory_management_DirectoryManagementTest_test_unique_directory.coverage" NAME="Unittests for test_directory_management.DirectoryManagementTest.test_unique_directory Coverage Results" MODIFIED="1563281637406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_linux_system_LinuxSystemTests_test_bash_runs.coverage" NAME="Unittests for test_linux_system.LinuxSystemTests.test_bash_runs Coverage Results" MODIFIED="1563288089653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_multiple_column_dict_returns_dict.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_multiple_column_dict_returns_dict Coverage Results" MODIFIED="1563274834944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data.coverage" NAME="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data Coverage Results" MODIFIED="1563291446143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_file_management_TestFileManagement_test_write_json_file.coverage" NAME="Unittests for test_file_management.TestFileManagement.test_write_json_file Coverage Results" MODIFIED="1563285189540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_two_column_dict_runs.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_two_column_dict_runs Coverage Results" MODIFIED="1563272818596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_two_column_dict_returns_dict.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_two_column_dict_returns_dict Coverage Results" MODIFIED="1563274560736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_directory_management_DirectoryManagementTest.coverage" NAME="Unittests for test_directory_management.DirectoryManagementTest Coverage Results" MODIFIED="1563280599776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_clean_string.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_clean_string Coverage Results" MODIFIED="1563278584261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -420,160 +586,12 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.15.40/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 11.24.37/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.17.10/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.20.52/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.19.05/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.22.32/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.23.56/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.25.23/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.26.41/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.50.55/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Linux System Inventory_10.07.2019 15.45.07/Linux Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows System Inventory_10.07.2019 13.53.36/Windows Inventory Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_10.07.2019 15.44.25/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_10.07.2019 16.30.10/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_10.07.2019 16.31.22/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 09.27.22/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 10.04.18/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/test.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/sre_compile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="782" selection-start-line="782" selection-end-line="782" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system_inventory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 10.11.11/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Windows_Inventory_Sweep" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/_bootlocale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 13.58.23/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 13.59.50/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 14.45.52/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 15.07.19/Windows_Inventory_Sweep" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="347" selection-start-line="347" selection-end-line="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="340" selection-start-line="340" selection-end-line="340" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/pprint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="918" selection-start-line="918" selection-end-line="918" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_11.07.2019 15.11.22/Windows_Inventory_Sweep" />
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 17.01.34/Linux_Inventory_Sweep.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" selection-end-column="49059" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 17.03.45/Linux_Inventory_Sweep.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-end-column="49061" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/windows_scrape.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" lean-forward="true" selection-end-column="98740" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 17.25.13/Linux_Inventory_Sweep.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="48998" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 16.52.44/Linux_Inventory_Sweep.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.15.58/Windows_Inventory_Sweep.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-end-column="98438" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.45.37/Windows_Inventory_Sweep.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="99139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.48.44/Windows_Inventory_Sweep.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.53.54/Windows_Inventory_Sweep.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="103745" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/windows_scrape.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 17.25.13/Linux_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Linux System Inventory_12.07.2019 16.52.44/Linux_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.15.58/Windows_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.45.37/Windows_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.48.44/Windows_Inventory_Sweep.json" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/shutil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -581,77 +599,323 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file_management.py">
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 18.02.43/Windows_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 18.00.11/Windows_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 18.01.18/Windows_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 17.53.54/Windows_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_16.07.2019 09.57.32/Windows_Inventory_Sweep.json" />
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dict_factory.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tokenize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        <state relative-caret-position="221">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/linecache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/warnings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/teamcity/unittestpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/teamcity/messages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/_jb_runner_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1146" selection-start-line="1146" selection-end-line="1146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/sre_compile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="763" selection-start-line="763" selection-end-line="763" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/teamcity/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system_info_collector/directory_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux_system.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/sre_parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <element signature="e#2305#2746#0" />
-            <element signature="e#2767#3262#0" />
-            <element signature="e#3085#3411#0" />
-            <element signature="e#3561#3620#0" />
-            <element signature="e#3649#3759#0" />
-            <element signature="e#3788#3831#0" />
-            <element signature="e#3865#4101#0" />
-            <element signature="e#3918#4099#0" />
-            <element signature="e#4132#4258#0" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/windows_system.py">
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/_jb_unittest_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#614#791#0" />
-            <element signature="e#1865#2853#0" />
-            <element signature="e#2940#3542#0" />
-            <element signature="e#2975#3477#0" />
-            <element signature="e#3571#4158#0" />
-            <element signature="e#3602#4117#0" />
-            <element signature="e#4194#4700#0" />
-            <element signature="e#4232#4644#0" />
-            <element signature="e#4741#7828#0" />
-            <element signature="e#4785#7763#0" />
-            <element signature="e#7864#8790#0" />
-            <element signature="e#7902#8729#0" />
-            <element signature="e#8840#9401#0" />
-            <element signature="e#9505#9776#0" />
-            <element signature="e#9895#10243#0" />
-            <element signature="e#10371#10784#0" />
-            <element signature="e#10869#11306#0" />
-            <element signature="e#10897#11249#0" />
-          </folding>
+        <state relative-caret-position="489">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_12.07.2019 18.00.11/Windows_Inventory_Sweep.json">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testFile.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system_info_collector/json_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_json_management.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret column="663" selection-end-column="100624" />
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system_info_collector/time_stamper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_dict_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_directory_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_file_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_system_inventory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_time_stamper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_linux_system.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system_info_collector/dict_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_windows_system.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system_info_collector/system_inventory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="298" column="4" selection-start-line="298" selection-start-column="4" selection-end-line="298" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_16.07.2019 10.02.23/Windows_Inventory_Sweep.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="100231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system_info_collector/file_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system_info_collector/windows_system.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="230" column="11" lean-forward="true" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="11" />
+          <folding>
+            <element signature="e#293#685#0" />
+            <element signature="e#306#594#0" />
+            <element signature="e#628#665#0" />
+            <element signature="e#1341#2419#0" />
+            <element signature="e#1378#2366#0" />
+            <element signature="e#8352#8913#0" />
+            <element signature="e#12440#12464#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system_info_collector/linux_system.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="113" column="76" selection-start-line="113" selection-start-column="71" selection-end-line="113" selection-end-column="76" />
+          <folding>
+            <element signature="e#304#705#0" />
+            <element signature="e#317#617#0" />
+            <element signature="e#651#688#0" />
+            <element signature="e#1225#1311#0" />
+            <element signature="e#1467#1548#0" />
+            <element signature="e#1710#1758#0" />
+            <element signature="e#2028#2034#0" />
+            <element signature="e#4331#4812#0" />
+            <element signature="e#4831#5421#0" />
+            <element signature="e#5231#5262#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
