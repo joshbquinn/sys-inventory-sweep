@@ -53,7 +53,7 @@ pipeline {
             archiveArtifacts 'Inventory_store/*/*.json'
         }
 
-        if ( currentBuild.result = 'Failure'){
+        if ( currentBuild.result == 'Failure'){
             notify("Error ${err}")
         }
     }
