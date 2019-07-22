@@ -10,11 +10,11 @@ node {
         }
 
         stage('Environment preparation') {
-            steps {
-                echo "-=- preparing project environment -=-"
-                // Python dependencies
-                echo "Set up virutal env and pip install nose and other app dependencies"
-            }
+
+            echo "-=- preparing project environment -=-"
+            // Get Python dependencies
+            echo "Set up virutal env and pip install nose and other app dependencies"
+
         }
 
         stage('Run Script') {
