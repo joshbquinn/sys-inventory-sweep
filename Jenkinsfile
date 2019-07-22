@@ -1,12 +1,11 @@
-node {
-
-    os = checkOs()
-
-    try {
-
-        stage('Checkout') {
-            echo "-=- Cloning sourcecode from Git -=-"
-            checkout scm
+pipeline {
+    agent none
+    stages {
+        stage('Build') {
+            agent any
+            steps {
+                checkout scm
+            }
         }
 
         stage('Environment preparation') {
@@ -16,24 +15,47 @@ node {
             echo "Set up virutal env and pip install nose and other app dependencies"
 
         }
-
-        stage('Run Script') {
-            echo "-=- Running Script -=-"
-            if (os == "Windows") {
-                bat 'python src/system_inventory.py'
-            } else {
+        stage('Run Script on Ubuntu') {
+            agent {
+                label 'ubuntu'
+            }
+            steps{
                 sh 'python src/system_inventory.py'
+                echo 'nosetests test/*'
             }
 
+            post {
+                always {
+                    echo 'store the reports'
+                }
+            }
         }
 
-        stage('Archive'){
+        stage('Run Script on Windows') {
+            agent {
+                label 'windows'
+            }
+            steps{
+                bat 'python src/system_inventory.py'
+                echo 'nosetests test/*'
+            }
+
+            post {
+                always {
+                    echo 'store the reports'
+                }
+            }
+        }
+
+        stage('Archive')
+        agent any
+        steps{
             archiveArtifacts 'Inventory_store/*/*.json'
         }
 
-    } catch (err){
-        notify("Error ${err}")
-        currentBuild.result = 'Failure'
+        if ( currentBuild.result = 'Failure'){
+            notify("Error ${err}")
+        }
     }
 }
 
@@ -46,18 +68,18 @@ def notify(status){
     )
 }
 
-def checkOs(){
-    if (isUnix()) {
-        def uname = sh script: 'uname', returnStdout: true
-        if (uname.startsWith("Darwin")) {
-            return "Macos"
-        }
-
-        else {
-            return "Linux"
-        }
-    }
-    else {
-        return "Windows"
-    }
-}
+//def checkOs(){
+//    if (isUnix()) {
+//        def uname = sh script: 'uname', returnStdout: true
+//        if (uname.startsWith("Darwin")) {
+//            return "Macos"
+//        }
+//
+//        else {
+//            return "Linux"
+//        }
+//    }
+//    else {
+//        return "Windows"
+//    }
+//}
