@@ -1,44 +1,40 @@
-node{
-       
-    os = checkOs() 
-       
+node {
+
+
     try {
-    
-        stage('Checkout'){
-               echo "-=- Cloning sourcecode from Git -=-"
+
+        stage('Checkout') {
+            echo "-=- Cloning sourcecode from Git -=-"
             checkout scm
         }
-           
+
         stage('Environment preparation') {
             steps {
                 echo "-=- preparing project environment -=-"
                 // Python dependencies
                 echo "Set up virutal env and pip install nose and other app dependencies"
             }
-           
-              
-        stage('Run Script'){
-               echo "-=- Running Script -=-"
-            if (os == "Windows"){         
-                     bat 'python src/system_inventory.py'
+        }
+
+        stage('Run Script') {
+            echo "-=- Running Script -=-"
+            if (os == "Windows") {
+                bat 'python src/system_inventory.py'
+            } else {
+                sh 'python src/system_inventory.py'
             }
-               
-            else {
-                     sh 'python src/system_inventory.py' 
-            } 
-               
+
         }
 
         stage('Archive'){
             archiveArtifacts 'Inventory_store/*/*.json'
         }
 
-    } catch(err){
+    } catch (err){
         notify("Error ${err}")
         currentBuild.result = 'Failure'
     }
 }
-
 
 def notify(status){
     emailext (
@@ -55,7 +51,7 @@ def checkOs(){
         if (uname.startsWith("Darwin")) {
             return "Macos"
         }
-          
+
         else {
             return "Linux"
         }
