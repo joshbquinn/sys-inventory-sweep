@@ -1,62 +1,73 @@
-pipeline {
-    agent none
-    stages {
-        stage('Build') {
-            agent any
-            steps {
-                checkout scm
-            }
-        }
-
-        stage('Environment preparation') {
-
-            echo "-=- preparing project environment -=-"
-            // Get Python dependencies
-            echo "Set up virutal env and pip install nose and other app dependencies"
-
-        }
-        stage('Run Script on Ubuntu') {
-            agent {
-                label 'ubuntu'
-            }
-            steps{
-                sh 'python src/system_inventory.py'
-                echo 'nosetests test/*'
-            }
-
-            post {
-                always {
-                    echo 'store the reports'
+stage('Test') {
+    parallel linux: {
+        node('linux') {
+            try {
+                stage('SCM checkout') {
+                    checkout scm
                 }
-            }
-        }
-
-        stage('Run Script on Windows') {
-            agent {
-                label 'windows'
-            }
-            steps{
-                bat 'python src/system_inventory.py'
-                echo 'nosetests test/*'
-            }
-
-            post {
-                always {
-                    echo 'store the reports'
+                stage('Set Environment') {
+                    echo "-=- preparing project environment -=-"
+                    // Get Python dependencies
+                    sh "echo Set up virutal env and pip install nose and other app dependencies"
                 }
+                stage('Tests') {
+                    echo 'nosetests test/*'
+                }
+                stage('Run Script') {
+                    sh 'python src/system_inventory.py'
+
+                }
+                stage('Archival') {
+                    archiveArtifacts 'Inventory_store/*/*.json'
+                }
+                stage('Deploy') {
+                    sh 'echo pacage up distribution of app'
+                }
+            }catch(err) {
+                notify("Error ${err}")
+                currentBuild.result == 'Failure'
+
+            }
+            finally {
+                junit '**/target/*.xml'
             }
         }
+    },
+            windows: {
+                node('windows') {
+                    try {
+                        stage('SCM checkout') {
+                            checkout scm
+                        }
+                        stage('Set Environment') {
+                            echo "-=- preparing project environment -=-"
+                            // Get Python dependencies
+                            bat "echo Set up virutal env and pip install nose and other app dependencies"
+                        }
+                        stage('Tests') {
+                            echo 'nosetests test/*'
+                        }
+                        stage('Run Script') {
+                            bat 'python src/system_inventory.py'
 
-        stage('Archive')
-        agent any
-        steps{
-            archiveArtifacts 'Inventory_store/*/*.json'
-        }
+                        }
+                        stage('Archival') {
+                            archiveArtifacts 'Inventory_store/*/*.json'
+                        }
+                        stage('Deploy') {
+                            bat 'echo package up distribution of app'
+                        }
+                    }catch(err) {
+                        notify("Error ${err}")
+                        currentBuild.result == 'Failure'
 
-        if ( currentBuild.result == 'Failure'){
-            notify("Error ${err}")
-        }
-    }
+                    }
+                    finally {
+                        junit '**/target/*.xml'
+                    }
+                }
+
+            }
 }
 
 def notify(status){
@@ -67,19 +78,3 @@ def notify(status){
         <p>Check console output at <a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a></p>""",
     )
 }
-
-//def checkOs(){
-//    if (isUnix()) {
-//        def uname = sh script: 'uname', returnStdout: true
-//        if (uname.startsWith("Darwin")) {
-//            return "Macos"
-//        }
-//
-//        else {
-//            return "Linux"
-//        }
-//    }
-//    else {
-//        return "Windows"
-//    }
-//}
