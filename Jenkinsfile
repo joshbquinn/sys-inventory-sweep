@@ -3,15 +3,15 @@ stage('Test') {
         node('ubuntu') {
             try {
                 stage('SCM checkout') {
+                    cleanWs()
                     checkout scm
                 }
-                stage('Set Environment') {
-                    echo "-=- preparing project environment -=-"
+                stage('Set Python V Environment') {
                     // Get Python dependencies
-                    echo "Set up virtual env and pip install nose and other app dependencies"
+                    sh "echo set up virtual env and pip install nose and other app dependencies"
                 }
                 stage('Tests') {
-                    echo 'nosetests test/*'
+                    sh 'echo run nosetests test/*'
                 }
                 stage('Run Script') {
                     sh 'python src/system_inventory.py'
@@ -21,7 +21,7 @@ stage('Test') {
                     archiveArtifacts 'Inventory_store/*/*.json'
                 }
                 stage('Deploy') {
-                    sh 'echo pacage up distribution of app'
+                    sh 'echo package up distribution of app'
                 }
             }catch(err) {
                 notify("Error ${err}")
@@ -29,8 +29,8 @@ stage('Test') {
 
             }
             finally {
-                echo 'junit **/target/*.xml'
-                // cleanWs()
+                sh 'echo junit **/target/*.xml'
+                rtp parserName: 'HTML', stableText: '${FILE:Inventory_Store/*/*.json}'
             }
         }
     },
@@ -38,6 +38,7 @@ stage('Test') {
                 node('windows') {
                     try {
                         stage('SCM checkout') {
+                            cleanWs()
                             checkout scm
                         }
                         stage('Set Environment') {
@@ -45,7 +46,7 @@ stage('Test') {
                             bat "echo Set up virutal env and pip install nose and other app dependencies"
                         }
                         stage('Tests') {
-                            echo 'nosetests test/*'
+                            bat 'echo nosetests test/*'
                         }
                         stage('Run Script') {
                             bat 'python src/system_inventory.py'
@@ -63,8 +64,8 @@ stage('Test') {
 
                     }
                     finally {
-                        echo 'junit **/target/*.xml'
-                        // cleanWs()
+                        bat 'sh junit **/target/*.xml'
+                        rtp parserName: 'HTML', stableText: '${FILE:Inventory_Store/*/*.json}'
                     }
                 }
 

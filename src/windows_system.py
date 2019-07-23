@@ -222,19 +222,15 @@ def windows_inventory_list():
 
 def write_file(json_dict):
 
-    dir_name = 'Windows_System_Inventory'
     file_name = 'Windows_Inventory_Sweep.json'
     main_dir_name = 'Inventory_store'
 
     # Create unique directory name and create directory.
-    directory = dm.unique_directory(dir_name)
-    dm.create_directory(directory)
+    file_name = dm.unique_name(file_name)
     dm.create_directory(main_dir_name)
 
     write_json_file(file_name, json_dict)
-
-    shutil.move(file_name, directory)
-    shutil.move(directory, main_dir_name)
+    shutil.move(file_name, main_dir_name)
 
 
 def main():

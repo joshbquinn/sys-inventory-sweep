@@ -22,7 +22,7 @@ class DirectoryManagementTest(unittest.TestCase):
 
     def test_unique_directory(self):
         """Test a unique name string has been created and is not Null"""
-        name = d_mgmt.unique_directory(self.sample_dir_name)
+        name = d_mgmt.unique_name(self.sample_dir_name)
         self.assertRegex(name, r'\d+', "String object should contain dateTime")
         self.assertIsNotNone(name, "Object is None. A unique dorectory name with a Datetime string should be returned.")
         print(name)

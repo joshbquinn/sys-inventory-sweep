@@ -4,14 +4,14 @@ import os
 from time_stamper import time_stamp
 
 
-def unique_directory(directory_name):
+def unique_name(directory_name):
     """Create a unique directory name with a timestamp
 
     Args:
         directory_name: a string parameter to name the the directory
     """
     date = time_stamp()
-    return directory_name + date
+    return date + directory_name
 
 
 def create_directory(directory):

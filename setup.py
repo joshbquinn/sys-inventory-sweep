@@ -6,7 +6,7 @@ from distutils.core import setup
 setup(
     name='system-inventory-sweep',
     version='1.0',
-    py_modules=['pip', 'nose', 'system_info_collector'],
+    py_modules=['nose', 'system_info_collector'],
 
     # metadata
     author='Josh Quinn',

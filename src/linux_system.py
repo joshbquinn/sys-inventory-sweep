@@ -148,27 +148,22 @@ def collect_inventory():
     inventory_dict.update(mounted_drives())
     inventory_dict.update(environment_vars())
 
-    return inventory_dict.setdefault("Windows Sweep")
+    return inventory_dict
 
 
 def main():
-    dir_name = 'Linux System Inventory'
     main_dir_name = 'Inventory_store'
     file_name = 'Linux_Inventory_Sweep.json'
 
     # Create unique directory name and create directory.
-    directory = unique_directory(dir_name)
-    create_directory(directory)
+    file_name = unique_name(file_name)
     create_directory(main_dir_name)
 
     # return the system dictionary and write json file
     write_json_file(file_name, collect_inventory())
-    # write_to_file(file_name, inv)
 
-     # Move file to directory
-    shutil.move(file_name, directory)
     # Move directory to directory
-    shutil.move(directory, main_dir_name)
+    shutil.move(file_name, main_dir_name)
 
     # test()
 
