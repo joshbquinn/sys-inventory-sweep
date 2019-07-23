@@ -1,4 +1,4 @@
-stage('Test') {
+node {
     parallel linux: {
         node('ubuntu') {
             try {
@@ -18,7 +18,7 @@ stage('Test') {
 
                 }
                 stage('Archival') {
-                    archiveArtifacts 'Inventory_store/*/*.json'
+                    archiveArtifacts 'Inventory_store/*.json'
                 }
                 stage('Deploy') {
                     sh 'echo package up distribution of app'
@@ -29,8 +29,8 @@ stage('Test') {
 
             }
             finally {
-                sh 'echo junit **/target/*.xml'
-                rtp parserName: 'HTML', stableText: '${FILE:Inventory_Store/*/*.json}'
+                echo 'junit **/target/*.xml'
+                rtp parserName: 'HTML', stableText: '${FILE:Inventory_Store/*.json}'
             }
         }
     },
@@ -53,7 +53,7 @@ stage('Test') {
 
                         }
                         stage('Archival') {
-                            archiveArtifacts 'Inventory_store/*/*.json'
+                            archiveArtifacts 'Inventory_store/*.json'
                         }
                         stage('Deploy') {
                             bat 'echo package up distribution of app'
@@ -64,8 +64,8 @@ stage('Test') {
 
                     }
                     finally {
-                        bat 'sh junit **/target/*.xml'
-                        rtp parserName: 'HTML', stableText: '${FILE:Inventory_Store/*/*.json}'
+                        echo 'junit **/target/*.xml'
+                        rtp parserName: 'HTML', stableText: '${FILE:Inventory_Store/*.json}'
                     }
                 }
 

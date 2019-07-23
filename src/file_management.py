@@ -12,7 +12,7 @@ def write_json_file(filename, json_dict):
     """
     # json pretty print
     with open(filename, 'a+') as f:
-        json.dump(json_dict, f, indent=4, sort_keys=True)
+        json.dump(json_dict, f, indent=4)
 
     f.close()
 
