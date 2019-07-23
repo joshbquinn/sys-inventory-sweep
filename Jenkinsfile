@@ -1,5 +1,5 @@
 node {
-    parallel linux: {
+    parallel Linux: {
         node('ubuntu') {
             try {
                 stage('SCM checkout') {
@@ -10,8 +10,12 @@ node {
                     // Get Python dependencies
                     sh "echo set up virtual env and pip install nose and other app dependencies"
                 }
-                stage('Tests') {
-                    sh 'echo run nosetests test/*'
+                dir("src") {
+
+                    stage('Tests') {
+                        sh 'ls'
+                        sh 'python -m unittest discover -s ../test'
+                    }
                 }
                 stage('Run Script') {
                     sh 'python src/system_inventory.py'
@@ -34,7 +38,7 @@ node {
             }
         }
     },
-            windows: {
+            Windows: {
                 node('windows') {
                     try {
                         stage('SCM checkout') {
@@ -45,8 +49,11 @@ node {
                             // Get Python dependencies
                             bat "echo Set up virutal env and pip install nose and other app dependencies"
                         }
-                        stage('Tests') {
-                            bat 'echo nosetests test/*'
+                        dir("src") {
+                            stage('Tests') {
+                                bat 'ls'
+                                bat 'python -m unittest discover -s ../test'
+                            }
                         }
                         stage('Run Script') {
                             bat 'python src/system_inventory.py'
