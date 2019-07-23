@@ -8,7 +8,7 @@ stage('Test') {
                 stage('Set Environment') {
                     echo "-=- preparing project environment -=-"
                     // Get Python dependencies
-                    sh "echo Set up virutal env and pip install nose and other app dependencies"
+                    echo "Set up virtual env and pip install nose and other app dependencies"
                 }
                 stage('Tests') {
                     echo 'nosetests test/*'
