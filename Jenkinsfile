@@ -30,6 +30,7 @@ stage('Test') {
             }
             finally {
                 echo 'junit **/target/*.xml'
+                cleanWs()
             }
         }
     },
@@ -63,6 +64,7 @@ stage('Test') {
                     }
                     finally {
                         echo 'junit **/target/*.xml'
+                        cleanWs()
                     }
                 }
 
