@@ -3,7 +3,9 @@
 import linux_system as linux
 import dict_factory as dict_f
 import unittest
+import sys
 
+@unittest.skipUnless(sys.platform.startswith("lin"), "requires Linux")
 
 class LinuxSystemTests(unittest.TestCase):
 

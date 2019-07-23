@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="664bae7a-1b0e-4982-ac7f-3493af27cf3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/system_inventory_sweep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/system_inventory_sweep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory_store/Windows_System_Inventory22.07.2019 15hr.28m.22s/Windows_Inventory_Sweep.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inventory_store/Windows_System_Inventory22.07.2019 15hr.39m.09s/Windows_Inventory_Sweep.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfile(declarative)" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/directory_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/directory_management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/file_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/file_management.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linux_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/linux_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/windows_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_directory_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_directory_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_dict_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_dict_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_linux_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_linux_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_windows_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_windows_system.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,55 +33,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linux_system.py">
+        <entry file="file://$PROJECT_DIR$/src/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/windows_system.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="233" lean-forward="true" selection-start-line="233" selection-end-line="233" />
+            <state>
+              <caret selection-end-line="14" selection-end-column="25" />
               <folding>
-                <element signature="e#830#1056#0" />
-                <element signature="e#926#1015#0" />
-                <element signature="e#1086#1243#0" />
-                <element signature="e#1278#2356#0" />
-                <element signature="e#1315#2303#0" />
-                <element signature="e#2389#2990#0" />
-                <element signature="e#2424#2925#0" />
-                <element signature="e#3019#3606#0" />
-                <element signature="e#3050#3565#0" />
-                <element signature="e#3642#4148#0" />
-                <element signature="e#3680#4092#0" />
-                <element signature="e#4189#7276#0" />
-                <element signature="e#4233#7211#0" />
-                <element signature="e#7312#8238#0" />
-                <element signature="e#7350#8177#0" />
-                <element signature="e#8266#8887#0" />
-                <element signature="e#8288#8849#0" />
-                <element signature="e#8919#9271#0" />
-                <element signature="e#8953#9224#0" />
-                <element signature="e#9306#9750#0" />
-                <element signature="e#9343#9691#0" />
-                <element signature="e#9784#10291#0" />
-                <element signature="e#9819#10232#0" />
-                <element signature="e#10317#10754#0" />
-                <element signature="e#10345#10697#0" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+        <entry file="file://$PROJECT_DIR$/test/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#17#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,24 +97,27 @@
         <option value="$PROJECT_DIR$/system_info_collector/directory_management.py" />
         <option value="$PROJECT_DIR$/system_info_collector/dict_factory.py" />
         <option value="$PROJECT_DIR$/system_info_collector/linux_system.py" />
-        <option value="$PROJECT_DIR$/test/test_dict_factory.py" />
         <option value="$PROJECT_DIR$/test/test_file_management.py" />
         <option value="$PROJECT_DIR$/test/test_directory_management.py" />
         <option value="$PROJECT_DIR$/test/test_time_stamper.py" />
-        <option value="$PROJECT_DIR$/test/test_linux_system.py" />
-        <option value="$PROJECT_DIR$/test/test_windows_system.py" />
         <option value="$PROJECT_DIR$/system_info_collector/windows_system.py" />
         <option value="$PROJECT_DIR$/system_info_collector/file_management.py" />
         <option value="$PROJECT_DIR$/TODO.txt" />
         <option value="$PROJECT_DIR$/src/directory_management.py" />
-        <option value="$PROJECT_DIR$/src/file_management.py" />
         <option value="$PROJECT_DIR$/src/windows_system.py" />
         <option value="$PROJECT_DIR$/src/linux_system.py" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/src/file_management.py" />
+        <option value="$PROJECT_DIR$/test/test_dict_factory.py" />
+        <option value="$PROJECT_DIR$/test/test_windows_system.py" />
+        <option value="$PROJECT_DIR$/test/test_linux_system.py" />
+        <option value="$PROJECT_DIR$/test/runner.py" />
+        <option value="$PROJECT_DIR$/src/__init__.py" />
+        <option value="$PROJECT_DIR$/test/__init__.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -173,11 +142,6 @@
             </path>
             <path>
               <item name="system_inventory_sweep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="system_inventory_sweep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="system_inventory_sweep" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -195,17 +159,18 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jquinn\IdeaProjects\Exercise2\Inventory_Sweeper - Python\system_inventory_sweep\test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jquinn\IdeaProjects\Exercise2\Inventory_Sweeper - Python\system_inventory_sweep\src" />
       <recent name="C:\Users\jquinn\IdeaProjects\Exercise2\Inventory_Sweeper - Python\system_inventory_sweep" />
       <recent name="C:\Users\jquinn\IdeaProjects\Exercise2\Inventory_Sweeper - Python\system_inventory_sweep\system_info_collector" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jquinn\IdeaProjects\Exercise2\Inventory_Sweeper - Python\system_inventory_sweep\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,89 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.windows_system">
-    <configuration name="windows_system" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="system_inventory_sweep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/windows_system.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="system_inventory_sweep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="system_inventory_sweep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_linux_system.LinuxSystemTests.test_bash_returns_correct_data&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_runs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="system_inventory_sweep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_linux_system.LinuxSystemTests.test_bash_runs&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="system_inventory_sweep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_linux_system.LinuxSystemTests.test_netdev_runs&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_linux_system.py">
     <configuration name="Unittests in test" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="system_inventory_sweep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,13 +202,88 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_dict_factory.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_dict_factory.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_directory_management.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_directory_management.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_linux_system.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_linux_system.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_time_stamper.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_time_stamper.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_windows_system.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="system_inventory_sweep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_windows_system.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.windows_system" />
-        <item itemvalue="Python tests.Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs" />
-        <item itemvalue="Python tests.Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" />
-        <item itemvalue="Python tests.Unittests for test_linux_system.LinuxSystemTests.test_bash_runs" />
-        <item itemvalue="Python tests.Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" />
+        <item itemvalue="Python tests.Unittests in test_linux_system.py" />
+        <item itemvalue="Python tests.Unittests in test_windows_system.py" />
+        <item itemvalue="Python tests.Unittests in test_directory_management.py" />
+        <item itemvalue="Python tests.Unittests in test_dict_factory.py" />
+        <item itemvalue="Python tests.Unittests in test_time_stamper.py" />
       </list>
     </recent_temporary>
   </component>
@@ -353,44 +311,44 @@
       <workItem from="1563267399581" duration="1637000" />
       <workItem from="1563269770145" duration="13145000" />
       <workItem from="1563284884432" duration="6707000" />
-      <workItem from="1563884876256" duration="1582000" />
+      <workItem from="1563884876256" duration="8814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_dict_factory_DictFactoryTests_test_make_a_dict_returns_a_dict - 2019.07.16 at 15h 24m 14s.xml">
-      <configuration name="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_dict_factory_DictFactoryTests_test_make_a_dict_returns_a_dict - 2019.07.16 at 15h 24m 28s.xml">
-      <configuration name="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_dict_factory_DictFactoryTests_test_make_a_dict_returns_a_dict - 2019.07.16 at 15h 25m 00s.xml">
-      <configuration name="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_runs - 2019.07.16 at 15h 41m 30s.xml">
-      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_runs" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 33m 44s.xml">
-      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 34m 35s.xml">
-      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 36m 12s.xml">
-      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 36m 56s.xml">
-      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data - 2019.07.16 at 16h 37m 26s.xml">
-      <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_linux_system_LinuxSystemTests_test_netdev_runs - 2019.07.16 at 16h 37m 52s.xml">
       <configuration name="Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_time_stamper_py - 2019.07.23 at 15h 19m 03s.xml">
+      <configuration name="Unittests in test_time_stamper.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test - 2019.07.23 at 15h 28m 25s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test - 2019.07.23 at 15h 28m 38s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_dict_factory_py - 2019.07.23 at 15h 28m 49s.xml">
+      <configuration name="Unittests in test_dict_factory.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_directory_management_py - 2019.07.23 at 15h 28m 54s.xml">
+      <configuration name="Unittests in test_directory_management.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test - 2019.07.23 at 15h 33m 56s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_windows_system_py - 2019.07.23 at 15h 34m 15s.xml">
+      <configuration name="Unittests in test_windows_system.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_linux_system_py - 2019.07.23 at 15h 47m 23s.xml">
+      <configuration name="Unittests in test_linux_system.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_linux_system_py - 2019.07.23 at 15h 47m 36s.xml">
+      <configuration name="Unittests in test_linux_system.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68618000" />
+    <option name="totallyTimeSpent" value="75850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,7 +361,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -411,20 +368,20 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.15351813" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.15351813" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.3856988" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32719395" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.2892741" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.4496208" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Structure" order="3" weight="0.24918744" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.95124596" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.36944744" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49946696" weight="0.4496208" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="SciView" order="2" />
@@ -502,6 +459,11 @@
           <line>228</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_time_stamper.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -517,21 +479,26 @@
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_file_management_TestFileManagement_test_file_created_is_json.coverage" NAME="Unittests for test_file_management.TestFileManagement.test_file_created_is_json Coverage Results" MODIFIED="1563285522872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$windows_system.coverage" NAME="windows_system Coverage Results" MODIFIED="1563886256462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_dict_factory_DictFactoryTests_test_two_column_dict_runs.coverage" NAME="Unittests for dict_factory.DictFactoryTests.test_two_column_dict_runs Coverage Results" MODIFIED="1563271760523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_in_test_dict_factory_py.coverage" NAME="Unittests in test_dict_factory.py Coverage Results" MODIFIED="1563273265826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_linux_system_LinuxSystemTests_test_netdev_runs.coverage" NAME="Unittests for test_linux_system.LinuxSystemTests.test_netdev_runs Coverage Results" MODIFIED="1563291472726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_in_test_dict_factory_py.coverage" NAME="Unittests in test_dict_factory.py Coverage Results" MODIFIED="1563892128904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_time_stamper_TestTimeStamper_test_time_stamp_returns_correct_time.coverage" NAME="Unittests for test_time_stamper.TestTimeStamper.test_time_stamp_returns_correct_time Coverage Results" MODIFIED="1563286129502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_directory_management_DirectoryManagementTest_test_create_directory.coverage" NAME="Unittests for test_directory_management.DirectoryManagementTest.test_create_directory Coverage Results" MODIFIED="1563281833721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_file_management_TestFileManagement_test_write_json_file_creates_json_file.coverage" NAME="Unittests for test_file_management.TestFileManagement.test_write_json_file_creates_json_file Coverage Results" MODIFIED="1563284573352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_in_test_time_stamper_py.coverage" NAME="Unittests in test_time_stamper.py Coverage Results" MODIFIED="1563891537294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_make_a_dict_returns_a_dict.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_make_a_dict_returns_a_dict Coverage Results" MODIFIED="1563287100115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1563892436652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_directory_management_DirectoryManagementTest_test_unique_directory.coverage" NAME="Unittests for test_directory_management.DirectoryManagementTest.test_unique_directory Coverage Results" MODIFIED="1563281637406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_linux_system_LinuxSystemTests_test_bash_runs.coverage" NAME="Unittests for test_linux_system.LinuxSystemTests.test_bash_runs Coverage Results" MODIFIED="1563288089653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_in_test_directory_management_py.coverage" NAME="Unittests in test_directory_management.py Coverage Results" MODIFIED="1563892134522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_multiple_column_dict_returns_dict.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_multiple_column_dict_returns_dict Coverage Results" MODIFIED="1563274834944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_linux_system_LinuxSystemTests_test_bash_returns_correct_data.coverage" NAME="Unittests for test_linux_system.LinuxSystemTests.test_bash_returns_correct_data Coverage Results" MODIFIED="1563291446143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_file_management_TestFileManagement_test_write_json_file.coverage" NAME="Unittests for test_file_management.TestFileManagement.test_write_json_file Coverage Results" MODIFIED="1563285189540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_two_column_dict_runs.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_two_column_dict_runs Coverage Results" MODIFIED="1563272818596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_two_column_dict_returns_dict.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_two_column_dict_returns_dict Coverage Results" MODIFIED="1563274560736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_in_test_linux_system_py.coverage" NAME="Unittests in test_linux_system.py Coverage Results" MODIFIED="1563893256128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_directory_management_DirectoryManagementTest.coverage" NAME="Unittests for test_directory_management.DirectoryManagementTest Coverage Results" MODIFIED="1563280599776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_for_test_dict_factory_DictFactoryTests_test_clean_string.coverage" NAME="Unittests for test_dict_factory.DictFactoryTests.test_clean_string Coverage Results" MODIFIED="1563278584261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/system_inventory_sweep$Unittests_in_test_windows_system_py.coverage" NAME="Unittests in test_windows_system.py Coverage Results" MODIFIED="1563892448985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -543,16 +510,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_16.07.2019 09.57.32/Windows_Inventory_Sweep.json" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tokenize.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/linecache.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/warnings.py" />
     <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/teamcity/unittestpy.py">
@@ -615,26 +572,6 @@
     <entry file="file://$PROJECT_DIR$/system_info_collector/json_management.py" />
     <entry file="file://$PROJECT_DIR$/test/test_json_management.py" />
     <entry file="file://$PROJECT_DIR$/system_info_collector/time_stamper.py" />
-    <entry file="file://$PROJECT_DIR$/test/test_dict_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_directory_management.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_file_management.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -646,34 +583,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_system_inventory.py" />
-    <entry file="file://$PROJECT_DIR$/test/test_time_stamper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_linux_system.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system_info_collector/dict_factory.py" />
-    <entry file="file://$PROJECT_DIR$/test/test_windows_system.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system_info_collector/system_inventory.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Inventory_store/Windows_System_Inventory_16.07.2019 10.02.23/Windows_Inventory_Sweep.json" />
@@ -728,17 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file_management.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/windows_system.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
-          <caret line="233" lean-forward="true" selection-start-line="233" selection-end-line="233" />
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
           <folding>
             <element signature="e#830#1056#0" />
             <element signature="e#926#1015#0" />
@@ -772,19 +675,103 @@
     <entry file="file://$PROJECT_DIR$/src/Inventory_store/23.07.2019 13hr.51m.11sWindows_Inventory_Sweep.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linux_system.py">
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+        <state relative-caret-position="471">
+          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/src/file_management.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_dict_factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_directory_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_time_stamper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="376" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_windows_system.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="61" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+          <folding>
+            <element signature="e#23#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_linux_system.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#23#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linux_system.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

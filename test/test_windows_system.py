@@ -3,8 +3,9 @@
 import windows_system as ws
 import dict_factory as dict_f
 import unittest
-import json
+import sys
 
+@unittest.skipUnless(sys.platform.startswith("win"), "requires Windows")
 
 class WindowsSystemSweepTests(unittest.TestCase):
 

@@ -3,7 +3,7 @@
 import re
 from itertools import zip_longest
 import unittest
-import dict_factory as dict_factory
+import dict_factory
 
 
 class DictFactoryTests(unittest.TestCase):
