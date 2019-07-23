@@ -1,6 +1,6 @@
 stage('Test') {
     parallel linux: {
-        node('linux') {
+        node('ubuntu') {
             try {
                 stage('SCM checkout') {
                     checkout scm
@@ -29,7 +29,7 @@ stage('Test') {
 
             }
             finally {
-                junit '**/target/*.xml'
+                echo 'junit **/target/*.xml'
             }
         }
     },
@@ -40,7 +40,6 @@ stage('Test') {
                             checkout scm
                         }
                         stage('Set Environment') {
-                            echo "-=- preparing project environment -=-"
                             // Get Python dependencies
                             bat "echo Set up virutal env and pip install nose and other app dependencies"
                         }
@@ -63,7 +62,7 @@ stage('Test') {
 
                     }
                     finally {
-                        junit '**/target/*.xml'
+                        echo 'junit **/target/*.xml'
                     }
                 }
 
