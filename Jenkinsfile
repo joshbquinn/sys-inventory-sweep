@@ -1,6 +1,6 @@
 node {
-    parallel:
-    'linux' {
+    stage('Build') {
+    parallel linux: {
         node('ubuntu') {
             try {
                 stage('SCM checkout') {
@@ -60,9 +60,8 @@ node {
                 // rtp parserName: 'HTML', stableText: '${FILE:htmlcov/index.html}'
             }
         }
-    }
-    Windows:
-    {
+    },
+    windows:{
         node('windows') {
             try {
                 stage('SCM checkout') {
@@ -126,6 +125,7 @@ node {
             }
         }
     }
+}
 }
 
 def notify(status){
