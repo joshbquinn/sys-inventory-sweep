@@ -6,17 +6,30 @@ node {
                     cleanWs()
                     checkout scm
                 }
-                stage('Set Python V Environment') {
-                    // Get Python dependencies
-                    sh "echo set up virtual env and pip install nose and other app dependencies"
-                }
-                dir("src") {
-
-                    stage('Tests') {
-                        sh 'ls'
-                        sh 'python -m unittest discover -s ../test'
+                stage('Python Environment Setup') {
+                    virtualenv {
+                        name('venv-sysISweep')
+                        command('python -m pip install --upgrade pip')
+                        command('pip install nose')
+                        command('pip install coverage')
+                        clear()
                     }
                 }
+
+                stage('Unit Tests') {
+                    sh 'python -m nose -v'
+                }
+
+                stage ('Coverage Tests'){
+                    sh 'coverage run src/dict_factory.py'
+                    sh 'coverage run src/directory_management.py'
+                    sh 'coverage run src/file_management.py'
+                    sh 'coverage run src/linux_system.py'
+                    sh 'coverage run src/time_stamper.py'
+                    sh 'coverage run src/windows_system.py'
+                    sh 'coverage html'
+                }
+
                 stage('Run Script') {
                     sh 'python src/system_inventory.py'
 
@@ -33,8 +46,8 @@ node {
 
             }
             finally {
-                echo 'junit **/target/*.xml'
-                rtp parserName: 'HTML', stableText: '${FILE:Inventory_Store/*.json}'
+               junit '**/htmlcov/index.html'
+                rtp parserName: 'HTML', stableText: '${FILE:htmlcov/index.html}'
             }
         }
     },
@@ -45,15 +58,28 @@ node {
                             cleanWs()
                             checkout scm
                         }
-                        stage('Set Environment') {
-                            // Get Python dependencies
-                            bat "echo Set up virutal env and pip install nose and other app dependencies"
-                        }
-                        dir("src") {
-                            stage('Tests') {
-                                bat 'ls'
-                                bat 'python -m unittest discover -s ../test'
+                        stage('Python Environment Setup') {
+                            virtualenv {
+                                name('venv-sysISweep')
+                                command('python -m pip install --upgrade pip')
+                                command('pip install nose')
+                                command('pip install coverage')
+                                clear()
                             }
+                        }
+
+                        stage('Unit Tests') {
+                            bat 'python -m nose -v'
+                        }
+
+                        stage ('Coverage Tests'){
+                            bat 'coverage run src/dict_factory.py'
+                            bat 'coverage run src/directory_management.py'
+                            bat 'coverage run src/file_management.py'
+                            bat 'coverage run src/linux_system.py'
+                            bat 'coverage run src/time_stamper.py'
+                            bat 'coverage run src/windows_system.py'
+                            bat 'coverage html'
                         }
                         stage('Run Script') {
                             bat 'python src/system_inventory.py'
@@ -71,8 +97,8 @@ node {
 
                     }
                     finally {
-                        echo 'junit **/target/*.xml'
-                        rtp parserName: 'HTML', stableText: '${FILE:Inventory_Store/*.json}'
+                        junit '**/htmlcov/index.html'
+                        rtp parserName: 'HTML', stableText: '${FILE:htmlcov/index.html}'
                     }
                 }
 
