@@ -7,35 +7,42 @@ node {
                         cleanWs()
                         checkout scm
                     }
-                    withPythonEnv('/usr/bin/python') {
-                        stage('Python Environment Setup') {
 
-                            sh 'python -m pip install --upgrade pip'
-                            sh 'pip install nose'
-                            sh 'pip install coverage'
+                        stage('Python Environment Setup') {
+                            withPythonEnv('/usr/bin/python') {
+
+                                sh 'python -m pip install --upgrade pip'
+                                sh 'pip install nose'
+                                sh 'pip install coverage'
+                            }
                         }
 
 
-                        stage('Unit Tests')
-                        sh 'python -m nose -v'
-                    }
+                        stage('Unit Tests'){
+                            withPythonEnv('/usr/bin/python') {
+                                sh 'python -m nose -v'
+
+                            }
+                        }
 
 
                     stage('Coverage Tests') {
-
-                        sh 'coverage run src/dict_factory.py'
-                        sh 'coverage run src/directory_management.py'
-                        sh 'coverage run src/file_management.py'
-                        sh 'coverage run src/linux_system.py'
-                        sh 'coverage run src/time_stamper.py'
-                        sh 'coverage run src/windows_system.py'
-                        sh 'coverage html'
+                        withPythonEnv('/usr/bin/python') {
+                            sh 'coverage run src/dict_factory.py'
+                            sh 'coverage run src/directory_management.py'
+                            sh 'coverage run src/file_management.py'
+                            sh 'coverage run src/linux_system.py'
+                            sh 'coverage run src/time_stamper.py'
+                            sh 'coverage run src/windows_system.py'
+                            sh 'coverage html'
+                        }
                     }
 
 
                     stage('Run Script') {
-                        sh 'python src/system_inventory.py'
-
+                        withPythonEnv('/usr/bin/python') {
+                            sh 'python src/system_inventory.py'
+                        }
                     }
                     stage('Archival') {
                         publishHTML(target: [allowMissing         : true,
@@ -69,31 +76,31 @@ node {
                                 checkout scm
                             }
 
-                            withPythonEnv('/usr/bin/python') {
                                 stage('Virtual Python Env') {
-
-                                    bat 'python -m pip install --upgrade pip'
-                                    bat 'pip install nose'
-                                    bat 'pip install coverage'
-
+                                    withPythonEnv('python') {
+                                        bat 'python -m pip install --upgrade pip'
+                                        bat 'pip install nose'
+                                        bat 'pip install coverage'
+                                    }
                                 }
 
                                 stage('Unit Tests') {
+                                    withPythonEnv('python') {
                                     bat 'python -m nose -v'
-                                }
+                                }}
 
                                 stage('Coverage Tests') {
-
-                                    bat 'coverage run src/dict_factory.py'
-                                    bat 'coverage run src/directory_management.py'
-                                    bat 'coverage run src/file_management.py'
-                                    bat 'coverage run src/linux_system.py'
-                                    bat 'coverage run src/time_stamper.py'
-                                    bat 'coverage run src/windows_system.py'
-                                    bat 'coverage html'
-
+                                    withPythonEnv('python') {
+                                        bat 'coverage run src/dict_factory.py'
+                                        bat 'coverage run src/directory_management.py'
+                                        bat 'coverage run src/file_management.py'
+                                        bat 'coverage run src/linux_system.py'
+                                        bat 'coverage run src/time_stamper.py'
+                                        bat 'coverage run src/windows_system.py'
+                                        bat 'coverage html'
+                                    }
                                 }
-                            }
+
 
                             stage('Run Script') {
                                 bat 'python src/system_inventory.py'
