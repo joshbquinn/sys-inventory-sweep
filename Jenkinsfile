@@ -8,7 +8,9 @@ node {
                         checkout scm
                     }
                     withPythonEnv('python3') {
+
                         stage('U: PyEnv Setup') {
+                            label 'Setup Virtual Env'
                             sh 'pip install nose'
                             sh 'pip install coverage'
                         }
@@ -16,12 +18,14 @@ node {
 
 
                         stage('U: Unit Tests'){
+                            label 'Unit Tests'
                             sh 'python -m nose -v'
                         }
 
 
 
                         stage('U: Coverage Tests') {
+                            label 'Coverage Check'
                             sh 'coverage run src/dict_factory.py'
                             sh 'coverage run src/directory_management.py'
                             sh 'coverage run src/file_management.py'
@@ -33,10 +37,12 @@ node {
 
 
                         stage('U: Run Script') {
+                            label 'Run Script'
                             sh 'python src/system_inventory.py'
                         }
 
                         stage('U: Archival') {
+                            label 'Archive Reports & .json Script Output'
                             publishHTML(target: [allowMissing         : true,
                                                  alwaysLinkToLastBuild: false,
                                                  keepAll              : true,
@@ -48,6 +54,7 @@ node {
                         }
                     }
                     stage('U: Deploy') {
+                        label 'Package app for deployment'
                         sh 'echo package up distribution of app'
                     }
 
@@ -69,54 +76,61 @@ node {
                                 cleanWs()
                                 checkout scm
                             }
+                            withPythonEnv('python3') {
 
-                            stage('W: PyEnv Setup') {
-                                echo 'Setting up virtual environment and install dependencies'
-                                withPythonEnv('python3') {
+
+                                stage('W: PyEnv Setup') {
+                                    label: 'Virtual PyEnv Setup'
+                                    echo 'Setting up virtual environment and install dependencies'
                                     bat 'python -m pip install --upgrade pip'
                                     bat 'pip install nose'
                                     bat 'pip install coverage'
                                 }
-                            }
 
-                            stage('W: Unit Tests') {
-                                echo 'Running unittests'
-                                withPythonEnv('python3') {
+
+                                stage('W: Unit Tests') {
+                                    label: 'Unit Tests'
+                                    echo 'Running unittests'
                                     bat 'python -m nose -v'
                                 }
-                            }
 
-                            stage('W: Coverage Tests') {
-                                echo 'Running Code Coverage Tests'
-                                withPythonEnv('python3') {
-                                    bat 'coverage run src/dict_factory.py'
-                                    bat 'coverage run src/directory_management.py'
-                                    bat 'coverage run src/file_management.py'
-                                    bat 'coverage run src/time_stamper.py'
-                                    bat 'coverage run src/windows_system.py'
-                                    bat 'coverage html'
+
+                                stage('W: Coverage Tests') {
+                                    label: 'Code Coverage Check'
+                                    echo 'Running Code Coverage Tests'
+                                    withPythonEnv('python3') {
+                                        bat 'coverage run src/dict_factory.py'
+                                        bat 'coverage run src/directory_management.py'
+                                        bat 'coverage run src/file_management.py'
+                                        bat 'coverage run src/time_stamper.py'
+                                        bat 'coverage run src/windows_system.py'
+                                        bat 'coverage html'
+                                    }
                                 }
-                            }
 
 
-                            stage('W: Run Script') {
-                                withPythonEnv('python3') {
+                                stage('W: Run Script') {
+                                    label: 'Run Script'
+                                    echo 'Running the Script'
                                     bat 'python src/system_inventory.py'
                                 }
-                            }
 
-                            stage('W: Archival') {
-                                publishHTML(target: [allowMissing         : true,
-                                                     alwaysLinkToLastBuild: false,
-                                                     keepAll              : true,
-                                                     reportDir            : 'htmlcov/',
-                                                     reportFiles          : 'index.html',
-                                                     reportName           : 'Windows Code Coverage',
-                                                     reportTitles         : ''])
-                                archiveArtifacts 'Inventory_store/*.json'
+
+                                stage('W: Archival') {
+                                    label: 'Archive Test Results & .json Output'
+                                    publishHTML(target: [allowMissing         : true,
+                                                         alwaysLinkToLastBuild: false,
+                                                         keepAll              : true,
+                                                         reportDir            : 'htmlcov/',
+                                                         reportFiles          : 'index.html',
+                                                         reportName           : 'Windows Code Coverage',
+                                                         reportTitles         : ''])
+                                    archiveArtifacts 'Inventory_store/*.json'
+                                }
                             }
 
                             stage('W: Deploy') {
+                                label: 'Package app for Deployment'
                                 bat 'echo package up distribution of app'
                             }
 
