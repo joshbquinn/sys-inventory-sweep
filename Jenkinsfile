@@ -7,26 +7,21 @@ node {
                         cleanWs()
                         checkout scm
                     }
-
-                    stage('U: Pyenv Setup') {
-                        withPythonEnv('python3') {
-
+                    withPythonEnv('python3') {
+                        stage('U: PyEnv Setup') {
                             sh 'pip install nose'
                             sh 'pip install coverage'
                         }
-                    }
 
 
-                    stage('U: Unit Tests'){
-                        withPythonEnv('python3') {
+
+                        stage('U: Unit Tests'){
                             sh 'python -m nose -v'
-
                         }
-                    }
 
 
-                    stage('U: Coverage Tests') {
-                        withPythonEnv('python3') {
+
+                        stage('U: Coverage Tests') {
                             sh 'coverage run src/dict_factory.py'
                             sh 'coverage run src/directory_management.py'
                             sh 'coverage run src/file_management.py'
@@ -34,16 +29,14 @@ node {
                             sh 'coverage run src/time_stamper.py'
                             sh 'coverage html'
                         }
-                    }
 
 
-                    stage('U: Run Script') {
-                        withPythonEnv('python3') {
+
+                        stage('U: Run Script') {
                             sh 'python src/system_inventory.py'
                         }
-                    }
-                    stage('U: Archival') {
-                        withPythonEnv('python3') {
+
+                        stage('U: Archival') {
                             publishHTML(target: [allowMissing         : true,
                                                  alwaysLinkToLastBuild: false,
                                                  keepAll              : true,
@@ -77,7 +70,7 @@ node {
                                 checkout scm
                             }
 
-                            stage('W: Pyenv') {
+                            stage('W: PyEnv Setup') {
                                 echo 'Setting up virtual environment and install dependencies'
                                 withPythonEnv('python3') {
                                     bat 'python -m pip install --upgrade pip'
