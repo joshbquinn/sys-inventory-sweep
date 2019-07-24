@@ -32,7 +32,6 @@ node {
                             sh 'coverage run src/file_management.py'
                             sh 'coverage run src/linux_system.py'
                             sh 'coverage run src/time_stamper.py'
-                            sh 'coverage run src/windows_system.py'
                             sh 'coverage html'
                         }
                     }
@@ -98,7 +97,6 @@ node {
                                     bat 'coverage run src/dict_factory.py'
                                     bat 'coverage run src/directory_management.py'
                                     bat 'coverage run src/file_management.py'
-                                    bat 'coverage run src/linux_system.py'
                                     bat 'coverage run src/time_stamper.py'
                                     bat 'coverage run src/windows_system.py'
                                     bat 'coverage html'
