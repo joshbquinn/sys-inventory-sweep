@@ -3,12 +3,12 @@ node {
         parallel linux: {
             node('ubuntu') {
                 try {
-                    stage('Ubuntu: SCM') {
+                    stage('U: SCM') {
                         cleanWs()
                         checkout scm
                     }
 
-                    stage('Ubuntu: Pyenv Setup') {
+                    stage('U: Pyenv Setup') {
                         withPythonEnv('python3') {
 
                             sh 'pip install nose'
@@ -17,7 +17,7 @@ node {
                     }
 
 
-                    stage('Ubuntu: Unit Tests'){
+                    stage('U: Unit Tests'){
                         withPythonEnv('python3') {
                             sh 'python -m nose -v'
 
@@ -25,7 +25,7 @@ node {
                     }
 
 
-                    stage('Ubuntu: Coverage Tests') {
+                    stage('U: Coverage Tests') {
                         withPythonEnv('python3') {
                             sh 'coverage run src/dict_factory.py'
                             sh 'coverage run src/directory_management.py'
@@ -37,22 +37,24 @@ node {
                     }
 
 
-                    stage('Ubuntu: Run Script') {
+                    stage('U: Run Script') {
                         withPythonEnv('python3') {
                             sh 'python src/system_inventory.py'
                         }
                     }
-                    stage('Archival') {
-                        publishHTML(target: [allowMissing         : true,
-                                             alwaysLinkToLastBuild: false,
-                                             keepAll              : true,
-                                             reportDir            : 'htmlcov/',
-                                             reportFiles          : 'index.html',
-                                             reportName           : 'Code Coverage',
-                                             reportTitles         : ''])
-                        archiveArtifacts 'Inventory_store/*.json'
+                    stage('U: Archival') {
+                        withPythonEnv('python3') {
+                            publishHTML(target: [allowMissing         : true,
+                                                 alwaysLinkToLastBuild: false,
+                                                 keepAll              : true,
+                                                 reportDir            : 'htmlcov/',
+                                                 reportFiles          : 'index.html',
+                                                 reportName           : 'Ubuntu Code Coverage',
+                                                 reportTitles         : ''])
+                            archiveArtifacts 'Inventory_store/*.json'
+                        }
                     }
-                    stage('Deploy') {
+                    stage('U: Deploy') {
                         sh 'echo package up distribution of app'
                     }
 
@@ -69,13 +71,13 @@ node {
                 windows:{
                     node('windows') {
                         try {
-                            stage('Win: SCM') {
+                            stage('W: SCM') {
                                 echo 'cloning code'
                                 cleanWs()
                                 checkout scm
                             }
 
-                            stage('Win: Pyenv') {
+                            stage('W: Pyenv') {
                                 echo 'Setting up virtual environment and install dependencies'
                                 withPythonEnv('python3') {
                                     bat 'python -m pip install --upgrade pip'
@@ -84,14 +86,14 @@ node {
                                 }
                             }
 
-                            stage('Win: Unit Tests') {
+                            stage('W: Unit Tests') {
                                 echo 'Running unittests'
                                 withPythonEnv('python3') {
                                     bat 'python -m nose -v'
                                 }
                             }
 
-                            stage('Win: Coverage Tests') {
+                            stage('W: Coverage Tests') {
                                 echo 'Running Code Coverage Tests'
                                 withPythonEnv('python3') {
                                     bat 'coverage run src/dict_factory.py'
@@ -104,24 +106,24 @@ node {
                             }
 
 
-                            stage('Win: Run Script') {
+                            stage('W: Run Script') {
                                 withPythonEnv('python3') {
                                     bat 'python src/system_inventory.py'
                                 }
                             }
 
-                            stage('Win: Archival') {
+                            stage('W: Archival') {
                                 publishHTML(target: [allowMissing         : true,
                                                      alwaysLinkToLastBuild: false,
                                                      keepAll              : true,
                                                      reportDir            : 'htmlcov/',
                                                      reportFiles          : 'index.html',
-                                                     reportName           : 'Code Coverage',
+                                                     reportName           : 'Windows Code Coverage',
                                                      reportTitles         : ''])
                                 archiveArtifacts 'Inventory_store/*.json'
                             }
 
-                            stage('Win: Deploy') {
+                            stage('W: Deploy') {
                                 bat 'echo package up distribution of app'
                             }
 
