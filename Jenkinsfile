@@ -18,7 +18,7 @@ node {
 
 
                     stage('Unit Tests'){
-                        withPythonEnv('/usr/bin/python') {
+                        withPythonEnv('python3') {
                             sh 'python -m nose -v'
 
                         }
@@ -26,7 +26,7 @@ node {
 
 
                     stage('Coverage Tests') {
-                        withPythonEnv('/usr/bin/python') {
+                        withPythonEnv('python3') {
                             sh 'coverage run src/dict_factory.py'
                             sh 'coverage run src/directory_management.py'
                             sh 'coverage run src/file_management.py'
@@ -39,7 +39,7 @@ node {
 
 
                     stage('Run Script') {
-                        withPythonEnv('/usr/bin/python') {
+                        withPythonEnv('python3') {
                             sh 'python src/system_inventory.py'
                         }
                     }
