@@ -10,7 +10,6 @@ node {
                     withPythonEnv('python3') {
 
                         stage('U: PyEnv Setup') {
-                            label 'Setup Virtual Env'
                             sh 'pip install nose'
                             sh 'pip install coverage'
                         }
@@ -18,31 +17,29 @@ node {
 
 
                         stage('U: Unit Tests'){
-                            label 'Unit Tests'
                             sh 'python -m nose -v'
                         }
 
 
 
                         stage('U: Coverage Tests') {
-                            label 'Coverage Check'
-                            sh 'coverage run src/dict_factory.py'
-                            sh 'coverage run src/directory_management.py'
-                            sh 'coverage run src/file_management.py'
-                            sh 'coverage run src/linux_system.py'
-                            sh 'coverage run src/time_stamper.py'
-                            sh 'coverage html'
+                            withPythonEnv('python3') {
+                                sh 'coverage run src/dict_factory.py'
+                                sh 'coverage run src/directory_management.py'
+                                sh 'coverage run src/file_management.py'
+                                sh 'coverage run src/linux_system.py'
+                                sh 'coverage run src/time_stamper.py'
+                                sh 'coverage html'
+                            }
                         }
 
 
 
                         stage('U: Run Script') {
-                            label 'Run Script'
                             sh 'python src/system_inventory.py'
                         }
 
                         stage('U: Archival') {
-                            label 'Archive Reports & .json Script Output'
                             publishHTML(target: [allowMissing         : true,
                                                  alwaysLinkToLastBuild: false,
                                                  keepAll              : true,
@@ -54,7 +51,6 @@ node {
                         }
                     }
                     stage('U: Deploy') {
-                        label 'Package app for deployment'
                         sh 'echo package up distribution of app'
                     }
 
@@ -80,7 +76,6 @@ node {
 
 
                                 stage('W: PyEnv Setup') {
-                                    label: 'Virtual PyEnv Setup'
                                     echo 'Setting up virtual environment and install dependencies'
                                     bat 'python -m pip install --upgrade pip'
                                     bat 'pip install nose'
@@ -89,14 +84,12 @@ node {
 
 
                                 stage('W: Unit Tests') {
-                                    label: 'Unit Tests'
                                     echo 'Running unittests'
                                     bat 'python -m nose -v'
                                 }
 
 
                                 stage('W: Coverage Tests') {
-                                    label: 'Code Coverage Check'
                                     echo 'Running Code Coverage Tests'
                                     withPythonEnv('python3') {
                                         bat 'coverage run src/dict_factory.py'
@@ -110,14 +103,12 @@ node {
 
 
                                 stage('W: Run Script') {
-                                    label: 'Run Script'
                                     echo 'Running the Script'
                                     bat 'python src/system_inventory.py'
                                 }
 
 
                                 stage('W: Archival') {
-                                    label: 'Archive Test Results & .json Output'
                                     publishHTML(target: [allowMissing         : true,
                                                          alwaysLinkToLastBuild: false,
                                                          keepAll              : true,
@@ -130,7 +121,6 @@ node {
                             }
 
                             stage('W: Deploy') {
-                                label: 'Package app for Deployment'
                                 bat 'echo package up distribution of app'
                             }
 
