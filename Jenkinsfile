@@ -12,9 +12,8 @@ node {
                         command('python -m pip install --upgrade pip')
                         command('pip install nose')
                         command('pip install coverage')
-                        clear()
-                    }
-                }
+                        //clear()
+                    
 
                 stage('Unit Tests') {
                     sh 'python -m nose -v'
@@ -50,7 +49,8 @@ node {
                 rtp parserName: 'HTML', stableText: '${FILE:htmlcov/index.html}'
             }
         }
-    },
+    }}
+                },
             Windows: {
                 node('windows') {
                     try {
@@ -65,8 +65,7 @@ node {
                                 command('pip install nose')
                                 command('pip install coverage')
                                 clear()
-                            }
-                        }
+                           
 
                         stage('Unit Tests') {
                             bat 'python -m nose -v'
@@ -102,7 +101,8 @@ node {
                     }
                 }
 
-            }
+            } }
+                        }
 }
 
 def notify(status){
