@@ -3,12 +3,12 @@ node {
         parallel linux: {
             node('ubuntu') {
                 try {
-                    stage('SCM checkout') {
+                    stage('Ubuntu: SCM') {
                         cleanWs()
                         checkout scm
                     }
 
-                    stage('Python Environment Setup') {
+                    stage('Ubuntu: Pyenv Setup') {
                         withPythonEnv('python3') {
 
                             sh 'pip install nose'
@@ -17,7 +17,7 @@ node {
                     }
 
 
-                    stage('Unit Tests'){
+                    stage('Ubuntu: Unit Tests'){
                         withPythonEnv('python3') {
                             sh 'python -m nose -v'
 
@@ -25,7 +25,7 @@ node {
                     }
 
 
-                    stage('Coverage Tests') {
+                    stage('Ubuntu: Coverage Tests') {
                         withPythonEnv('python3') {
                             sh 'coverage run src/dict_factory.py'
                             sh 'coverage run src/directory_management.py'
@@ -38,7 +38,7 @@ node {
                     }
 
 
-                    stage('Run Script') {
+                    stage('Ubuntu: Run Script') {
                         withPythonEnv('python3') {
                             sh 'python src/system_inventory.py'
                         }
@@ -70,13 +70,13 @@ node {
                 windows:{
                     node('windows') {
                         try {
-                            stage('SCM checkout') {
+                            stage('Win: SCM') {
                                 echo 'cloning code'
                                 cleanWs()
                                 checkout scm
                             }
 
-                            stage('Virtual Python Env') {
+                            stage('Win: Pyenv') {
                                 echo 'Setting up virtual environment and install dependencies'
                                 withPythonEnv('python3') {
                                     bat 'python -m pip install --upgrade pip'
@@ -85,14 +85,14 @@ node {
                                 }
                             }
 
-                            stage('Unit Tests') {
+                            stage('Win: Unit Tests') {
                                 echo 'Running unittests'
                                 withPythonEnv('python3') {
                                     bat 'python -m nose -v'
                                 }
                             }
 
-                            stage('Coverage Tests') {
+                            stage('Win: Coverage Tests') {
                                 echo 'Running Code Coverage Tests'
                                 withPythonEnv('python3') {
                                     bat 'coverage run src/dict_factory.py'
@@ -106,13 +106,13 @@ node {
                             }
 
 
-                            stage('Run Script') {
+                            stage('Win: Run Script') {
                                 withPythonEnv('python3') {
                                     bat 'python src/system_inventory.py'
                                 }
                             }
 
-                            stage('Archival') {
+                            stage('Win: Archival') {
                                 publishHTML(target: [allowMissing         : true,
                                                      alwaysLinkToLastBuild: false,
                                                      keepAll              : true,
@@ -123,7 +123,7 @@ node {
                                 archiveArtifacts 'Inventory_store/*.json'
                             }
 
-                            stage('Deploy') {
+                            stage('Win: Deploy') {
                                 bat 'echo package up distribution of app'
                             }
 
