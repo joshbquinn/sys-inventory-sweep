@@ -5,28 +5,23 @@ node {
                 cleanWs()
                 checkout scm
             }
+            withPythonEnv('/usr/bin/python') {
             stage('Python Environment Setup') {
-                withPythonEnv('python') {
+                
                     sh 'python -m pip install --upgrade pip'
                     sh 'pip install nose'
                     sh 'pip install coverage'
                 }
-            }
+            
 
-            stage('Env'){
-                withPythonEnv('python') {
 
-                }
-            }
-
-            stage('Unit Tests') {
-                withPythonEnv('python') {
+            stage('Unit Tests') 
                     sh 'python -m nose -v'
                 }
-            }
+            
 
             stage ('Coverage Tests') {
-                withPythonEnv('python') {
+                
                     sh 'coverage run src/dict_factory.py'
                     sh 'coverage run src/directory_management.py'
                     sh 'coverage run src/file_management.py'
@@ -35,7 +30,7 @@ node {
                     sh 'coverage run src/windows_system.py'
                     sh 'coverage html'
                 }
-            }
+            
 
             stage('Run Script') {
                 sh 'python src/system_inventory.py'
@@ -64,7 +59,7 @@ node {
             // rtp parserName: 'HTML', stableText: '${FILE:htmlcov/index.html}'
         }
     }
-    Windows: {
+   
         node('windows') {
             try {
                 stage('SCM checkout') {
@@ -126,7 +121,7 @@ node {
             }
         }
 
-    }
+    
 }
 
 def notify(status){
