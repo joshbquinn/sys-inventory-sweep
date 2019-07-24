@@ -8,22 +8,22 @@ node {
                         checkout scm
                     }
 
-                        stage('Python Environment Setup') {
-                            withPythonEnv('/usr/bin/python') {
+                    stage('Python Environment Setup') {
+                        withPythonEnv('/usr/bin/python') {
 
-                                sh 'python -m pip install --upgrade pip'
-                                sh 'pip install nose'
-                                sh 'pip install coverage'
-                            }
+                            sh 'python -m pip install --upgrade pip'
+                            sh 'pip install nose'
+                            sh 'pip install coverage'
                         }
+                    }
 
 
-                        stage('Unit Tests'){
-                            withPythonEnv('/usr/bin/python') {
-                                sh 'python -m nose -v'
+                    stage('Unit Tests'){
+                        withPythonEnv('/usr/bin/python') {
+                            sh 'python -m nose -v'
 
-                            }
                         }
+                    }
 
 
                     stage('Coverage Tests') {
@@ -76,36 +76,39 @@ node {
                                 checkout scm
                             }
 
-                                stage('Virtual Python Env') {
-                                    withPythonEnv('python') {
-                                        bat 'python -m pip install --upgrade pip'
-                                        bat 'pip install nose'
-                                        bat 'pip install coverage'
-                                    }
+                            stage('Virtual Python Env') {
+                                withPythonEnv('python3') {
+                                    bat 'python -m pip install --upgrade pip'
+                                    bat 'pip install nose'
+                                    bat 'pip install coverage'
                                 }
+                            }
 
-                                stage('Unit Tests') {
-                                    withPythonEnv('python') {
+                            stage('Unit Tests') {
+                                withPythonEnv('python3') {
                                     bat 'python -m nose -v'
-                                }}
-
-                                stage('Coverage Tests') {
-                                    withPythonEnv('python') {
-                                        bat 'coverage run src/dict_factory.py'
-                                        bat 'coverage run src/directory_management.py'
-                                        bat 'coverage run src/file_management.py'
-                                        bat 'coverage run src/linux_system.py'
-                                        bat 'coverage run src/time_stamper.py'
-                                        bat 'coverage run src/windows_system.py'
-                                        bat 'coverage html'
-                                    }
                                 }
+                            }
+
+                            stage('Coverage Tests') {
+                                withPythonEnv('python3') {
+                                    bat 'coverage run src/dict_factory.py'
+                                    bat 'coverage run src/directory_management.py'
+                                    bat 'coverage run src/file_management.py'
+                                    bat 'coverage run src/linux_system.py'
+                                    bat 'coverage run src/time_stamper.py'
+                                    bat 'coverage run src/windows_system.py'
+                                    bat 'coverage html'
+                                }
+                            }
 
 
                             stage('Run Script') {
-                                bat 'python src/system_inventory.py'
-
+                                withPythonEnv('python3') {
+                                    bat 'python src/system_inventory.py'
+                                }
                             }
+
                             stage('Archival') {
                                 publishHTML(target: [allowMissing         : true,
                                                      alwaysLinkToLastBuild: false,
