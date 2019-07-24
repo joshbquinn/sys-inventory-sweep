@@ -9,9 +9,8 @@ node {
                     }
 
                     stage('Python Environment Setup') {
-                        withPythonEnv('/usr/bin/python') {
+                        withPythonEnv('python3') {
 
-                            sh 'python -m pip install --upgrade pip'
                             sh 'pip install nose'
                             sh 'pip install coverage'
                         }
@@ -72,11 +71,13 @@ node {
                     node('windows') {
                         try {
                             stage('SCM checkout') {
+                                echo 'cloning code'
                                 cleanWs()
                                 checkout scm
                             }
 
                             stage('Virtual Python Env') {
+                                echo 'Setting up virtual environment and install dependencies'
                                 withPythonEnv('python3') {
                                     bat 'python -m pip install --upgrade pip'
                                     bat 'pip install nose'
@@ -85,12 +86,14 @@ node {
                             }
 
                             stage('Unit Tests') {
+                                echo 'Running unittests'
                                 withPythonEnv('python3') {
                                     bat 'python -m nose -v'
                                 }
                             }
 
                             stage('Coverage Tests') {
+                                echo 'Running Code Coverage Tests'
                                 withPythonEnv('python3') {
                                     bat 'coverage run src/dict_factory.py'
                                     bat 'coverage run src/directory_management.py'
