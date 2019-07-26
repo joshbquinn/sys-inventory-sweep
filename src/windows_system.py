@@ -9,6 +9,14 @@ from dict_factory import *
 from time_stamper import *
 
 
+def serialize_json(inventory_string):
+    return json.loads(inventory_string)
+
+
+def do_json(inventory_string, inventory_category):
+    return make_dict(serialize_json(inventory_string), inventory_category)
+
+
 def windows_cli(cmd, arguments):
     try:
         process = subprocess.Popen(cmd + " " + arguments,
@@ -24,14 +32,6 @@ def windows_cli(cmd, arguments):
         raise SystemError
 
     return success
-
-
-def serialize_json(list_object):
-    return json.loads(list_object)
-
-
-def do_json(inventory_string, inventory_cat):
-    return make_dict(serialize_json(inventory_string), inventory_cat)
 
 
 def ports():
@@ -198,28 +198,6 @@ def env_vars(cmd):
     return do_json(env_vars, 'Environmental Variable ')
 
 
-def windows_inventory_list():
-    psgwmi = 'powershell.exe Get-WmiObject -class '
-    inventory_dict = {}
-
-    inventory_dict.update({"Date Time": time_stamp()})
-    inventory_dict.update(dict({'Ports': ports()}))
-    # inventory_dict.update(dict({'Sys': general_sysinfo()}))
-    inventory_dict.update(dict({'Processor Details': processor_details(psgwmi)}))
-    inventory_dict.update(dict({'Physical Mem': physical_memory(psgwmi)}))
-    inventory_dict.update(dict({'HDD': hdd_details(psgwmi)}))
-    inventory_dict.update(dict({'Sound Card': sound_card_details(psgwmi)}))
-    inventory_dict.update(dict({'Network Adapters': network_adapter_details(psgwmi)}))
-    inventory_dict.update(dict({'Installed Software': installed_software(psgwmi)}))
-    inventory_dict.update(dict({'OS': os_version(psgwmi)}))
-    inventory_dict.update(dict({'Drivers': driver_details(psgwmi)}))
-    inventory_dict.update(dict({'Running Processes': running_processes(psgwmi)}))
-    inventory_dict.update(dict({'Startup Programs': startup_programs(psgwmi)}))
-    inventory_dict.update(dict({'Environmental Variables': env_vars(psgwmi)}))
-
-    write_file(inventory_dict)
-
-
 def write_file(json_dict):
 
     file_name = 'Windows_Inventory_Sweep.json'
@@ -231,6 +209,27 @@ def write_file(json_dict):
 
     write_json_file(file_name, json_dict)
     shutil.move(file_name, main_dir_name)
+
+
+def windows_inventory_list():
+    psgwmi = 'powershell.exe Get-WmiObject -class '
+    inventory_dict = {}
+
+    inventory_dict.update({"Date Time": time_stamp()})
+    inventory_dict.update(dict({'Processor Details': processor_details(psgwmi)}))
+    inventory_dict.update(dict({'OS': os_version(psgwmi)}))
+    inventory_dict.update(dict({'Physical Mem': physical_memory(psgwmi)}))
+    inventory_dict.update(dict({'HDD': hdd_details(psgwmi)}))
+    inventory_dict.update(dict({'Sound Card': sound_card_details(psgwmi)}))
+    inventory_dict.update(dict({'Ports': ports()}))
+    inventory_dict.update(dict({'Network Adapters': network_adapter_details(psgwmi)}))
+    inventory_dict.update(dict({'Installed Software': installed_software(psgwmi)}))
+    inventory_dict.update(dict({'Drivers': driver_details(psgwmi)}))
+    inventory_dict.update(dict({'Running Processes': running_processes(psgwmi)}))
+    inventory_dict.update(dict({'Startup Programs': startup_programs(psgwmi)}))
+    inventory_dict.update(dict({'Environmental Variables': env_vars(psgwmi)}))
+
+    write_file(inventory_dict)
 
 
 def main():

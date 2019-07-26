@@ -1,5 +1,5 @@
 node {
-    stage('Build') {
+    stage('Parallel Run') {
         parallel linux: {
             node('ubuntu') {
                 try {
@@ -15,15 +15,12 @@ node {
                         }
 
 
-
                         stage('U: Unit Tests'){
                             sh 'python -m nose -v'
                         }
 
 
-
-                        stage('U: Coverage Tests') {
-                            withPythonEnv('python3') {
+                        stage('U: Coverage') {
                                 sh 'coverage run src/dict_factory.py'
                                 sh 'coverage run src/directory_management.py'
                                 sh 'coverage run src/file_management.py'
@@ -31,12 +28,9 @@ node {
                                 sh 'coverage run src/time_stamper.py'
                                 sh 'coverage html'
                             }
-                        }
-
-
 
                         stage('U: Run Script') {
-                            sh 'python src/system_inventory.py'
+                            sh 'python src/check_os.py'
                         }
 
                         stage('U: Archival') {
@@ -91,20 +85,19 @@ node {
 
                                 stage('W: Coverage Tests') {
                                     echo 'Running Code Coverage Tests'
-                                    withPythonEnv('python3') {
                                         bat 'coverage run src/dict_factory.py'
                                         bat 'coverage run src/directory_management.py'
                                         bat 'coverage run src/file_management.py'
                                         bat 'coverage run src/time_stamper.py'
                                         bat 'coverage run src/windows_system.py'
                                         bat 'coverage html'
-                                    }
+
                                 }
 
 
                                 stage('W: Run Script') {
                                     echo 'Running the Script'
-                                    bat 'python src/system_inventory.py'
+                                    bat 'python src/check_os.py'
                                 }
 
 
@@ -123,6 +116,8 @@ node {
                             stage('W: Deploy') {
                                 bat 'echo package up distribution of app'
                             }
+
+
 
                         } catch (err) {
                             notify("Error ${err}")
