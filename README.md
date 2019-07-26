@@ -14,6 +14,6 @@ Write a python script to capture Hardware, software, firmware inventory on any m
 - Create dictionaries from those strings. 
 - Add to one single dictionary
 - Write the dictionary as json file 
-- Store in directory in CWD 
+- Store file in directory in CWD 
 
  
