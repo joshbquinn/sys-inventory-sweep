@@ -3,7 +3,7 @@ node {
         parallel linux: {
             node('ubuntu') {
                 try {
-                    stage('U: SCM') {
+                    stage('U: Checkout') {
                         cleanWs()
                         checkout scm
                     }
@@ -45,7 +45,7 @@ node {
                         }
                     }
                     stage('U: Deploy') {
-                        sh 'echo package up distribution of app'
+                        sh 'echo package up distribution of app and deploy to environment'
                     }
 
                 } catch (err) {
@@ -53,15 +53,13 @@ node {
                     currentBuild.result == 'Failure'
 
                 }
-                finally {
-                    // rtp parserName: 'HTML', stableText: '${FILE:htmlcov/index.html}'
-                }
+
             }
         },
                 windows:{
                     node('windows') {
                         try {
-                            stage('W: SCM') {
+                            stage('W: Checkout') {
                                 echo 'cloning code'
                                 cleanWs()
                                 checkout scm
@@ -114,7 +112,7 @@ node {
                             }
 
                             stage('W: Deploy') {
-                                bat 'echo package up distribution of app'
+                                bat 'echo package up distribution of app and deploy to env'
                             }
 
 
@@ -124,10 +122,7 @@ node {
                             currentBuild.result == 'Failure'
 
                         }
-                        finally {
 
-                            // rtp parserName: 'HTML', stableText: '${FILE:htmlcov/index.html}'
-                        }
                     }
                 }
     }
